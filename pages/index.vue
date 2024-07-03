@@ -1,12 +1,7 @@
 <template>
     <main>
-        <!-- Navbar -->
-    <section data-aos="fade-up" class="section bg-white py-[20px]">
-      <div class="div flex-row justify-between">
-        <a href="/"><img src="/img/ofon.png" alt="" /></a>
-        <a href="/" class="btn">Contact Us</a>
-      </div>
-    </section>
+    <!-- Navbar -->
+    <Navbar/>
 
     <!-- Hero -->
     <section data-aos="fade-up" class="section bg-white pb-0 pt-[40px]">
@@ -84,8 +79,8 @@
       </div>
     </section>
 
-    <!-- 3 Features -->
-    <section data-aos="fade-up" class="section bg-black">
+    <!-- We Make Communication -->
+    <section data-aos="fade-up" class="section bg-brown">
       <div class="div flex flex-col gap-[36px] xl:gap-[60px]">
         <h2 class="font-32 text-center font-bold text-white xl:font-semibold">
           We Make Your Communication More Efficient
@@ -98,10 +93,9 @@
               class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]"
             />
             <div>
-              <p class="font-16 mb-[8px] font-bold">Saving Efficiently</p>
+              <p class="font-16 mb-[8px] font-bold">Cost Reduction</p>
               <p class="font-14 font-medium">
-                Reduce maintenance costs and make you save significantly while
-                maintaining high standards of service.
+                Significant cost savings by offering reductions of up to 50% to 70% compared to the fees charged by other providers.
               </p>
             </div>
           </div>
@@ -112,10 +106,9 @@
               class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]"
             />
             <div>
-              <p class="font-16 mb-[8px] font-bold">Hardware Elimination</p>
+              <p class="font-16 mb-[8px] font-bold">Saving Efficiently</p>
               <p class="font-14 font-medium">
-                Say goodbye to hardware hassles and enjoy a seamless, worry-free
-                experience with our advanced solutions.
+                Reduce maintenance costs and make you save significantly while maintaining high standards of service.
               </p>
             </div>
           </div>
@@ -126,10 +119,9 @@
               class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]"
             />
             <div>
-              <p class="font-16 mb-[8px] font-bold">Cost Reduction</p>
+              <p class="font-16 mb-[8px] font-bold">Hardware Elimination</p>
               <p class="font-14 font-medium">
-                Significant cost savings by offering reductions of up to 50% to
-                70% compared to the fees charged by other providers.
+                Say goodbye to hardware hassles and enjoy a seamless, worry-free experience with our advanced solutions.
               </p>
             </div>
           </div>
@@ -217,7 +209,7 @@
       </div>
     </section>
 
-    <!-- On Premise -->
+    <!-- See How Much -->
     <section data-aos="fade-up" class="section">
       <div class="div flex flex-col gap-[40px] xl:gap-[80px]">
         <div class="flex flex-col gap-[24px] text-center">
@@ -257,8 +249,8 @@
       </div>
     </section>
 
-    <!-- CTA -->
-    <section data-aos="fade-up" class="section bg-black">
+    <!-- CTA (Connecting Business) -->
+    <section data-aos="fade-up" class="section bg-brown">
       <div
         class="div flex-col justify-between gap-10 xl:flex-row xl:items-center"
       >
@@ -389,16 +381,15 @@
       </div>
     </section>
 
-    <!-- CTA -->
+    <!-- CTA (Avoid Misunderstandings) -->
     <section data-aos="fade-up" class="section">
       <div class="div">
         <div
-          class="flex flex-col gap-[24px] rounded-xl bg-black p-[24px] xl:flex-row xl:p-[42px]"
+          class="flex flex-col gap-[24px] rounded-xl bg-brown p-[24px] xl:flex-row xl:p-[42px]"
         >
           <div class="flex flex-col gap-[24px]">
             <p class="font-32 font-semibold text-white">
-              Avoid Misunder-standings and Switch with Ofon!
-            </p>
+              Avoid Misunderstandings and Switch with Ofon!</p>
             <p class="font-16 text-white">
               Need to change the way your business communicate?
             </p>
@@ -410,186 +401,11 @@
     </section>
 
     <!-- FAQ -->
-    <section data-aos="fade-up" class="section bg-yellow-light">
-      <div
-        class="div flex flex-col gap-[24px] xl:grid xl:grid-cols-4 xl:items-center xl:gap-[60px]"
-      >
-        <p class="font-32 font-bold">Frequently Asked Questions</p>
-        <div class="flex flex-col gap-[24px] xl:col-span-3">
-          <faq
-            class="rounded-xl border-[2px] border-solid border-orange bg-white px-[16px] py-[26px]"
-          >
-            <dt
-              class="flex cursor-pointer items-center justify-between text-xl font-semibold"
-              onclick="toggleAnswer(this)"
-            >
-              <span class="font-14 font-semibold leading-normal"
-                >Who is Ofon?</span
-              >
-              <img src="/img/chevron.png" alt="" />
-            </dt>
-            <dd class="font-12 mt-2 hidden">
-              Starting as a fixed-line telephone service tied to geographical
-              area codes, Ofon has evolved into an IP-based fixed-line service.
-              It is continuously developed and managed to stay relevant and
-              adaptable to the telecommunications needs of businesses and modern
-              lifestyles.
-              <br />
-              <br />
-              Currently, Ofon is developing cloud-based IP PBX phone systems and
-              managed service PBX solutions to meet Indonesia's telephony needs,
-              aiming to become the all-in-one unified telephony system the
-              country requires.
-            </dd>
-          </faq>
-          <faq
-            class="rounded-xl border-[2px] border-solid border-orange bg-white px-[16px] py-[26px]"
-          >
-            <dt
-              class="flex cursor-pointer items-center justify-between text-xl font-semibold"
-              onclick="toggleAnswer(this)"
-            >
-              <span class="font-14 font-semibold leading-normal"
-                >Why Ofon is the ideal telephony solution for my company?</span
-              >
-              <img src="/img/chevron.png" alt="" />
-            </dt>
-            <dd class="font-12 mt-2 hidden">
-              Ofon offers the best unified telephony system solution in
-              Indonesia, tailored to meet your business's telecommunications
-              needs. With over 28 years of experience, we have a proven track
-              record and have assisted more than 3,299 clients across 17 cities
-              in Indonesia, helping them stay current with technological
-              advancements and enhancing their company's efficiency and mobility
-              for greater productivity.
-              <br /><br />
-              Our services include migration from on-premises PaBX to Cloud PBX,
-              SIP Trunk optimization, integration of various communication
-              platforms, and PBX system maintenance. Still have doubts? Contact
-              us today!
-            </dd>
-          </faq>
-          <faq
-            class="rounded-xl border-[2px] border-solid border-orange bg-white px-[16px] py-[26px]"
-          >
-            <dt
-              class="flex cursor-pointer items-center justify-between text-xl font-semibold"
-              onclick="toggleAnswer(this)"
-            >
-              <span class="font-14 font-semibold leading-normal"
-                >How much does it cost to use ofon products and services?</span
-              >
-              <img src="/img/chevron.png" alt="" />
-            </dt>
-            <dd class="font-12 mt-2 hidden">
-              The costs vary depending on the telephony system needs required to
-              create efficiency in telecommunications. However, in the long run,
-              Ofon can help you save up to 70% compared to the increasing and
-              outdated on-premises legacy telecommunication system expenses.
-            </dd>
-          </faq>
-          <faq
-            class="rounded-xl border-[2px] border-solid border-orange bg-white px-[16px] py-[26px]"
-          >
-            <dt
-              class="flex cursor-pointer items-center justify-between text-xl font-semibold"
-              onclick="toggleAnswer(this)"
-            >
-              <span class="font-14 font-semibold leading-normal"
-                >If I have been using another PBX, can I connect to Ofon Cloud
-                PBX?</span
-              >
-              <img src="/img/chevron.png" alt="" />
-            </dt>
-            <dd class="font-12 mt-2 hidden">
-              Certainly, with Ofon cloud-based IP PBX telephone system, we can
-              help connect your existing PBX system to various devices such as
-              laptops, smartphones, and computers across Indonesia, or to other
-              platforms like Zoom, Microsoft Teams, Webex, and many more— the
-              possibilities are limitless. Therefore, we confidently offer
-              ourselves as your unified telephony solution in Indonesia for all
-              your needs.
-            </dd>
-          </faq>
-          <faq
-            class="rounded-xl border-[2px] border-solid border-orange bg-white px-[16px] py-[26px]"
-          >
-            <dt
-              class="flex cursor-pointer items-center justify-between text-xl font-semibold"
-              onclick="toggleAnswer(this)"
-            >
-              <span class="font-14 font-semibold leading-normal"
-                >Can I use Ofon for all my company branches?</span
-              >
-              <img src="/img/chevron.png" alt="" />
-            </dt>
-            <dd class="font-12 mt-2 hidden">
-              Yes, you can. Installing the Ofon cloud-based IP PBX system for
-              your company branches makes maintenance easier and, of course,
-              saves costs by over 70% compared to on-premises PBX systems, while
-              also being more efficient.
-            </dd>
-          </faq>
-          <faq
-            class="rounded-xl border-[2px] border-solid border-orange bg-white px-[16px] py-[26px]"
-          >
-            <dt
-              class="flex cursor-pointer items-center justify-between text-xl font-semibold"
-              onclick="toggleAnswer(this)"
-            >
-              <span class="font-14 font-semibold leading-normal"
-                >My cloud PBX is still compatible, but I don’t have team to
-                maintain this. What should I do?</span
-              >
-              <img src="/img/chevron.png" alt="" />
-            </dt>
-            <dd class="font-12 mt-2 hidden">
-              Don't worry. With Ofon's Managed Service, your PBX issues will
-              always be taken care of. We have expert technicians who can
-              install, repair, and maintain your cloud PBX, regardless of the
-              specific vendor.
-            </dd>
-          </faq>
-        
-        </div>
-      </div>
-    </section>
+    <FAQ/>
 
     <!-- Footer -->
-    <section data-aos="fade-up" class="section bg-black">
-      <div class="div flex flex-col justify-start">
-        <div
-          class="mb-[40px] flex flex-col gap-[24px] border-b-[2px] border-b-white pb-[40px]"
-        >
-          <img src="/img/ofon.png" alt="" class="w-fit" />
-          <p class="font-16 text-white">PT Batam Bintan Telekomunikasi</p>
-          <p class="font-16 text-white xl:max-w-[360px]">
-            Menara Batavia Lt. 12A, Jl. K.H. Mas Mansyur No.Kav. 126, Karet
-            Tengsin, Tanah Abang, Kota Jakarta Pusat, Daerah Khusus Ibukota
-            Jakarta 10250
-          </p>
-          <p class="font-16 text-white">marketing@ofon.co.id</p>
-          <p class="font-16 text-white">(021) 3971 0000</p>
-        </div>
-        <div class="font-14 text-white">Ofon @2024. All rights reserved.</div>
-      </div>
-    </section>
+    <Footer/>
+
     </main>
 </template>
 
-<script>
-/**
- * @param {{ nextElementSibling: any; }} element
- */
-function toggleAnswer(element) {
-  const answer = element.nextElementSibling;
-  if (
-    answer.style.display === "none" ||
-    answer.style.display === ""
-  ) {
-    answer.style.display = "block";
-  } else {
-    answer.style.display = "none";
-  }
-}
-</script>
