@@ -1,9 +1,8 @@
 <template>
   <NuxtLayout>
       <NuxtRouteAnnouncer />
-      <NuxtLoadingIndicator color="#0265DC" />
+      <NuxtLoadingIndicator />
       <UNotifications />
-
-      <NuxtPage class="text-default font-poppins" />
+      <NuxtPage />
   </NuxtLayout>
 </template>
