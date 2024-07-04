@@ -316,7 +316,7 @@
 
           <a href="/" class="btn">Contact Us</a>
         </div>
-        <div><img src="/img/foo3.png" alt="" /></div>
+        <div><img src="/img/3-cta-image.png" alt="" /></div>
       </div>
     </section>
 
