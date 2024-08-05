@@ -1,16 +1,13 @@
 <template>
-    <section data-aos="fade-up" class="section bg-c-white py-[20px]">
-        <div class="div flex-row items-center justify-between">
-            <NuxtLink to="/"><img src="/img/ofon.png" alt="" /></NuxtLink>
-            <!-- <div class="hidden xl:flex xl:gap-[32px]">
-                <NuxtLink to="/">LP1</NuxtLink>
-                <NuxtLink to="/landing-page-2">LP2</NuxtLink>
-                <NuxtLink to="/landing-page-3">LP3</NuxtLink>
-                <NuxtLink to="/landing-page-4">LP4</NuxtLink>
-            </div> -->
-            <a href="#" class="btn">Contact Us</a>
-        </div>
-    </section>
+    <main>
+        <section data-aos="fade-up" class="section fixed z-50 bg-c-white py-[20px] shadow-xl">
+            <div class="div flex-row items-center justify-between">
+                <NuxtLink to="/"><img src="/img/ofon.png" alt="" /></NuxtLink>
+                <a href="#" class="btn">Contact Us</a>
+            </div>
+        </section>
+        <div class="h-[80px] xl:h-[84px]"></div>
+    </main>
 </template>
 
 <style scoped>
