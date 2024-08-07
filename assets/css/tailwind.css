@@ -16,36 +16,44 @@
     }
 
     .btn {
-        @apply bg-c-orange text-c-white flex items-center justify-center rounded-lg px-[16px] py-[7px] font-body text-[14px] font-bold transition hover:scale-105 hover:bg-gradient-to-r hover:from-[#F25921] hover:to-[#FBB718] xl:py-[10px] xl:text-[16px];
+        @apply flex items-center justify-center rounded-lg bg-c-orange px-[16px] py-[7px] font-body text-[14px] font-bold text-c-white transition hover:scale-105 hover:bg-gradient-to-r hover:from-[#F25921] hover:to-[#FBB718] xl:py-[10px] xl:text-[16px];
+    }
+
+    .btn-outline {
+        @apply flex items-center justify-center rounded-lg border-2 border-c-orange bg-c-white px-[14px] py-[7px] font-body text-[14px] font-bold text-c-orange transition hover:scale-105 hover:bg-gradient-to-r hover:from-[#F25921] hover:to-[#FBB718] hover:text-c-white xl:py-[8px] xl:text-[16px];
     }
 
     /* ANIMATION */
     .card-hover {
-        @apply hover:shadow-solid transition hover:-translate-x-[8px] hover:-translate-y-[8px];
+        @apply transition hover:-translate-x-[8px] hover:-translate-y-[8px] hover:shadow-solid;
     }
 
     /* FONTS */
     .font-12 {
-        @apply text-c-black font-body text-[12px] xl:text-[14px];
+        @apply font-body text-[12px] text-c-black xl:text-[14px];
     }
 
     .font-14 {
-        @apply text-c-black font-body text-[14px] xl:text-[16px];
+        @apply font-body text-[14px] text-c-black xl:text-[16px];
     }
 
     .font-16 {
-        @apply text-c-black font-body text-[16px] xl:text-[20px];
+        @apply font-body text-[16px] text-c-black xl:text-[20px];
     }
 
     .font-20 {
-        @apply text-c-black font-body text-[20px] xl:text-[24px];
+        @apply font-body text-[20px] text-c-black xl:text-[24px];
     }
 
     .font-32 {
-        @apply text-c-black font-heading text-[32px] leading-tight xl:text-[48px];
+        @apply font-heading text-[32px] leading-tight text-c-black xl:text-[48px];
     }
 
     .font-36 {
-        @apply text-c-black font-heading text-[36px] leading-tight xl:text-[60px];
+        @apply font-heading text-[36px] leading-tight text-c-black xl:text-[60px];
     }
+}
+
+html {
+    scroll-behavior: smooth;
 }
