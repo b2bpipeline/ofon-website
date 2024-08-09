@@ -2,7 +2,7 @@
     <main>
         <section data-aos="fade-up" class="section fixed z-50 bg-c-white py-[20px] shadow-xl">
             <div class="div flex-row items-center justify-between">
-                <NuxtLink to="/"><img src="/img/ofon.png" alt="" /></NuxtLink>
+                <NuxtLink to="/"><img src="/img/ofon.webp" alt="Image" /></NuxtLink>
                 <a href="#" class="btn">Contact Us</a>
             </div>
         </section>

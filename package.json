@@ -13,6 +13,7 @@
     "@nuxt/image": "^1.7.0",
     "@nuxt/ui": "^2.17.0",
     "@nuxtjs/robots": "^4.0.2",
+    "@nuxtjs/seo": "^2.0.0-rc.18",
     "@nuxtjs/sitemap": "^6.0.0-beta.1",
     "@vueuse/motion": "^2.2.3",
     "nuxt": "^3.12.2",

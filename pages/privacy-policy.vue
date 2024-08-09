@@ -13,9 +13,7 @@
 
 <script setup>
 useSeoMeta({
-    title: 'Ofon | Privacy Policy',
-    ogTitle: 'Ofon | Privacy Policy',
-    description: 'Ofon | Privacy Policy',
-    ogDescription: 'Ofon | Privacy Policy',
+    title: 'Privacy Policy',
+    description: 'Privacy Policy',
 });
 </script>

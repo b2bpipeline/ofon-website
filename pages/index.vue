@@ -1,7 +1,7 @@
 <template>
     <main>
         <!-- Hero -->
-        <section class="section bg-c-white pb-0 pt-[40px] xl:min-h-[685px] xl:bg-[url('/img/new-bg.png')] xl:bg-cover">
+        <section class="section bg-c-white pb-0 pt-[40px] xl:min-h-[685px] xl:bg-[url('/img/new-bg.webp')] xl:bg-cover">
             <div class="div flex-col justify-between gap-10 pb-[40px] xl:flex-row xl:items-center xl:justify-center">
                 <div class="items-start-center flex flex-col gap-6 text-center xl:mt-[60px] xl:max-w-[640px]">
                     <h1 class="font-36 font-bold xl:font-semibold">Leading the Way in Telephony Innovation in Indonesia</h1>
@@ -11,7 +11,7 @@
                     </p>
                     <div class="flex justify-center gap-2 xl:gap-3">
                         <p class="font-16 font-bold">Certified Engineer by</p>
-                        <img src="/img/microsoft.png" class="" />
+                        <img src="/img/microsoft.webp" alt="Image" class="" />
                     </div>
                     <div class="grid grid-cols-1 gap-[16px] xl:mx-auto xl:grid-cols-2">
                         <WhatsAppUs />
@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </div>
-            <img src="/img/hero.png" class="mx-auto w-full max-w-[640px] xl:hidden" />
+            <img src="/img/hero.webp" alt="Image" class="mx-auto w-full max-w-[640px] xl:hidden" />
         </section>
 
         <!-- Logo -->
@@ -36,20 +36,20 @@
                     </p>
                     <div class="mt-[20px] flex w-full flex-col gap-[8px] xl:gap-[20px]">
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Cost Saving</p>
                         </div>
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Flexibility and Reliability</p>
                         </div>
                         <div class="flex items-center gap-4">
-                            <img src="/img/checklist.png" class="h-fit" />
+                            <img src="/img/checklist.webp" alt="Image" class="h-fit" />
                             <p class="font-16 font-bold">Advanced Features & Integrations</p>
                         </div>
                     </div>
                 </div>
-                <img src="/img/service1.png" />
+                <img src="/img/service1.webp" alt="Image" />
             </div>
         </section>
 
@@ -67,7 +67,7 @@
                     <a href="#forms" class="btn w-fit">Contact Us</a>
                 </div>
                 <div>
-                    <img src="/img/hello.png" />
+                    <img src="/img/hello.webp" alt="Image" />
                 </div>
             </div>
         </section>
@@ -81,7 +81,7 @@
                     </h2>
                     <div class="flex flex-col gap-[24px] xl:my-[16px] xl:grid xl:grid-cols-3 xl:flex-row xl:gap-[60px]">
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/solution1.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/solution1.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
                                 <p class="font-16 mb-[8px] text-center font-bold text-c-white">
                                     Compliance to IT Security Policies
@@ -93,7 +93,7 @@
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/solution2.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/solution2.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
                                 <p class="font-16 mb-[8px] text-center font-bold text-c-white">Adapt to Network Configuration</p>
                                 <p class="font-14 font-regular text-center text-c-white">
@@ -102,7 +102,7 @@
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/solution3.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/solution3.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
                                 <p class="font-16 mb-[8px] text-center font-bold text-c-white">
                                     Integrate to Other Softwares & Platform
@@ -114,7 +114,7 @@
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/solution3.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/solution3.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
                                 <p class="font-16 mb-[8px] text-center font-bold text-c-white">
                                     Integrate to Other Softwares & Platform
@@ -126,7 +126,7 @@
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/solution1.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/solution1.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
                                 <p class="font-16 mb-[8px] text-center font-bold text-c-white">
                                     Compliance to IT Security Policies
@@ -138,7 +138,7 @@
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/solution2.png" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/solution2.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
                                 <p class="font-16 mb-[8px] text-center font-bold text-c-white">Adapt to Network Configuration</p>
                                 <p class="font-14 font-regular text-center text-c-white">
@@ -163,13 +163,13 @@
                 </div>
                 <div class="xl:gap-[40 px] flex flex-col gap-[24px] text-center xl:flex-row xl:items-center">
                     <div class="flex flex-col gap-[24px]">
-                        <img src="/img/chartmobile1.png" class="xl:hidden" />
-                        <img src="/img/chartdesktop1.png" class="hidden xl:flex" />
+                        <img src="/img/chartmobile1.webp" alt="Image" class="xl:hidden" />
+                        <img src="/img/chartdesktop1.webp" alt="Image" class="hidden xl:flex" />
                     </div>
                     <p class="font-32 font-bold text-c-orange">VS</p>
                     <div class="flex flex-col gap-[24px]">
-                        <img src="/img/chartmobile2.png" class="xl:hidden" />
-                        <img src="/img/chartdesktop2.png" class="hidden xl:flex" />
+                        <img src="/img/chartmobile2.webp" alt="Image" class="xl:hidden" />
+                        <img src="/img/chartdesktop2.webp" alt="Image" class="hidden xl:flex" />
                     </div>
                 </div>
             </div>
@@ -202,7 +202,7 @@
 
                     <a href="#forms" class="btn">Contact Us</a>
                 </div>
-                <div><img src="/img/indonesia.png" /></div>
+                <div><img src="/img/indonesia.webp" alt="Image" /></div>
             </div>
         </section>
 
@@ -220,7 +220,7 @@
                         </p>
                         <a href="#forms" class="btn xl:w-fit">Contact Us</a>
                     </div>
-                    <img src="/img/call.png" />
+                    <img src="/img/call.webp" alt="Image" />
                 </div>
             </div>
         </section>
@@ -235,9 +235,7 @@
 
 <script setup>
 useSeoMeta({
-    title: 'Ofon | Home',
-    ogTitle: 'Ofon | Home',
-    description: 'Ofon | Home',
-    ogDescription: 'Ofon | Home',
+    title: 'Home',
+    description: 'Say Goodbye to the High Maintenance and Outdated Telephone Systems',
 });
 </script>
