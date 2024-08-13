@@ -24,4 +24,7 @@ export default defineNuxtConfig({
         description: `Need to maximize productivity and minimize cost business telecommunications?`,
         defaultLocale: 'en',
     },
+    runtimeConfig: {
+        BACKEND_URL: process.env.NUXT_BACKEND_URL,
+    },
 });

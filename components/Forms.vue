@@ -39,8 +39,8 @@
                     </div>
                 </div>
             </div>
-            <div class="flex h-full w-full flex-col rounded-xl p-[16px]">
-                <img src="/img/forms4.webp" alt="Image" />
+            <div class="flex h-full w-full flex-col rounded-xl border-2 border-c-orange p-[16px]">
+                <WaitlistForm />
             </div>
         </div>
     </section>
