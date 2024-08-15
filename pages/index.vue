@@ -25,11 +25,104 @@
         <!-- Logo -->
         <CompaniesLogo />
 
-        <!-- Cloud PBX -->
+        <!-- Complete Phone -->
         <section class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
                 <div class="xl:order-1">
-                    <p class="font-32 mb-[16px] font-bold text-c-orange xl:mb-[24px] xl:font-semibold">Ofon Cloud PBX</p>
+                    <p class="font-32 mb-[16px] font-bold text-c-orange xl:mb-[24px] xl:font-semibold">
+                        A Complete Phone System & PBX Solution
+                    </p>
+                    <p class="font-16 font-medium">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum metus eu dapibus vulputate. Sed
+                        tristique vel mauris ac blandit. Fusce congue a sapien sed dictum.
+                    </p>
+                    <div class="mt-[20px] flex w-full flex-col gap-[12px] xl:gap-[20px]">
+                        <div class="flex items-start gap-[8px] rounded-lg border-2 border-c-orange p-[16px]">
+                            <img src="/img/comp1.webp" alt="Image" />
+                            <div class="flex flex-col gap-[8px]">
+                                <p class="font-16 font-bold">Maintain Legacy Phone System</p>
+                                <p class="font-14">
+                                    Your phone system are getting old? Let us take care of yours to keep it runs like new.
+                                </p>
+                                <p class="font-14 font-semibold text-c-orange">Learn More ></p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-[8px] rounded-lg border-2 border-c-orange p-[16px]">
+                            <img src="/img/comp2.webp" alt="Image" />
+                            <div class="flex flex-col gap-[8px]">
+                                <p class="font-16 font-bold">Migrate Traditional/On-premise to Cloud PBX</p>
+                                <p class="font-14">
+                                    Ready to step up for better solution? Upgrade your PBX to cloud technology and save your cost.
+                                </p>
+                                <p class="font-14 font-semibold text-c-orange">Learn More ></p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-[8px] rounded-lg border-2 border-c-orange p-[16px]">
+                            <img src="/img/comp3.webp" alt="Image" />
+                            <div class="flex flex-col gap-[8px]">
+                                <p class="font-16 font-bold">Integrate Multiple Communication Platform</p>
+                                <p class="font-14">
+                                    Unify any communication tool and platform to feel the seamless integration in your business.
+                                </p>
+                                <p class="font-14 font-semibold text-c-orange">Learn More ></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="/img/woman-phone.webp" alt="Image" />
+            </div>
+        </section>
+
+        <!-- 1 Headling + 3 Section -->
+        <section class="section pb-[32px] xl:pb-[0]">
+            <div class="div flex flex-col items-center">
+                <p class="font-32 mb-[16px] text-center font-bold text-c-black xl:mb-[24px] xl:font-semibold">
+                    All-in-One Telephony Service:
+                    <br />Maintenance, Migration, & Integration
+                </p>
+                <p class="font-16 text-center font-medium">
+                    We’re dedicated to understanding your unique situation and getting what you need. From maintenance and support
+                    to integration and migration, we've got your multi-vendor PBX covered.
+                </p>
+            </div>
+        </section>
+        <section class="section bg-c-yellow-light xl:bg-c-white">
+            <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
+                <div
+                    class="flex w-full flex-col items-center gap-[32px] bg-c-yellow-light xl:flex-row xl:rounded-3xl xl:p-[40px]"
+                >
+                    <div class="flex flex-col">
+                        <p class="font-32 mb-[16px] font-bold text-c-orange xl:mb-[24px] xl:font-semibold">
+                            Phone System Maintenance & Support
+                        </p>
+                        <p class="font-14 font-medium">
+                            Optimize your budget by outsourcing the operation and maintenance of your legacy telephony
+                            infrastructure to our expert team.
+                        </p>
+                        <div class="mt-[20px] flex w-full flex-col gap-[8px] xl:gap-[16px]">
+                            <div class="flex items-center gap-4">
+                                <img src="/img/checklist.webp" alt="Image" class="h-fit" />
+                                <p class="font-16 font-bold">Hardware & Software Maintenance</p>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <img src="/img/checklist.webp" alt="Image" class="h-fit" />
+                                <p class="font-16 font-bold">Experienced Technicians</p>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <img src="/img/checklist.webp" alt="Image" class="h-fit" />
+                                <p class="font-16 font-bold">Improve Call Efficiency</p>
+                            </div>
+                        </div>
+                        <a href="#forms" class="btn-outline mt-[24px] w-fit xl:mt-[32px]">Learn More</a>
+                    </div>
+                    <img src="/img/service4.webp" alt="Image" />
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
+                <div class="xl:order-1">
+                    <p class="font-32 mb-[16px] font-bold text-c-orange xl:mb-[24px] xl:font-semibold">Cloud PBX Migration</p>
                     <p class="font-14 font-medium">
                         Join the league of modern businesses thriving with efficient communication solutions. Don't let the fear
                         of missing out on streamlined operations hold you back!
@@ -48,8 +141,42 @@
                             <p class="font-16 font-bold">Advanced Features & Integrations</p>
                         </div>
                     </div>
+                    <a href="#forms" class="btn-outline mt-[24px] w-fit xl:mt-[32px]">Learn More</a>
                 </div>
                 <img src="/img/service1.webp" alt="Image" />
+            </div>
+        </section>
+        <section class="section bg-c-yellow-light xl:bg-c-white">
+            <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
+                <div
+                    class="flex w-full flex-col items-center gap-[32px] bg-c-yellow-light xl:flex-row xl:rounded-3xl xl:p-[40px]"
+                >
+                    <div class="flex flex-col">
+                        <p class="font-32 mb-[16px] font-bold text-c-orange xl:mb-[24px] xl:font-semibold">
+                            Phone System Integration
+                        </p>
+                        <p class="font-14 font-medium">
+                            Using multiple technologies in your phone system? Unify all branches and user extensions into a
+                            single, enterprise-class telephony system with our integration solution.
+                        </p>
+                        <div class="mt-[20px] flex w-full flex-col gap-[8px] xl:gap-[16px]">
+                            <div class="flex items-center gap-4">
+                                <img src="/img/checklist.webp" alt="Image" class="h-fit" />
+                                <p class="font-16 font-bold">System Design and Implementation</p>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <img src="/img/checklist.webp" alt="Image" class="h-fit" />
+                                <p class="font-16 font-bold">Integration with Existing Infrastructure</p>
+                            </div>
+                            <div class="flex items-center gap-4">
+                                <img src="/img/checklist.webp" alt="Image" class="h-fit" />
+                                <p class="font-16 font-bold">Unified Telecommunication</p>
+                            </div>
+                        </div>
+                        <a href="#forms" class="btn-outline mt-[24px] w-fit xl:mt-[32px]">Learn More</a>
+                    </div>
+                    <img src="/img/service3.webp" alt="Image" />
+                </div>
             </div>
         </section>
 
@@ -72,77 +199,69 @@
             </div>
         </section>
 
-        <!-- Join The Future -->
+        <!-- What Make Us Different -->
         <section class="section bg-c-brown xl:bg-c-white">
             <div class="div flex flex-col gap-[36px] xl:gap-[60px]">
                 <div class="xl:rounded-3xl xl:bg-c-brown xl:p-[50px]">
-                    <h2 class="font-32 text-center font-bold text-c-white xl:font-semibold">
-                        Join the Future of Communication with PBX Solutions
-                    </h2>
+                    <h2 class="font-32 text-center font-bold text-c-white xl:font-semibold">What Makes Us Different</h2>
                     <div class="flex flex-col gap-[24px] xl:my-[16px] xl:grid xl:grid-cols-3 xl:flex-row xl:gap-[60px]">
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/solution1.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/diff1.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
-                                <p class="font-16 mb-[8px] text-center font-bold text-c-white">
-                                    Compliance to IT Security Policies
-                                </p>
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-white">Cost Efficiency</p>
                                 <p class="font-14 font-regular text-center text-c-white">
-                                    Keep digital information safe from threats like hacking or data breaches with proper safety
-                                    guidelines in a workplace to prevent accidents and keep everyone secure.
+                                    Save a significant amount of money up to 60% compared to other providers. Reduce maintenance
+                                    costs while maintaining high standards of service.
                                 </p>
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/solution2.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/diff2.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
-                                <p class="font-16 mb-[8px] text-center font-bold text-c-white">Adapt to Network Configuration</p>
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-white">Certified Expert Team</p>
                                 <p class="font-14 font-regular text-center text-c-white">
-                                    Adjusting device settings to fit with the way a network is set up and connects to Wi-Fi.
+                                    Our professionals dedicated to providing maintenance and support for your phone system. Ensure
+                                    that your system runs smoothly and effectively.
                                 </p>
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/solution3.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/diff3.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
-                                <p class="font-16 mb-[8px] text-center font-bold text-c-white">
-                                    Integrate to Other Softwares & Platform
-                                </p>
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-white">Modernization of Legacy Systems</p>
                                 <p class="font-14 font-regular text-center text-c-white">
-                                    Making different programs and systems to work together smoothly. Sharing information and work
-                                    together, making your tasks easier and more efficient.
+                                    We transform outdated phone systems into modern cloud setups, ensuring your communication
+                                    infrastructure up to date, scalable, and secure.
                                 </p>
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/solution3.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/diff4.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
-                                <p class="font-16 mb-[8px] text-center font-bold text-c-white">
-                                    Integrate to Other Softwares & Platform
-                                </p>
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-white">PBX Needs Customization</p>
                                 <p class="font-14 font-regular text-center text-c-white">
-                                    Making different programs and systems to work together smoothly. Sharing information and work
-                                    together, making your tasks easier and more efficient.
+                                    No pressure to upgrade. We focus on your needs and tailor our solutions to meet your business
+                                    specific requirements, ensuring a seamless transition and integration.
                                 </p>
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/solution1.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/diff5.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
-                                <p class="font-16 mb-[8px] text-center font-bold text-c-white">
-                                    Compliance to IT Security Policies
-                                </p>
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-white">Unified Communication</p>
                                 <p class="font-14 font-regular text-center text-c-white">
-                                    Keep digital information safe from threats like hacking or data breaches with proper safety
-                                    guidelines in a workplace to prevent accidents and keep everyone secure.
+                                    Our solution tackles the inefficiency of separated platforms by offering a single integrated
+                                    system, making the use of Zoom, Teams, Webex and other tools more seamless.
                                 </p>
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[24px] transition hover:bg-[#3C3C3C]">
-                            <img src="/img/solution2.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                            <img src="/img/diff6.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
-                                <p class="font-16 mb-[8px] text-center font-bold text-c-white">Adapt to Network Configuration</p>
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-white">Guaranteed Multi-vendor Parts</p>
                                 <p class="font-14 font-regular text-center text-c-white">
-                                    Adjusting device settings to fit with the way a network is set up and connects to Wi-Fi.
+                                    Offered to be compatible with various brands or models from different systems to make sure
+                                    your communication feel seamless.
                                 </p>
                             </div>
                         </div>
@@ -172,8 +291,12 @@
                         <img src="/img/chartdesktop2.webp" alt="Image" class="hidden xl:flex" />
                     </div>
                 </div>
+                <a href="#forms" class="btn-outline mx-auto">Calculate Your Saving</a>
             </div>
         </section>
+
+        <!-- Testimonial -->
+        <CaseStudy />
 
         <!-- CTA (Connecting Business)-->
         <section class="section bg-c-brown">
@@ -199,8 +322,10 @@
                             <p class="font-14 text-center font-bold text-c-white">Years Experience</p>
                         </div>
                     </div>
-
-                    <a href="#forms" class="btn">Contact Us</a>
+                    <div class="grid grid-cols-2 items-center gap-[16px]">
+                        <WhatsAppUs />
+                        <a href="#forms" class="btn-outline">Get a Free Audit</a>
+                    </div>
                 </div>
                 <div><img src="/img/indonesia.webp" alt="Image" /></div>
             </div>
@@ -209,15 +334,13 @@
         <!-- Testimonial -->
         <Testimonial />
 
-        <!-- CTA (Avoid Misunderstandings) -->
+        <!-- CTA (Get A Free) -->
         <section class="section">
             <div class="div">
-                <div class="flex flex-col gap-[24px] rounded-xl bg-c-brown p-[24px] xl:flex-row xl:p-[42px]">
+                <div class="flex flex-col items-center gap-[24px] rounded-xl bg-c-brown p-[24px] xl:flex-row xl:p-[42px]">
                     <div class="flex flex-col gap-[24px]">
-                        <p class="font-32 font-semibold text-c-white">Avoid Misunderstandings and Switch with Ofon!</p>
-                        <p class="font-16 text-c-white">
-                            Need to optimize the way your business communicate? Contact us and get a free audit.
-                        </p>
+                        <p class="font-32 font-semibold text-c-white">Get a Free Quick Audit!</p>
+                        <p class="font-16 text-c-white">Contact us and find the best communication solution for your business!</p>
                         <a href="#forms" class="btn xl:w-fit">Contact Us</a>
                     </div>
                     <img src="/img/call.webp" alt="Image" />

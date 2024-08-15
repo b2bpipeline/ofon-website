@@ -1,31 +1,33 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "dependencies": {
-    "@nuxt/image": "^1.7.0",
-    "@nuxt/ui": "^2.17.0",
-    "@nuxtjs/robots": "^4.0.2",
-    "@nuxtjs/seo": "^2.0.0-rc.18",
-    "@nuxtjs/sitemap": "^6.0.0-beta.1",
-    "@vueuse/motion": "^2.2.3",
-    "nuxt": "^3.12.2",
-    "vue": "latest",
-    "zod": "^3.23.8"
-  },
-  "devDependencies": {
-    "@zadigetvoltaire/nuxt-gtm": "^0.0.13",
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.39",
-    "prettier": "^3.3.2",
-    "prettier-plugin-tailwindcss": "^0.6.5",
-    "tailwindcss": "^3.4.4"
-  }
+    "name": "nuxt-app",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare"
+    },
+    "dependencies": {
+        "@nuxt/image": "^1.7.0",
+        "@nuxt/ui": "^2.17.0",
+        "@nuxtjs/i18n": "^8.3.3",
+        "@nuxtjs/robots": "^4.0.2",
+        "@nuxtjs/seo": "^2.0.0-rc.18",
+        "@nuxtjs/sitemap": "^6.0.0-beta.1",
+        "@vueuse/motion": "^2.2.3",
+        "flowbite": "^2.5.1",
+        "nuxt": "^3.12.2",
+        "vue": "latest",
+        "zod": "^3.23.8"
+    },
+    "devDependencies": {
+        "@zadigetvoltaire/nuxt-gtm": "^0.0.13",
+        "autoprefixer": "^10.4.19",
+        "postcss": "^8.4.39",
+        "prettier": "^3.3.2",
+        "prettier-plugin-tailwindcss": "^0.6.5",
+        "tailwindcss": "^3.4.4"
+    }
 }

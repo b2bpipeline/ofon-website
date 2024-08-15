@@ -1,6 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/ui', '@vueuse/motion/nuxt', '@zadigetvoltaire/nuxt-gtm', '@nuxt/image', '@nuxtjs/seo'],
+  modules: [
+      '@nuxt/ui',
+      '@vueuse/motion/nuxt',
+      '@zadigetvoltaire/nuxt-gtm',
+      '@nuxt/image',
+      '@nuxtjs/seo',
+      "@nuxtjs/i18n"
+  ],
   devtools: { enabled: true },
 
   gtm: {
