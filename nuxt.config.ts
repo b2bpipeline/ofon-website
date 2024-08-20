@@ -57,4 +57,7 @@ export default defineNuxtConfig({
         ],
         defaultLocale: 'en-US',
     },
+    sitemap: {
+        sources: ['/api/urls'],
+    },
 });
