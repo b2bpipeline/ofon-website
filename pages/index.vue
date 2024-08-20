@@ -4,10 +4,9 @@
         <section class="section bg-c-white pb-0 pt-[40px] xl:min-h-[685px] xl:bg-[url('/img/new-bg.webp')] xl:bg-cover">
             <div class="div flex-col justify-between gap-10 pb-[40px] xl:flex-row xl:items-center xl:justify-center">
                 <div class="items-start-center flex flex-col gap-6 text-center xl:mt-[60px] xl:max-w-[640px]">
-                    <h1 class="font-36 font-bold xl:font-semibold">Leading the Way in Telephony Innovation in Indonesia</h1>
+                    <h1 class="font-36 font-bold xl:font-semibold">{{ $t('hero_title') }}</h1>
                     <p class="font-16 font-medium">
-                        As a Pioneer of Telephony Solution Innovation in Indonesia, we empower your businesses communication with
-                        our advanced & innovative services.
+                        {{ $t('hero_subheading') }}
                     </p>
                     <div class="flex justify-center gap-2 xl:gap-3">
                         <p class="font-16 font-bold">Certified Engineer by</p>

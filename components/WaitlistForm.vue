@@ -1,7 +1,8 @@
-7
 <script setup lang="ts">
 import type { z } from 'zod';
 import type { FormSubmitEvent } from '#ui/types';
+
+const localePath = useLocalePath();
 
 type CreateWaitlistType = z.infer<typeof createWaitlistSchema>;
 
@@ -37,7 +38,8 @@ async function handleSubmit(event: FormSubmitEvent<CreateWaitlistType>) {
         });
 
         state.value = { ...initialState };
-        toast.success('Coungratulations! You have successfully signed up for the waitlist. We will get back to you soon.');
+        // toast.success('Coungratulations! You have successfully signed up for the waitlist. We will get back to you soon.');
+        await navigateTo(localePath('/thank-you'));
     } catch (e) {
         console.error('Error submitting form', e);
         toast.error(getErrorMessage(e));
