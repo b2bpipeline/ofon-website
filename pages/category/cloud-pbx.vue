@@ -23,9 +23,56 @@
                         >
                             <!-- <img :src="a.yoast_head_json.og_image[0].url" class="object-cover xl:h-[240px]" alt="Image" /> -->
                             <div class="flex flex-col gap-[8px] p-[16px]">
-                                <p class="font-12 w-fit rounded-full border border-c-orange px-2 py-1 text-c-orange">
-                                    {{ a.categories[0] }}
+                                <!-- v-if category badges -->
+                                <p
+                                    class="font-12 w-fit rounded-full border border-c-orange px-2 py-1 text-c-orange"
+                                    v-if="a.categories[0] == 7"
+                                >
+                                    Cloud Direct Routing
                                 </p>
+                                <p
+                                    class="font-12 w-fit rounded-full border border-c-orange px-2 py-1 text-c-orange"
+                                    v-if="a.categories[0] == 6"
+                                >
+                                    Cloud PBX
+                                </p>
+                                <p
+                                    class="font-12 w-fit rounded-full border border-c-orange px-2 py-1 text-c-orange"
+                                    v-if="a.categories[0] == 8"
+                                >
+                                    Conference
+                                </p>
+                                <p
+                                    class="font-12 w-fit rounded-full border border-c-orange px-2 py-1 text-c-orange"
+                                    v-if="a.categories[0] == 5"
+                                >
+                                    Proxy
+                                </p>
+                                <p
+                                    class="font-12 w-fit rounded-full border border-c-orange px-2 py-1 text-c-orange"
+                                    v-if="a.categories[0] == 3"
+                                >
+                                    SmartPBX
+                                </p>
+                                <p
+                                    class="font-12 w-fit rounded-full border border-c-orange px-2 py-1 text-c-orange"
+                                    v-if="a.categories[0] == 1"
+                                >
+                                    Tak Berkategori
+                                </p>
+                                <p
+                                    class="font-12 w-fit rounded-full border border-c-orange px-2 py-1 text-c-orange"
+                                    v-if="a.categories[0] == 9"
+                                >
+                                    Web Call
+                                </p>
+                                <p
+                                    class="font-12 w-fit rounded-full border border-c-orange px-2 py-1 text-c-orange"
+                                    v-if="a.categories[0] == 4"
+                                >
+                                    Whitepaper
+                                </p>
+                                <!-- v-if category badges -->
                                 <h2 class="font-16 font-bold">{{ a.title.rendered }}</h2>
                                 <!-- <p class="font-12">{{ a.yoast_head_json.description }}</p> -->
                                 <div class="flex items-center gap-[8px]">
@@ -69,6 +116,9 @@
 </template>
 
 <script setup>
+// i18n
+defineI18nRoute(false);
+
 // fetch archive articles
 const { data: articles } = await useFetch(
     'https://ofon.co.id/blog/wp-json/wp/v2/posts?_fields=id,slug,title,description,date,categories&per_page=10&categories=6'

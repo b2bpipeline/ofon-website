@@ -255,7 +255,7 @@
 
 <script setup>
 // i18n
-77(false);
+defineI18nRoute(false);
 
 // fetch archive articles
 const { data: articles } = await useFetch(
