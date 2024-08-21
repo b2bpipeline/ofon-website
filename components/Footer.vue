@@ -7,8 +7,7 @@
                     <div class="flex flex-col gap-[16px] xl:col-span-2 xl:max-w-[360px]">
                         <p class="font-14 font-semibold text-c-white">PT Batam Bintan Telekomunikasi</p>
                         <p class="font-14 font-light text-c-white">
-                            Ofon is lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed lectus at est gravida
-                            pretium. Fusce ut turpis in purus ultricies congue venenatis a mi.
+                            {{ $t('c_footer_1') }}
                         </p>
                         <div class="flex items-start gap-[8px]">
                             <img src="/img/location.webp" alt="Image" />
@@ -27,34 +26,40 @@
                         </div>
                     </div>
                     <div class="flex flex-col gap-[8px]">
-                        <a href="#forms" class="font-14 mb-[8px] font-bold text-c-white">Use Cases</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Maintain Legacy Phone System</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Migrate to Cloud PBX</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Integrate All Communication Platforms</a>
-                        <a href="#forms" class="font-14 mb-[8px] mt-[24px] font-bold text-c-white">Services</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Phone System Maintenance & Support</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Cloud PBX Installation</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Phone System Integration</a>
-                        <a href="#forms" class="font-14 mb-[8px] mt-[24px] font-bold text-c-white">Resources</a>
-                        <NuxtLink to="/blog" class="font-14 font-light text-c-white">Blog</NuxtLink>
-                        <a href="#forms" class="font-14 font-light text-c-white">Case Studies</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Testimonials</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Calculator</a>
+                        <a href="#forms" class="font-14 mb-[8px] font-bold text-c-white"> {{ $t('c_footer_2') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_3') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_4') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_5') }}</a>
+                        <a href="#forms" class="font-14 mb-[8px] mt-[24px] font-bold text-c-white"> {{ $t('c_footer_6') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_7') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_8') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_9') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_10') }}</a>
+                        <a href="#forms" class="font-14 mb-[8px] mt-[24px] font-bold text-c-white"> {{ $t('c_footer_11') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_12') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_13') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_14') }}</a>
                     </div>
                     <div class="flex flex-col gap-[8px]">
-                        <a href="#forms" class="font-14 mb-[8px] font-bold text-c-white">Industries</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Finance & Banking</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Manufacturing</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Oil & Gas</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Hospitality</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Healthcare</a>
+                        <a href="#forms" class="font-14 mb-[8px] font-bold text-c-white"> {{ $t('c_footer_15') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_16') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_17') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_18') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_19') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_20') }}</a>
 
-                        <a href="#forms" class="font-14 mb-[8px] mt-[24px] font-bold text-c-white">About Us</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Our Story</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Gallery</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Contact Us</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Privacy Policy</a>
-                        <a href="#forms" class="font-14 font-light text-c-white">Terms & Condition</a>
+                        <a href="#forms" class="font-14 mb-[8px] mt-[24px] font-bold text-c-white"> {{ $t('c_footer_21') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_22') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_23') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_24') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_25') }}</a>
+
+                        <a href="#forms" class="font-14 mb-[8px] mt-[24px] font-bold text-c-white"> {{ $t('c_footer_26') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_27') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_28') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_29') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_30') }}</a>
+                        <a href="#forms" class="font-14 font-light text-c-white"> {{ $t('c_footer_31') }}</a>
                     </div>
                 </div>
                 <div class="my-[40px] h-[2px] w-full bg-c-white"></div>

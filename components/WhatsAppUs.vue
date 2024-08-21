@@ -6,7 +6,7 @@
             target="_blank"
         >
             <img src="../public/img/wa.webp" class="mr-1" alt="Image" />
-            WhatsApp Us</a
+            {{ $t('c_whatsapp_1') }}</a
         >
     </main>
 </template>

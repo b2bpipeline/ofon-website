@@ -8,8 +8,8 @@ const switchLocalePath = useSwitchLocalePath();
         <section class="section fixed z-50 bg-[#F6F7F8] py-[8px] shadow-xl">
             <div class="div flex-row items-center justify-between">
                 <div class="flex gap-[16px]">
-                    <p class="font-14 font-semibold text-c-orange">Business</p>
-                    <p class="font-14 font-semibold text-c-orange">Personal</p>
+                    <p class="font-14 font-semibold text-c-orange">{{ $t('c_navbar_1') }}</p>
+                    <p class="font-14 font-semibold text-c-orange">{{ $t('c_navbar_2') }}</p>
                 </div>
                 <div class="flex gap-[16px]">
                     <div class="flex items-center gap-[10px]">
@@ -31,7 +31,9 @@ const switchLocalePath = useSwitchLocalePath();
                         <NuxtLink class="font-14 font-semibold" :to="localePath('pbx-maintenance')">PBX Maintenance</NuxtLink>
                         <NuxtLink class="font-14 font-semibold" :to="localePath('pbx-integration')">PBX Integration</NuxtLink>
                     </div>
-                    <NuxtLink id="contact-us" to="contact-us" class="btn text-white">Contact Us</NuxtLink>
+                    <NuxtLink id="contact-us" :to="localePath('/contact-us')" class="btn text-white">{{
+                        $t('c_navbar_3')
+                    }}</NuxtLink>
                 </div>
             </div>
         </section>

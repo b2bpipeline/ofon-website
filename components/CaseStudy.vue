@@ -7,11 +7,11 @@
                 >
                     <div class="flex grid-cols-2 flex-col items-center gap-[24px] xl:grid xl:gap-[32px]">
                         <div class="flex flex-col items-start gap-[24px]">
-                            <p class="font-16 font-semibold">Featured Case Study</p>
+                            <p class="font-16 font-semibold">{{ $t('c_casestudy_1') }}</p>
                             <p class="font-32 font-bold xl:text-[32px]">
                                 {{ item.name }}
                             </p>
-                            <a href="#forms" class="btn-outline w-fit">Read Case Study</a>
+                            <a href="#forms" class="btn-outline w-fit"> {{ $t('c_casestudy_2') }}</a>
                         </div>
                         <img :src="item.image" alt="Image" />
                     </div>
