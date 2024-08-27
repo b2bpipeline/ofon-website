@@ -295,9 +295,18 @@
 </template>
 
 <script setup>
+// seo
 useSeoMeta({
     title: 'Integrate & Manage Any Phone System Seamlessly',
     description:
         'Build your communication infrastructure and become effortlessly productive. Adapts to your needs, providing efficient communication across devices & networks with an efficient budget.',
+});
+
+// page route
+defineI18nRoute({
+    paths: {
+        en: '/service/phone-system-integration/',
+        id: '/layanan/integrasi-phone-system/',
+    },
 });
 </script>

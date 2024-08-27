@@ -19,7 +19,15 @@
 
 <script setup>
 useSeoMeta({
-    title: 'Home',
+    title: 'Thank You',
     description: 'Say Goodbye to the High Maintenance and Outdated Telephone Systems',
+});
+
+// page routing
+defineI18nRoute({
+    paths: {
+        en: '/thank-you/',
+        id: '/thank-you/',
+    },
 });
 </script>

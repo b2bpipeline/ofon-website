@@ -251,4 +251,12 @@ useSeoMeta({
     title: 'Maintain & Support Your PBX Phone System',
     description: 'A great solution for PBX maintenance and support with minimum cost and maximum benefit focusing on your needs.',
 });
+
+// page routing
+defineI18nRoute({
+    paths: {
+        en: '/service/pbx-maintenance-service-support',
+        id: '/layanan/jasa-maintenance-pbx',
+    },
+});
 </script>

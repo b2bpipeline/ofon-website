@@ -19,6 +19,7 @@
         "@vueuse/motion": "^2.2.3",
         "flowbite": "^2.5.1",
         "nuxt": "^3.12.2",
+        "preline": "^2.4.1",
         "vue": "latest",
         "zod": "^3.23.8"
     },

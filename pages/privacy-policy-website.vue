@@ -12,12 +12,12 @@
 </template>
 
 <script setup>
-// i18n
-defineI18nRoute(false);
-
 // seo meta
 useSeoMeta({
     title: 'Privacy Policy',
     description: 'Privacy Policy',
 });
+
+// page routing
+defineI18nRoute(false);
 </script>

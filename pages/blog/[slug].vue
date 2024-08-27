@@ -214,6 +214,12 @@ const { data: article } = await useFetch(`https://ofon.co.id/blog/wp-json/wp/v2/
 const { data: similar } = await useFetch(
     'https://ofon.co.id/blog/wp-json/wp/v2/posts?_fields=id,slug,author,title,date,categories&per_page=5&categories=6'
 );
+
+// error handling
+if (article.value.length === 0) {
+    throw createError({ statusCode: 404, statusMessage: 'Posts not found!' });
+}
+
 // seo meta
 useSeoMeta({
     title: article.value?.at(0)?.title.rendered ?? 'Blog',

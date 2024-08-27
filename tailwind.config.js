@@ -7,7 +7,7 @@ module.exports = {
         './plugins/**/*.{js,ts}',
         './app.vue',
         './error.vue',
-        './node_modules/flowbite/**/*.{js,ts}',
+        './node_modules/preline/preline.js',
     ],
     theme: {
         extend: {
@@ -37,5 +37,5 @@ module.exports = {
             body: ['Montserrat', 'sans-serif'],
         },
     },
-    plugins: [require('flowbite/plugin')],
+    plugins: [require('preline/plugin')],
 };

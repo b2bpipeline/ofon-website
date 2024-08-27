@@ -60,4 +60,5 @@ export default defineNuxtConfig({
     sitemap: {
         sources: ['/api/urls'],
     },
+    plugins: ['~/plugins/preline.client.ts'],
 });
