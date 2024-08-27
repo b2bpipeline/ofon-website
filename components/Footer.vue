@@ -47,10 +47,21 @@
                         <NuxtLink :to="localePath('')" class="font-14 mb-[8px] mt-[24px] font-bold text-c-white">
                             {{ $t('c_footer_6') }}</NuxtLink
                         >
-                        <NuxtLink :to="localePath('')" class="font-14 font-light text-c-white"> {{ $t('c_footer_7') }}</NuxtLink>
-                        <NuxtLink :to="localePath('')" class="font-14 font-light text-c-white"> {{ $t('c_footer_8') }}</NuxtLink>
-                        <NuxtLink :to="localePath('')" class="font-14 font-light text-c-white"> {{ $t('c_footer_9') }}</NuxtLink>
-                        <NuxtLink :to="localePath('')" class="font-14 font-light text-c-white"> {{ $t('c_footer_10') }}</NuxtLink>
+                        <NuxtLink :to="localePath('/product/telephone')" class="font-14 font-light text-c-white">
+                            {{ $t('c_footer_7') }}</NuxtLink
+                        >
+                        <NuxtLink :to="localePath('/product/internet')" class="font-14 font-light text-c-white">
+                            {{ $t('c_footer_8') }}</NuxtLink
+                        >
+                        <NuxtLink :to="localePath('/product/sip-trunk')" class="font-14 font-light text-c-white">
+                            {{ $t('c_footer_9') }}</NuxtLink
+                        >
+                        <NuxtLink :to="localePath('/product/meeting-setup')" class="font-14 font-light text-c-white">
+                            {{ $t('c_footer_10') }}</NuxtLink
+                        >
+                        <NuxtLink :to="localePath('/product/cloud-pbx')" class="font-14 font-light text-c-white">
+                            Cloud PBX</NuxtLink
+                        >
 
                         <!-- Use Case -->
                         <NuxtLink :to="localePath('')" class="font-14 mb-[8px] mt-[24px] font-bold text-c-white">

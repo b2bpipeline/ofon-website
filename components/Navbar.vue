@@ -138,23 +138,28 @@
                                             <p class="font-12 p-[4px] font-bold xl:p-[8px]">Product</p>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
-                                                :to="localePath('comingsoon')"
+                                                :to="localePath('/product/telephone')"
                                                 >Telephone
                                             </NuxtLink>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
-                                                :to="localePath('comingsoon')"
+                                                :to="localePath('/product/internet')"
                                                 >Internet</NuxtLink
                                             >
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
-                                                :to="localePath('comingsoon')"
+                                                :to="localePath('/product/sip-trunk')"
                                                 >SIP Trunk</NuxtLink
                                             >
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
-                                                :to="localePath('comingsoon')"
+                                                :to="localePath('/product/meeting-setup')"
                                                 >Meeting Setup</NuxtLink
+                                            >
+                                            <NuxtLink
+                                                class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
+                                                :to="localePath('/product/cloud-pbx')"
+                                                >Cloud PBX</NuxtLink
                                             >
                                         </div>
                                         <div class="flex flex-col">
