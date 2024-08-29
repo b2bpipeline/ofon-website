@@ -45,6 +45,10 @@
         @apply font-body text-[20px] text-c-black xl:text-[24px];
     }
 
+    .font-24 {
+        @apply font-heading text-[24px] text-c-black xl:text-[32px];
+    }
+
     .font-32 {
         @apply font-heading text-[32px] leading-tight text-c-black xl:text-[48px];
     }
