@@ -259,13 +259,13 @@ defineI18nRoute(false);
 
 // fetch archive articles
 const { data: articles } = await useFetch(
-    'https://ofon.co.id/blog/wp-json/wp/v2/posts?_fields=id,slug,title,date,categories&per_page=10'
+    'https://cms.ofon.co.id/wp-json/wp/v2/posts?_fields=id,slug,title,date,categories&per_page=10'
 );
 const { data: featured } = await useFetch(
-    'https://ofon.co.id/blog/wp-json/wp/v2/posts?_fields=id,slug,title,date,categories&per_page=1'
+    'https://cms.ofon.co.id/wp-json/wp/v2/posts?_fields=id,slug,title,date,categories&per_page=1'
 );
 const { data: popular } = await useFetch(
-    'https://ofon.co.id/blog/wp-json/wp/v2/posts?_fields=id,slug,title,date,categories&per_page=5'
+    'https://cms.ofon.co.id/wp-json/wp/v2/posts?_fields=id,slug,title,date,categories&per_page=5'
 );
 // seo meta
 useSeoMeta({

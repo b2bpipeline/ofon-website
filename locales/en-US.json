@@ -182,5 +182,86 @@
 
     "pbx1_want_1": "Want to Refresh Your Phone System? Get a Free Quick Audit!",
     "pbx1_want_2": "No matter what phone system you use, we have solution to make your phone system running like new.",
-    "pbx1_want_3": "Contact Us"
+    "pbx1_want_3": "Contact Us",
+
+    "cloud_hero_1": "Hemat Biaya Perawatan dengan Sistem Telepon Modern",
+    "cloud_hero_2": "Tingkatkan sistem telepon Anda dengan desain modern dan optimalkan efisiensi komunikasi melalui teknologi cloud.",
+    "cloud_hero_3": "Asesmen Gratis",
+
+    "cloud_sup_1": "Solusi dan Dukungan Cloud PBX Terlengkap",
+    "cloud_sup_2": "Jangan ambil risiko non-compliance akibat sistem telepon yang tidak andal. Beralihlah ke solusi terpadu yang memenuhi semua standar yang diperlukan, memberikan ketenangan pikiran, dan mengurangi potensi risiko atau masalah:",
+    "cloud_sup_3": "Perlindungan dan Penyesuaian dengan Keamanan TI",
+    "cloud_sup_4": "Kekhawatiran tentang Penyesuaian Pengaturan Perangkat",
+    "cloud_sup_5": "Gangguan dan Terputusnya Komunikasi",
+
+    "cloud_join_1": "Bergabunglah ke Masa Depan Komunikasi dengan Cloud PBX!",
+    "cloud_join_2": "Kepatuhan terhadap Kebijakan Keamanan TI",
+    "cloud_join_3": "Lindungi informasi digital dari ancaman seperti peretasan atau pelanggaran data dengan menerapkan panduan keamanan yang tepat di tempat kerja. Ini membantu mencegah kecelakaan dan memastikan keamanan seluruh tim Anda.",
+    "cloud_join_4": "Penyesuaian dengan Konfigurasi Jaringan",
+    "cloud_join_5": "Menyesuaikan pengaturan perangkat agar kompatibel dengan konfigurasi jaringan dan koneksi Wi-fi Anda.",
+    "cloud_join_6": "Integrasi dengan Software dan Platform Lain",
+    "cloud_join_7": "Mengintegrasikan berbagai program dan sistem untuk memastikan kerjasama yang lancar. Memudahkan berbagi informasi dan kolaborasi, sehingga tugas Anda menjadi lebih sederhana dan efisien.",
+
+    "cloud_service_1": "Cloud PBX",
+    "cloud_service_2": "Bergabunglah dengan bisnis modern dengan memanfaatkan solusi komunikasi yang efisien. Jangan biarkan ketertinggalan teknologi menghambat kemajuan bisnis Anda.",
+    "cloud_service_3": "Hemat Biaya",
+    "cloud_service_4": "Fleksibel dan Andal",
+    "cloud_service_5": "Fitur & Integrasi Canggih",
+    "cloud_service_6": "Pemeliharaan, Dukungan, & Integrasi",
+    "cloud_service_7": "Apakah Anda terus terbebani oleh pemeliharaan sistem telepon yang sudah usang? Serahkan kepada Ofon untuk mengelola dan mengintegrasikan sistem lama Anda untuk komunikasi yang lancar.",
+    "cloud_service_8": "Pemeliharaan Perangkat Keras & Lunak",
+    "cloud_service_9": "Integrasi ke Unified Communication",
+    "cloud_service_10": "Meningkatkan Efisiensi Panggilan",
+
+    "cloud_what_1": "Apa yang Membuat Ofon Berbeda?",
+    "cloud_what_2": "Modernisasi Sistem Telepon Lama",
+    "cloud_what_3": "Ofon mengubah sistem telepon yang sudah ketinggalan zaman menjadi setup cloud modern, memastikan infrastruktur komunikasi Anda tetap terkini, dapat ditingkatkan, dan tetap aman.",
+    "cloud_what_4": "Unified Communication",
+    "cloud_what_5": "Ofon mengatasi keterbatasan dari platform yang terpisah dengan menyediakan sistem terintegrasi yang menyatukan penggunaan Zoom, Teams, Webex, dan alat lainnya untuk pengalaman yang lebih lancar.",
+    "cloud_what_6": "Kustomisasi Kebutuhan PBX",
+    "cloud_what_7": "Ofon fokus pada kebutuhan Anda dan memberikan solusi terbaik untuk memastikan transisi, integrasi yang mulus, dan memenuhi persyaratan spesifik bisnis Anda.",
+
+    "cloud_save_1": "Hemat Hingga 60% dengan Ofon Cloud PBX!",
+    "cloud_save_2": "Analisis anggaran Anda sekarang untuk mengoptimalkan strategi komunikasi perusahaan! Ofon membuat perhitungan berdasarkan pemasangan di 10 kantor cabang dengan masing-masing kantor memiliki 10 DID dan 10 CC.",
+
+    "cloud_connecting_1": "28+ Tahun Berpengalaman di Industri Telekomunikasi",
+    "cloud_connecting_2": "Komitmen jangka panjang kami dapat mendukung pengembangan strategi telekomunikasi Anda.",
+    "cloud_connecting_3": "20",
+    "cloud_connecting_4": "Kota Besar",
+    "cloud_connecting_5": "3299",
+    "cloud_connecting_6": "Pelanggan",
+    "cloud_connecting_7": "28+",
+    "cloud_connecting_8": "Tahun Pengalaman",
+    "cloud_connecting_9": "Baca Studi Kasus",
+
+    "cloud_cta_1": "Bergabunglah dengan Komunikasi Berbasis Cloud Sekarang!",
+    "cloud_cta_2": "Komunikasikan tanpa batasan ruang dan waktu bersama kami. Tingkatkan sistem Anda hari ini untuk tetap unggul dan memastikan pertumbuhan bisnis yang berkelanjutan.",
+    "cloud_cta_3": "Komunikasikan tanpa batasan ruang dan waktu bersama kami. Tingkatkan sistem Anda hari ini untuk tetap unggul dan memastikan pertumbuhan bisnis yang berkelanjutan.",
+
+    "about_hero_1": "The Ofon’s Story",
+    "about_hero_2": "Established in 1996, we keep our purpose to enable seamless connectivity for businesses & individuals. With more than 3000 customers, we provide telephony service, maintenance & support, cloud communication, and phone system integration.",
+    "about_hero_3": "Certified Engineer by",
+    "about_hero_4": "Get a Free Assessment",
+
+    "about_why_1": "Why We’re Here",
+    "about_why_2": "We simplify business communication with advanced IP telephony solutions and cloud services. As a leading cloud service provider in Indonesia, we integrate traditional telephone service with modern business phone solutions to keep your business ahead with our telephony solutions.",
+
+    "about_journey_1": "Our Journey",
+    "about_journey_2": "PT Batam Bintan Telekomunikasi",
+    "about_journey_3": "PT Batam Bintan Telekomunikasi (BBT) was established in Batam by Batamindo and Telkom with the primary goal of providing PSTN telephone services to factories and businesses in the Batamindo Industrial Park (Mukakuning), Bintan Industrial Estate (Lobam), and Bintan Resorts (Lagoi) regions.",
+    "about_journey_4": "Ofon - National Service Provider",
+    "about_journey_5": "BBT evolved into a nationwide service provider known as Ofon with head office in Jakarta. Ofon delivers IT solutions and IP telephone services, including cloud solutions across Indonesia.",
+    "about_journey_6": "Unified Telephony Solutions in Indonesia",
+    "about_journey_7": "BBT initiated an MSP division to offer IT solutions concentrating on integrating telephone/voice systems with collaboration and operational applications frequently utilized in corporate and enterprise settings.",
+
+    "about_who_1": "Who We Help",
+    "about_who_2": "We assist a variety of companies across Indonesia with business telephone solutions and VoIP telephony solutions.",
+
+    "about_gallery_1": "Our Gallery",
+    "about_gallery_2": "Explore our transformation and commitment to innovation as a leading cloud telephony service provider.",
+    "about_gallery_3": "See More",
+
+    "about_cta_1": "Ready to Start Your Better Communication Journey?",
+    "about_cta_2": "Talk with us and get a free quick assessment!",
+    "about_cta_3": "Contact Us"
 }

@@ -210,9 +210,9 @@ defineI18nRoute(false);
 
 // fetch
 const { slug } = useRoute().params;
-const { data: article } = await useFetch(`https://ofon.co.id/blog/wp-json/wp/v2/posts?slug=${slug}`);
+const { data: article } = await useFetch(`https://cms.ofon.co.id/wp-json/wp/v2/posts?slug=${slug}`);
 const { data: similar } = await useFetch(
-    'https://ofon.co.id/blog/wp-json/wp/v2/posts?_fields=id,slug,author,title,date,categories&per_page=5&categories=6'
+    'https://cms.ofon.co.id/wp-json/wp/v2/posts?_fields=id,slug,author,title,date,categories&per_page=5&categories=6'
 );
 
 // error handling
