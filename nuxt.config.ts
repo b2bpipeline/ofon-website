@@ -44,14 +44,14 @@ export default defineNuxtConfig({
         locales: [
             {
                 code: 'en',
-                iso: 'en-US',
-                name: 'English (US)',
-                file: 'en-US.json',
+                iso: 'en-ID',
+                name: 'English (ID)',
+                file: 'en-ID.json',
             },
             {
                 code: 'id',
                 iso: 'id-ID',
-                name: 'Indoneis (ID)',
+                name: 'Indonesia (ID)',
                 file: 'id-ID.json',
             },
         ],

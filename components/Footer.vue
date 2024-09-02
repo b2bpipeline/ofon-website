@@ -103,7 +103,9 @@
                         <NuxtLink :to="localePath('testimonial')" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_24') }}</NuxtLink
                         >
-                        <NuxtLink :to="localePath('')" class="font-14 font-light text-c-white"> {{ $t('c_footer_25') }}</NuxtLink>
+                        <NuxtLink :to="localePath('calculators')" class="font-14 font-light text-c-white">
+                            {{ $t('c_footer_25') }}</NuxtLink
+                        >
 
                         <!-- About -->
                         <NuxtLink :to="localePath('')" class="font-14 mb-[8px] mt-[24px] font-bold text-c-white">
@@ -116,10 +118,10 @@
                         <NuxtLink :to="localePath('contact-us')" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_29') }}</NuxtLink
                         >
-                        <NuxtLink to="privacy-policy-application" class="font-14 font-light text-c-white">
+                        <NuxtLink to="/privacy-policy-application" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_30') }}</NuxtLink
                         >
-                        <NuxtLink to="privacy-policy-website" class="font-14 font-light text-c-white">
+                        <NuxtLink to="/privacy-policy-website" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_31') }}</NuxtLink
                         >
                     </div>

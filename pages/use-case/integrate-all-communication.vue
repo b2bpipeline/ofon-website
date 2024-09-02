@@ -29,8 +29,8 @@ useSeoMeta({
 // page routing
 defineI18nRoute({
     paths: {
-        en: '/industry/',
-        id: '/industri/',
+        en: '/use-case/integrate-all-communication',
+        id: '/use-case/integrate-all-communication',
     },
 });
 </script>

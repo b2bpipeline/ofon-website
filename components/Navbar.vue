@@ -166,17 +166,17 @@
                                             <p class="font-12 p-[4px] font-bold xl:p-[8px]">Use Cases</p>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
-                                                :to="localePath('comingsoon')"
+                                                :to="localePath('/use-case/maintain-legacy-phone-system')"
                                                 >Maintain Legacy Phone System
                                             </NuxtLink>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
-                                                :to="localePath('comingsoon')"
+                                                :to="localePath('/use-case/migrate-on-premise')"
                                                 >Migrate On-premise to Cloud PBX</NuxtLink
                                             >
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
-                                                :to="localePath('comingsoon')"
+                                                :to="localePath('/use-case/integrate-all-communication')"
                                                 >Integrate All Communication Platforms</NuxtLink
                                             >
                                         </div>
@@ -347,7 +347,7 @@
                                             </NuxtLink>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
-                                                :to="localePath('comingsoon')"
+                                                :to="localePath('calculators')"
                                                 >Calculators
                                             </NuxtLink>
                                         </div>
@@ -399,7 +399,7 @@
                                             </NuxtLink>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
-                                                :to="localePath('comingsoon')"
+                                                :to="localePath('gallery')"
                                                 >Gallery
                                             </NuxtLink>
                                         </div>
@@ -416,7 +416,7 @@
                 </div>
             </div>
         </section>
-        <div class="h-[115px] xl:h-[123px]"></div>
+        <div class="h-[102px] xl:h-[119px]"></div>
 
         <!-- <div class="font-12 fixed flex flex-col bg-c-white opacity-80">
             <NuxtLink class="font-14 font-semibold" :to="localePath('/')">Home</NuxtLink>

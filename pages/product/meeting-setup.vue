@@ -3,7 +3,7 @@
         <!-- Section -->
         <section class="section bg-[#ffffff]">
             <div class="div">
-                <img src="/img/page-sip-trunk.webp" alt="Image" />
+                <img src="/img/page-meeting-setup.webp" alt="Image" />
             </div>
         </section>
 
@@ -44,8 +44,8 @@ useSeoMeta({
 // page routing
 defineI18nRoute({
     paths: {
-        en: '/product/sip-trunk',
-        id: '/produk/sip-trunk',
+        en: '/product/meeting-setup',
+        id: '/produk/setup-meeting',
     },
 });
 </script>

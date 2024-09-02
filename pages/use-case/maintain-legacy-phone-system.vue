@@ -29,8 +29,8 @@ useSeoMeta({
 // page routing
 defineI18nRoute({
     paths: {
-        en: '/industry/',
-        id: '/industri/',
+        en: '/use-case/maintain-legacy-phone-system',
+        id: '/use-case/maintain-legacy-phone-system',
     },
 });
 </script>

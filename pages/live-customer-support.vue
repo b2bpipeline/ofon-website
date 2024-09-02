@@ -21,8 +21,8 @@ useSeoMeta({
 // page routing
 defineI18nRoute({
     paths: {
-        en: '/product/meeting-setup',
-        id: '/produk/setup-meeting',
+        en: '/live-customer-support/',
+        id: '/live-customer-support/',
     },
 });
 </script>
