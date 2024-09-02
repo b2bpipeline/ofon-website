@@ -2,7 +2,7 @@
     <main>
         <section class="section bg-c-brown">
             <div class="div flex-col items-start justify-start">
-                <img src="/img/ofon.webp" class="mb-[32px]" alt="Image" />
+                <img src="/img/ofon.webp" class="mb-[32px]" alt="Images" />
                 <div class="flex flex-col gap-[32px] xl:grid xl:grid-cols-4 xl:gap-[64px]">
                     <div class="flex flex-col gap-[16px] xl:col-span-2 xl:max-w-[360px]">
                         <p class="font-14 font-semibold text-c-white">PT Batam Bintan Telekomunikasi</p>
