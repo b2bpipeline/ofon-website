@@ -75,13 +75,13 @@
                                 </p>
                                 <!-- v-if category badges -->
 
-                                <h2 class="font-16 font-bold">{{ a.title.rendered }}</h2>
+                                <h2 class="font-20 font-bold">{{ a.title.rendered }}</h2>
                                 <!-- <p class="font-12">{{ a.yoast_head_json.description }}</p> -->
                                 <div class="flex items-center gap-[8px]">
                                     <!-- <p class="font-12 text-[10px] xl:text-[12px]">{{ a.yoast_head_json.author }}</p> -->
-                                    <p class="font-12 text-[10px] xl:text-[12px]">Author</p>
+                                    <p class="font-12">Author</p>
                                     <p>•</p>
-                                    <p class="font-12 text-[10px] xl:text-[12px]">{{ a.date }}</p>
+                                    <p class="font-12">{{ a.date }}</p>
                                 </div>
                             </div>
                         </NuxtLink>
@@ -147,13 +147,13 @@
                                     Whitepaper
                                 </p>
                                 <!-- v-if category badges -->
-                                <h2 class="font-16 font-bold">{{ a.title.rendered }}</h2>
+                                <h2 class="font-20 font-bold">{{ a.title.rendered }}</h2>
                                 <!-- <p class="font-12">{{ a.yoast_head_json.description }}</p> -->
                                 <div class="flex items-center gap-[8px]">
                                     <!-- <p class="font-12 text-[10px] xl:text-[12px]">{{ a.yoast_head_json.author }}</p> -->
-                                    <p class="font-12 text-[10px] xl:text-[12px]">Author</p>
+                                    <p class="font-12">Author</p>
                                     <p>•</p>
-                                    <p class="font-12 text-[10px] xl:text-[12px]">{{ a.date }}</p>
+                                    <p class="font-12">{{ a.date }}</p>
                                 </div>
                             </div>
                         </NuxtLink>
@@ -221,7 +221,7 @@
                                     Whitepaper
                                 </p>
                                 <!-- v-if category badges -->
-                                <h2 class="font-14 font-bold">{{ a.title.rendered }}</h2>
+                                <h2 class="font-16 font-bold">{{ a.title.rendered }}</h2>
                             </div>
                         </NuxtLink>
                     </div>

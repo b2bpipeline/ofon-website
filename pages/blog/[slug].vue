@@ -76,7 +76,7 @@
                         class="mb-[24px] w-[560px] rounded-lg"
                         alt="Image"
                     /> -->
-                    <div class="font-14 prose" v-html="article?.at(0)?.content.rendered"></div>
+                    <div class="font-16 prose" v-html="article?.at(0)?.content.rendered"></div>
                     <div class="mt-[24px] flex w-full items-center gap-[8px] rounded-xl bg-[#E0F2FF] p-[12px]">
                         <img src="/img/person.webp" alt="Image" />
                         <div class="flex flex-col">
@@ -148,7 +148,7 @@
                                     Whitepaper
                                 </p>
                                 <!-- v-if category badges -->
-                                <h2 class="font-14 font-bold">{{ a.title.rendered }}</h2>
+                                <h2 class="font-16 font-bold">{{ a.title.rendered }}</h2>
                             </div>
                         </NuxtLink>
                     </div>
