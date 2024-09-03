@@ -55,7 +55,7 @@ export default defineNuxtConfig({
                 file: 'id-ID.json',
             },
         ],
-        defaultLocale: 'en-US',
+        defaultLocale: 'en-ID',
     },
     sitemap: {
         sources: ['/api/urls'],
