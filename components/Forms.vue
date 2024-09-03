@@ -1,5 +1,5 @@
 <template>
-    <section v-motion-slide-visible-once-right :duration="500" class="section" id="forms">
+    <section class="section" id="forms">
         <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
             <div class="flex flex-col">
                 <h2 class="font-32 mb-[16px] font-semibold text-c-black xl:mb-[24px] xl:font-semibold">{{ $t('c_forms_1') }}</h2>

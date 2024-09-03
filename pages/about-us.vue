@@ -5,7 +5,7 @@
             class="section bg-c-white pb-0 pt-[40px] xl:min-h-[685px] xl:bg-[url('/img/ab-hero.webp')] xl:bg-cover xl:bg-center"
         >
             <div class="div flex-col justify-between gap-10 pb-[40px] xl:flex-row xl:items-center xl:justify-center">
-                <div class="items-start-center flex flex-col gap-6 text-center xl:mt-[60px] xl:max-w-[640px]">
+                <div class="items-start-center flex flex-col gap-6 text-center xl:mt-[90px] xl:max-w-[900px]">
                     <h1 class="font-36 font-bold xl:font-semibold">{{ $t('about_hero_1') }}</h1>
                     <p class="font-16 font-medium">
                         {{ $t('about_hero_2') }}

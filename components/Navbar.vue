@@ -92,7 +92,7 @@
                                     aria-expanded="false"
                                     aria-label="Mega Menu"
                                 >
-                                    Solutions
+                                    {{ $t('c_nav_1') }}
                                     <svg
                                         class="ml-1 size-4 shrink-0 duration-300 hs-dropdown-open:-rotate-180 sm:hs-dropdown-open:rotate-0"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -117,67 +117,67 @@
                                 >
                                     <div class="grid gap-[8px] sm:grid sm:grid-cols-3">
                                         <div class="flex flex-col">
-                                            <p class="font-12 p-[4px] font-bold xl:p-[8px]">Services</p>
+                                            <p class="font-12 p-[4px] font-bold xl:p-[8px]">{{ $t('c_nav_2') }}</p>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('/service/pbx-maintenance-service-support')"
-                                                >Phone System Maintenance & Support
+                                                >{{ $t('c_nav_3') }}
                                             </NuxtLink>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('/service/cloud-pbx-installation')"
-                                                >Cloud PBX Migration</NuxtLink
+                                                >{{ $t('c_nav_4') }}</NuxtLink
                                             >
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('/service/phone-system-integration')"
-                                                >Phone System Integration</NuxtLink
+                                                >{{ $t('c_nav_5') }}</NuxtLink
                                             >
                                         </div>
                                         <div class="flex flex-col">
-                                            <p class="font-12 p-[4px] font-bold xl:p-[8px]">Product</p>
+                                            <p class="font-12 p-[4px] font-bold xl:p-[8px]">{{ $t('c_nav_6') }}</p>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('/product/telephone')"
-                                                >Telephone
+                                                >{{ $t('c_nav_7') }}
                                             </NuxtLink>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('/product/internet')"
-                                                >Internet</NuxtLink
+                                                >{{ $t('c_nav_8') }}</NuxtLink
                                             >
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('/product/sip-trunk')"
-                                                >SIP Trunk</NuxtLink
+                                                >{{ $t('c_nav_9') }}</NuxtLink
                                             >
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('/product/meeting-setup')"
-                                                >Meeting Setup</NuxtLink
+                                                >{{ $t('c_nav_10') }}</NuxtLink
                                             >
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('/product/cloud-pbx')"
-                                                >Cloud PBX</NuxtLink
+                                                >{{ $t('c_nav_11') }}</NuxtLink
                                             >
                                         </div>
                                         <div class="flex flex-col">
-                                            <p class="font-12 p-[4px] font-bold xl:p-[8px]">Use Cases</p>
+                                            <p class="font-12 p-[4px] font-bold xl:p-[8px]">{{ $t('c_nav_12') }}</p>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('/use-case/maintain-legacy-phone-system')"
-                                                >Maintain Legacy Phone System
+                                                >{{ $t('c_nav_13') }}
                                             </NuxtLink>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('/use-case/migrate-on-premise')"
-                                                >Migrate On-premise to Cloud PBX</NuxtLink
+                                                >{{ $t('c_nav_14') }}</NuxtLink
                                             >
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('/use-case/integrate-all-communication')"
-                                                >Integrate All Communication Platforms</NuxtLink
+                                                >{{ $t('c_nav_15') }}</NuxtLink
                                             >
                                         </div>
                                     </div>
@@ -196,7 +196,7 @@
                                     aria-expanded="false"
                                     aria-label="Mega Menu"
                                 >
-                                    Industries
+                                    {{ $t('c_nav_16') }}
                                     <svg
                                         class="ml-1 size-4 shrink-0 duration-300 hs-dropdown-open:-rotate-180 sm:hs-dropdown-open:rotate-0"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -224,27 +224,27 @@
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('/industry/finance')"
-                                                >Finance & Banking
+                                                >{{ $t('c_nav_17') }}
                                             </NuxtLink>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('/industry/manufacturing')"
-                                                >Manufacturing
+                                                >{{ $t('c_nav_18') }}
                                             </NuxtLink>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('/industry/oil-and-gas')"
-                                                >Oil & Gas
+                                                >{{ $t('c_nav_19') }}
                                             </NuxtLink>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('/industry/hospitality')"
-                                                >Hospitality</NuxtLink
+                                                >{{ $t('c_nav_20') }}</NuxtLink
                                             >
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('/industry/healthcare')"
-                                                >Healthcare</NuxtLink
+                                                >{{ $t('c_nav_21') }}</NuxtLink
                                             >
                                         </div>
                                     </div>
@@ -263,7 +263,7 @@
                                     aria-expanded="false"
                                     aria-label="Mega Menu"
                                 >
-                                    Success Stories
+                                    {{ $t('c_nav_22') }}
                                     <svg
                                         class="ml-1 size-4 shrink-0 duration-300 hs-dropdown-open:-rotate-180 sm:hs-dropdown-open:rotate-0"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -291,12 +291,12 @@
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('case-study')"
-                                                >Case Studies
+                                                >{{ $t('c_nav_23') }}
                                             </NuxtLink>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('testimonial')"
-                                                >Testimonials
+                                                >{{ $t('c_nav_24') }}
                                             </NuxtLink>
                                         </div>
                                     </div>
@@ -315,7 +315,7 @@
                                     aria-expanded="false"
                                     aria-label="Mega Menu"
                                 >
-                                    Resources
+                                    {{ $t('c_nav_25') }}
                                     <svg
                                         class="ml-1 size-4 shrink-0 duration-300 hs-dropdown-open:-rotate-180 sm:hs-dropdown-open:rotate-0"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -343,12 +343,12 @@
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 to="/blog"
-                                                >Blog
+                                                >{{ $t('c_nav_26') }}
                                             </NuxtLink>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('calculators')"
-                                                >Calculators
+                                                >{{ $t('c_nav_27') }}
                                             </NuxtLink>
                                         </div>
                                     </div>
@@ -367,7 +367,7 @@
                                     aria-expanded="false"
                                     aria-label="Mega Menu"
                                 >
-                                    About Us
+                                    {{ $t('c_nav_28') }}
                                     <svg
                                         class="ml-1 size-4 shrink-0 duration-300 hs-dropdown-open:-rotate-180 sm:hs-dropdown-open:rotate-0"
                                         xmlns="http://www.w3.org/2000/svg"
@@ -395,12 +395,12 @@
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('about-us')"
-                                                >Our Story
+                                                >{{ $t('c_nav_29') }}
                                             </NuxtLink>
                                             <NuxtLink
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('gallery')"
-                                                >Gallery
+                                                >{{ $t('c_nav_30') }}
                                             </NuxtLink>
                                         </div>
                                     </div>

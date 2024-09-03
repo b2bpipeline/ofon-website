@@ -1,5 +1,5 @@
 <template>
-    <section data-aos="fade-up" class="section bg-c-yellow-light">
+    <section class="section bg-c-yellow-light">
         <div class="div flex flex-col gap-[24px] xl:grid xl:grid-cols-4 xl:items-center xl:gap-[60px]">
             <p class="font-32 font-bold">{{ $t('c_faq_1') }}</p>
             <div class="flex flex-col gap-[24px] xl:col-span-3">
@@ -16,14 +16,14 @@
                 >
                     <template #default="{ item, open }">
                         <UButton color="white" variant="ghost">
-                            <span class="font-14 text-left font-semibold">
+                            <span class="font-14 faq-label text-left font-semibold">
                                 {{ item.label }}
                             </span>
 
                             <template #trailing>
                                 <UIcon
                                     name="i-heroicons-chevron-right-20-solid"
-                                    class="ms-auto h-5 w-5 transform transition-transform duration-200"
+                                    class="faq-text ms-auto h-5 w-5 transform transition-transform duration-200"
                                     :class="[open && 'rotate-90']"
                                 />
                             </template>
@@ -68,3 +68,21 @@ const items = [
     },
 ];
 </script>
+
+<style scoped>
+.faq-label {
+    font-size: 20px;
+}
+.pb-3 {
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+@media only screen and (max-width: 480px) {
+    .faq-label {
+        font-size: 16px;
+    }
+    .pb-3 {
+        font-size: 14px;
+    }
+}
+</style>

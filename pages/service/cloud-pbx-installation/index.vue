@@ -27,7 +27,7 @@
         <CompaniesLogo />
 
         <!-- A Compled Cloud PBX -->
-        <section v-motion-slide-visible-once-right :duration="500" class="section">
+        <section class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
                 <div class="flex flex-col gap-[16px] xl:gap-[24px]">
                     <p class="font-32 font-bold text-c-orange xl:font-semibold">{{ $t('cloud_sup_1') }}</p>
@@ -54,7 +54,7 @@
         </section>
 
         <!-- Join The Future -->
-        <section v-motion-slide-visible-once-left :duration="500" class="section bg-c-brown xl:bg-c-white">
+        <section class="section bg-c-brown xl:bg-c-white">
             <div class="div flex flex-col gap-[36px] xl:gap-[60px]">
                 <div class="xl:rounded-3xl xl:bg-c-brown xl:p-[50px]">
                     <h2 class="font-32 text-center font-bold text-c-white xl:font-semibold">
@@ -98,7 +98,7 @@
         </section>
 
         <!-- 2 Services -->
-        <section v-motion-slide-visible-once-right :duration="500" class="section">
+        <section class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
                 <img src="/img/service1.webp" alt="Image" class="xl:order-1" />
                 <div class="flex flex-col gap-[16px] xl:gap-[24px]">
@@ -123,7 +123,7 @@
                 </div>
             </div>
         </section>
-        <section v-motion-slide-visible-once-left :duration="500" class="section">
+        <section class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
                 <img src="/img/service3.webp" alt="Image" />
                 <div class="flex flex-col gap-[16px] xl:gap-[24px]">
@@ -153,7 +153,7 @@
         <SupportedTechnology />
 
         <!-- What Makes Us Different -->
-        <section v-motion-slide-visible-once-right :duration="500" class="section">
+        <section class="section">
             <div class="div flex flex-col gap-[36px] xl:gap-[60px]">
                 <h2 class="font-32 text-center font-bold text-c-orange xl:font-semibold">{{ $t('cloud_what_1') }}</h2>
                 <div class="flex flex-col gap-[24px] xl:grid xl:grid-cols-3 xl:flex-row xl:gap-[60px]">
@@ -189,7 +189,7 @@
         </section>
 
         <!-- Save Cost -->
-        <section v-motion-slide-visible-once-left :duration="500" class="section">
+        <section class="section">
             <div class="div flex flex-col gap-[40px] xl:gap-[80px]">
                 <div class="flex flex-col gap-[24px] text-center">
                     <h2 class="font-32 font-bold text-c-black">{{ $t('cloud_save_1') }}</h2>
@@ -212,7 +212,7 @@
         </section>
 
         <!-- CTA (Connecting Business)-->
-        <section v-motion-slide-visible-once-right :duration="500" class="section bg-c-brown">
+        <section class="section bg-c-brown">
             <div class="div flex-col justify-between gap-10 xl:flex-row xl:items-center">
                 <div class="flex flex-col gap-6 xl:max-w-[480px]">
                     <h2 class="font-32 font-bold text-c-white xl:font-semibold">

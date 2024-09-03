@@ -18,7 +18,7 @@
                     </div>
                 </div>
             </div>
-            <img src="/img/hero.webp" alt="Image" class="mx-auto w-full max-w-[640px] xl:hidden" />
+            <img src="/img/hero-new-mobile.webp" alt="Image" class="mx-auto w-full max-w-[640px] xl:hidden" />
         </section>
 
         <!-- Logo -->
@@ -27,7 +27,7 @@
         <!-- Complete Phone -->
         <section class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
-                <div class="xl:order-1">
+                <div class="">
                     <p class="font-32 mb-[16px] font-bold text-c-orange xl:mb-[24px] xl:font-semibold">
                         {{ $t('home_complete_1') }}
                     </p>
@@ -173,6 +173,51 @@
             </div>
         </section>
 
+        <!-- What Makes Us Different -->
+        <section class="section">
+            <div class="div xl:gap-[60px flex flex-col gap-[36px]">
+                <div class="flex flex-col gap-[8px]">
+                    <h2 class="font-32 text-center font-bold text-c-black xl:font-semibold">{{ $t('home_product_1') }}</h2>
+                    <p class="font-16 text-center font-medium">{{ $t('home_product_2') }}</p>
+                </div>
+                <div class="flex flex-col gap-[24px] xl:grid xl:grid-cols-4 xl:flex-row xl:gap-[24px]">
+                    <div class="card-hover flex flex-col gap-[24px] rounded-xl border-[2px] border-c-orange bg-c-white p-[24px]">
+                        <img src="/img/product1.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                        <div>
+                            <p class="font-16 mb-[8px] font-bold">{{ $t('home_product_3') }}</p>
+                            <p class="font-14 mb-[24px] font-medium">{{ $t('home_product_4') }}</p>
+                            <p class="font-14 font-bold text-c-orange">{{ $t('home_product_cta') }}</p>
+                        </div>
+                    </div>
+
+                    <div class="card-hover flex flex-col gap-[24px] rounded-xl border-[2px] border-c-orange bg-c-white p-[24px]">
+                        <img src="/img/product2.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                        <div>
+                            <p class="font-16 mb-[8px] font-bold">{{ $t('home_product_5') }}</p>
+                            <p class="font-14 mb-[24px] font-medium">{{ $t('home_product_6') }}</p>
+                            <p class="font-14 font-bold text-c-orange">{{ $t('home_product_cta') }}</p>
+                        </div>
+                    </div>
+                    <div class="card-hover flex flex-col gap-[24px] rounded-xl border-[2px] border-c-orange bg-c-white p-[24px]">
+                        <img src="/img/product3.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                        <div>
+                            <p class="font-16 mb-[8px] font-bold">{{ $t('home_product_7') }}</p>
+                            <p class="font-14 mb-[24px] font-medium">{{ $t('home_product_8') }}</p>
+                            <p class="font-14 font-bold text-c-orange">{{ $t('home_product_cta') }}</p>
+                        </div>
+                    </div>
+                    <div class="card-hover flex flex-col gap-[24px] rounded-xl border-[2px] border-c-orange bg-c-white p-[24px]">
+                        <img src="/img/product4.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
+                        <div>
+                            <p class="font-16 mb-[8px] font-bold">{{ $t('home_product_9') }}</p>
+                            <p class="font-14 mb-[24px] font-medium">{{ $t('home_product_10') }}</p>
+                            <p class="font-14 font-bold text-c-orange">{{ $t('home_product_cta') }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Supported Technology -->
         <SupportedTechnology />
 
@@ -268,13 +313,13 @@
                 </div>
                 <div class="xl:gap-[40 px] flex flex-col gap-[24px] text-center xl:flex-row xl:items-center">
                     <div class="flex flex-col gap-[24px]">
-                        <img src="/img/chartmobile1.webp" alt="Image" class="xl:hidden" />
-                        <img src="/img/chartdesktop1.webp" alt="Image" class="hidden xl:flex" />
+                        <img :src="$t('image_chartmobile1')" alt="Image" class="xl:hidden" />
+                        <img :src="$t('image_chartdesktop1')" alt="Image" class="hidden xl:flex" />
                     </div>
                     <p class="font-32 font-bold text-c-orange">VS</p>
                     <div class="flex flex-col gap-[24px]">
-                        <img src="/img/chartmobile2.webp" alt="Image" class="xl:hidden" />
-                        <img src="/img/chartdesktop2.webp" alt="Image" class="hidden xl:flex" />
+                        <img :src="$t('image_chartmobile2')" alt="Image" class="xl:hidden" />
+                        <img :src="$t('image_chartdesktop2')" alt="Image" class="hidden xl:flex" />
                     </div>
                 </div>
                 <a href="#forms" class="btn-outline mx-auto">{{ $t('home_save_3') }}</a>
@@ -336,9 +381,6 @@
 
         <!-- Forms -->
         <Forms />
-
-        <!-- FAQ -->
-        <FAQ />
     </main>
 </template>
 
