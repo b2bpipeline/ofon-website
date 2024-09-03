@@ -192,22 +192,23 @@
         <section class="section">
             <div class="div flex flex-col gap-[40px] xl:gap-[80px]">
                 <div class="flex flex-col gap-[24px] text-center">
-                    <h2 class="font-32 font-bold text-c-black">{{ $t('cloud_save_1') }}</h2>
+                    <h2 class="font-32 font-bold text-c-black">{{ $t('home_save_1') }}</h2>
                     <p class="font-16 mx-auto max-w-[1080px]">
-                        {{ $t('cloud_save_2') }}
+                        {{ $t('home_save_2') }}
                     </p>
                 </div>
                 <div class="xl:gap-[40 px] flex flex-col gap-[24px] text-center xl:flex-row xl:items-center">
                     <div class="flex flex-col gap-[24px]">
-                        <img src="/img/chartmobile1.webp" alt="Image" class="xl:hidden" />
-                        <img src="/img/chartdesktop1.webp" alt="Image" class="hidden xl:flex" />
+                        <img :src="$t('image_chartmobile1')" alt="Image" class="xl:hidden" />
+                        <img :src="$t('image_chartdesktop1')" alt="Image" class="hidden xl:flex" />
                     </div>
                     <p class="font-32 font-bold text-c-orange">VS</p>
                     <div class="flex flex-col gap-[24px]">
-                        <img src="/img/chartmobile2.webp" alt="Image" class="xl:hidden" />
-                        <img src="/img/chartdesktop2.webp" alt="Image" class="hidden xl:flex" />
+                        <img :src="$t('image_chartmobile2')" alt="Image" class="xl:hidden" />
+                        <img :src="$t('image_chartdesktop2')" alt="Image" class="hidden xl:flex" />
                     </div>
                 </div>
+                <a href="#forms" class="btn-outline mx-auto">{{ $t('home_save_3') }}</a>
             </div>
         </section>
 
