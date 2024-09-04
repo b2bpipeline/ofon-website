@@ -110,7 +110,7 @@
                                 </button>
 
                                 <div
-                                    class="hs-dropdown-menu sm: start-0 top-full z-10 hidden w-full min-w-60 rounded-lg border-[#eee] bg-white py-2 opacity-0 transition-[height] duration-300 ease-in-out before:absolute hs-dropdown-open:opacity-100 sm:px-2 sm:shadow-md sm:transition-[opacity,margin] sm:duration-[150ms] xl:border xl:p-[16px]"
+                                    class="hs-dropdown-menu sm: start-0 z-10 hidden w-full min-w-60 rounded-lg border-[#eee] bg-white py-2 opacity-0 transition-[height] duration-300 ease-in-out before:absolute hs-dropdown-open:opacity-100 sm:px-2 sm:shadow-md sm:transition-[opacity,margin] sm:duration-[150ms] xl:top-[36px] xl:border xl:p-[16px]"
                                     role="menu"
                                     aria-orientation="vertical"
                                     aria-labelledby="hs-mega-menu"
@@ -214,7 +214,7 @@
                                 </button>
 
                                 <div
-                                    class="hs-dropdown-menu sm: start-0 top-full z-10 hidden w-full min-w-60 rounded-lg border-[#eee] bg-white py-2 opacity-0 transition-[height] duration-300 ease-in-out before:absolute hs-dropdown-open:opacity-100 sm:px-2 sm:shadow-md sm:transition-[opacity,margin] sm:duration-[150ms] xl:border xl:p-[16px]"
+                                    class="hs-dropdown-menu sm: start-0 z-10 hidden w-fit min-w-60 rounded-lg border-[#eee] bg-white py-2 opacity-0 transition-[height] duration-300 ease-in-out before:absolute hs-dropdown-open:opacity-100 sm:px-2 sm:shadow-md sm:transition-[opacity,margin] sm:duration-[150ms] xl:left-[43%] xl:top-[36px] xl:border xl:p-[16px]"
                                     role="menu"
                                     aria-orientation="vertical"
                                     aria-labelledby="hs-mega-menu"
@@ -281,7 +281,7 @@
                                 </button>
 
                                 <div
-                                    class="hs-dropdown-menu sm: start-0 top-full z-10 hidden w-full min-w-60 rounded-lg border-[#eee] bg-white py-2 opacity-0 transition-[height] duration-300 ease-in-out before:absolute hs-dropdown-open:opacity-100 sm:px-2 sm:shadow-md sm:transition-[opacity,margin] sm:duration-[150ms] xl:border xl:p-[16px]"
+                                    class="hs-dropdown-menu sm: start-0 z-10 hidden w-fit min-w-60 rounded-lg border-[#eee] bg-white py-2 opacity-0 transition-[height] duration-300 ease-in-out before:absolute hs-dropdown-open:opacity-100 sm:px-2 sm:shadow-md sm:transition-[opacity,margin] sm:duration-[150ms] xl:left-[55%] xl:top-[36px] xl:border xl:p-[16px]"
                                     role="menu"
                                     aria-orientation="vertical"
                                     aria-labelledby="hs-mega-menu"
@@ -333,7 +333,7 @@
                                 </button>
 
                                 <div
-                                    class="hs-dropdown-menu sm: start-0 top-full z-10 hidden w-full min-w-60 rounded-lg border-[#eee] bg-white py-2 opacity-0 transition-[height] duration-300 ease-in-out before:absolute hs-dropdown-open:opacity-100 sm:px-2 sm:shadow-md sm:transition-[opacity,margin] sm:duration-[150ms] xl:border xl:p-[16px]"
+                                    class="hs-dropdown-menu sm: start-0 z-10 hidden w-fit min-w-60 rounded-lg border-[#eee] bg-white py-2 opacity-0 transition-[height] duration-300 ease-in-out before:absolute hs-dropdown-open:opacity-100 sm:px-2 sm:shadow-md sm:transition-[opacity,margin] sm:duration-[150ms] xl:left-[67%] xl:top-[36px] xl:border xl:p-[16px]"
                                     role="menu"
                                     aria-orientation="vertical"
                                     aria-labelledby="hs-mega-menu"
@@ -385,7 +385,7 @@
                                 </button>
 
                                 <div
-                                    class="hs-dropdown-menu sm: start-0 top-full z-10 hidden w-full min-w-60 rounded-lg border-[#eee] bg-white py-2 opacity-0 transition-[height] duration-300 ease-in-out before:absolute hs-dropdown-open:opacity-100 sm:px-2 sm:shadow-md sm:transition-[opacity,margin] sm:duration-[150ms] xl:border xl:p-[16px]"
+                                    class="hs-dropdown-menu sm: start-0 z-10 hidden w-fit min-w-60 rounded-lg border-[#eee] bg-white py-2 opacity-0 transition-[height] duration-300 ease-in-out before:absolute hs-dropdown-open:opacity-100 sm:px-2 sm:shadow-md sm:transition-[opacity,margin] sm:duration-[150ms] xl:left-[76%] xl:top-[36px] xl:border xl:p-[16px]"
                                     role="menu"
                                     aria-orientation="vertical"
                                     aria-labelledby="hs-mega-menu"

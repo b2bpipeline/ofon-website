@@ -123,7 +123,7 @@
 
         <!-- Our Gallery -->
         <section class="section bg-c-white">
-            <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
+            <div class="div flex flex-col items-center gap-[40px] xl:grid xl:grid-cols-3 xl:gap-[80px]">
                 <div class="">
                     <p class="font-32 mb-[16px] font-bold xl:font-semibold">{{ $t('about_gallery_1') }}</p>
                     <p class="font-16 mb-[16px] font-medium xl:mb-[24px]">
@@ -131,7 +131,7 @@
                     </p>
                     <a href="#forms" class="btn-outline w-fit">{{ $t('about_gallery_3') }}</a>
                 </div>
-                <img src="/img/ab-gallery.webp" alt="Image" />
+                <img src="/img/gallery.webp" alt="Image" class="xl:col-span-2" />
             </div>
         </section>
 
