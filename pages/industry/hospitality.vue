@@ -27,10 +27,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/industry/hospitality/',
-        id: '/industri/hospitality/',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/industry/hospitality/',
+//         id: '/industri/hospitality/',
+//     },
+// });
 </script>

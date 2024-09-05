@@ -27,10 +27,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/industry/manufacturing/',
-        id: '/industri/manufacturing/',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/industry/manufacturing/',
+//         id: '/industri/manufacturing/',
+//     },
+// });
 </script>

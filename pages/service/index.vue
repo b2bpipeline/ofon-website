@@ -19,10 +19,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/service/',
-        id: '/layanan/',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/service/',
+//         id: '/layanan/',
+//     },
+// });
 </script>

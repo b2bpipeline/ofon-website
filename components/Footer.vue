@@ -67,9 +67,21 @@
                         <NuxtLink :to="localePath('')" class="font-14 mb-[8px] mt-[24px] font-bold text-c-white">
                             {{ $t('c_footer_11') }}</NuxtLink
                         >
-                        <NuxtLink :to="localePath('')" class="font-14 font-light text-c-white"> {{ $t('c_footer_12') }}</NuxtLink>
-                        <NuxtLink :to="localePath('')" class="font-14 font-light text-c-white"> {{ $t('c_footer_13') }}</NuxtLink>
-                        <NuxtLink :to="localePath('')" class="font-14 font-light text-c-white"> {{ $t('c_footer_14') }}</NuxtLink>
+                        <NuxtLink
+                            :to="localePath('/use-case/maintain-legacy-phone-system')"
+                            class="font-14 font-light text-c-white"
+                        >
+                            {{ $t('c_footer_12') }}</NuxtLink
+                        >
+                        <NuxtLink :to="localePath('/use-case/migrate-on-premise')" class="font-14 font-light text-c-white">
+                            {{ $t('c_footer_13') }}</NuxtLink
+                        >
+                        <NuxtLink
+                            :to="localePath('/use-case/integrate-all-communication')"
+                            class="font-14 font-light text-c-white"
+                        >
+                            {{ $t('c_footer_14') }}</NuxtLink
+                        >
                     </div>
                     <div class="flex flex-col gap-[8px]">
                         <!-- Industries -->
@@ -114,7 +126,9 @@
                         <NuxtLink :to="localePath('about-us')" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_27') }}</NuxtLink
                         >
-                        <NuxtLink :to="localePath('')" class="font-14 font-light text-c-white"> {{ $t('c_footer_28') }}</NuxtLink>
+                        <NuxtLink :to="localePath('gallery')" class="font-14 font-light text-c-white">
+                            {{ $t('c_footer_28') }}</NuxtLink
+                        >
                         <NuxtLink :to="localePath('contact-us')" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_29') }}</NuxtLink
                         >

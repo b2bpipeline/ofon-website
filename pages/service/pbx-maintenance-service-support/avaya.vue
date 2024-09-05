@@ -19,10 +19,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/service/pbx-maintenance-service-support/avaya/',
-        id: '/layanan/jasa-maintenance-pbx/avaya/',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/service/pbx-maintenance-service-support/avaya/',
+//         id: '/layanan/jasa-maintenance-pbx/avaya/',
+//     },
+// });
 </script>

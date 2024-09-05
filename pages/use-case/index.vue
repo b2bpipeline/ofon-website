@@ -27,10 +27,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/use-case',
-        id: '/use-case',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/use-case',
+//         id: '/use-case',
+//     },
+// });
 </script>

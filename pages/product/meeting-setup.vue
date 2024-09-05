@@ -49,10 +49,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/product/meeting-setup',
-        id: '/produk/setup-meeting',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/product/meeting-setup',
+//         id: '/produk/setup-meeting',
+//     },
+// });
 </script>

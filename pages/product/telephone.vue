@@ -49,10 +49,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/product/telephone',
-        id: '/produk/telepon',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/product/telephone',
+//         id: '/produk/telepon',
+//     },
+// });
 </script>

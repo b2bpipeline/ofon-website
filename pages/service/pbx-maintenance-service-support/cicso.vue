@@ -19,11 +19,11 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/service/pbx-maintenance-service-support/cisco/',
-        id: '/layanan/jasa-maintenance-pbx/cisco/',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/service/pbx-maintenance-service-support/cisco/',
+//         id: '/layanan/jasa-maintenance-pbx/cisco/',
+//     },
+// });
 </script>
 s

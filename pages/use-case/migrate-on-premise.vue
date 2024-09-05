@@ -27,10 +27,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/use-case/migrate-on-premise',
-        id: '/use-case/migrate-on-premise',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/use-case/migrate-on-premise',
+//         id: '/use-case/migrate-on-premise',
+//     },
+// });
 </script>

@@ -253,10 +253,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/service/pbx-maintenance-service-support',
-        id: '/layanan/jasa-maintenance-pbx',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/service/pbx-maintenance-service-support',
+//         id: '/layanan/jasa-maintenance-pbx',
+//     },
+// });
 </script>

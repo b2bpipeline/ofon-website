@@ -281,10 +281,10 @@ useSeoMeta({
 });
 
 // page route
-defineI18nRoute({
-    paths: {
-        en: '/service/cloud-pbx-installation',
-        id: '/layanan/jasa-pasang-cloud-pbx',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/service/cloud-pbx-installation',
+//         id: '/layanan/jasa-pasang-cloud-pbx/',
+//     },
+// });
 </script>

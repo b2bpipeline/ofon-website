@@ -19,10 +19,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/case-study/oil-and-gas/',
-        id: '/studi-kasus/gas-dan-minyak',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/case-study/oil-and-gas/',
+//         id: '/studi-kasus/gas-dan-minyak',
+//     },
+// });
 </script>

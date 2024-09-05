@@ -38,9 +38,9 @@ export default defineNuxtConfig({
     compatibilityDate: '2024-08-13',
 
     i18n: {
-        lazy: true,
+        // lazy: true,
         langDir: 'locales',
-        strategy: 'prefix_and_default',
+        strategy: 'prefix',
         locales: [
             {
                 code: 'en',
@@ -55,7 +55,7 @@ export default defineNuxtConfig({
                 file: 'id-ID.json',
             },
         ],
-        defaultLocale: 'en-ID',
+        defaultLocale: 'id',
     },
     sitemap: {
         sources: ['/api/urls'],

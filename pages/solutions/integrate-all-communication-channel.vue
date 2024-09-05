@@ -19,10 +19,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/solutions/integrate-all-communication-channel',
-        id: '/solusi/integrasi-saluran-komunikasi',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/solutions/integrate-all-communication-channel',
+//         id: '/solusi/integrasi-saluran-komunikasi',
+//     },
+// });
 </script>

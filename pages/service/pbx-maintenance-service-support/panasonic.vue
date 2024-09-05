@@ -19,10 +19,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/service/pbx-maintenance-service-support/panasonic/',
-        id: '/layanan/jasa-maintenance-pbx/panasonic/',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/service/pbx-maintenance-service-support/panasonic/',
+//         id: '/layanan/jasa-maintenance-pbx/panasonic/',
+//     },
+// });
 </script>

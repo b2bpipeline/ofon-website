@@ -303,10 +303,10 @@ useSeoMeta({
 });
 
 // page route
-defineI18nRoute({
-    paths: {
-        en: '/service/phone-system-integration/',
-        id: '/layanan/integrasi-phone-system/',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/service/phone-system-integration/',
+//         id: '/layanan/integrasi-phone-system/',
+//     },
+// });
 </script>

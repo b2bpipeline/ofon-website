@@ -19,10 +19,10 @@ useSeoMeta({
 });
 
 // page route
-defineI18nRoute({
-    paths: {
-        en: '/service/phone-system-integration/zoom/',
-        id: '/layanan/integrasi-phone-system/zoom/',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/service/phone-system-integration/zoom/',
+//         id: '/layanan/integrasi-phone-system/zoom/',
+//     },
+// });
 </script>

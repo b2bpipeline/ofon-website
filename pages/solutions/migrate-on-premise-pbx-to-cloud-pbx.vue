@@ -19,10 +19,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/solutions/migrate-on-premise-pbx-to-cloud-pbx',
-        id: '/solusi/migrasi-on-premise-pabx-ke-cloud-pbx',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/solutions/migrate-on-premise-pbx-to-cloud-pbx',
+//         id: '/solusi/migrasi-on-premise-pabx-ke-cloud-pbx',
+//     },
+// });
 </script>

@@ -19,10 +19,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/solutions/',
-        id: '/solusi/',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/solutions/',
+//         id: '/solusi/',
+//     },
+// });
 </script>

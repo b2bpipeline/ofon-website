@@ -27,10 +27,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/industry/finance/',
-        id: '/industri/finance/',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/industry/finance/',
+//         id: '/industri/finance/',
+//     },
+// });
 </script>

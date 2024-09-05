@@ -19,10 +19,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/service/pbx-maintenance-service-support/nec/',
-        id: '/layanan/jasa-maintenance-pbx/nec/',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/service/pbx-maintenance-service-support/nec/',
+//         id: '/layanan/jasa-maintenance-pbx/nec/',
+//     },
+// });
 </script>

@@ -19,10 +19,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/case-study/hospitality/',
-        id: '/studi-kasus/pariwisata',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/case-study/hospitality/',
+//         id: '/studi-kasus/pariwisata',
+//     },
+// });
 </script>

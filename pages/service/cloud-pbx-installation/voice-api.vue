@@ -42,10 +42,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/service/cloud-pbx-installation/voice-api',
-        id: '/layanan/jasa-pasang-cloud-pbx/voice-api',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/service/cloud-pbx-installation/voice-api',
+//         id: '/layanan/jasa-pasang-cloud-pbx/voice-api',
+//     },
+// });
 </script>

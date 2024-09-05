@@ -27,10 +27,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/use-case/integrate-all-communication',
-        id: '/use-case/integrate-all-communication',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/use-case/integrate-all-communication',
+//         id: '/use-case/integrate-all-communication',
+//     },
+// });
 </script>

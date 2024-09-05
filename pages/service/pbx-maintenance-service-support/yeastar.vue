@@ -19,10 +19,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/service/pbx-maintenance-service-support/yeastar/',
-        id: '/layanan/jasa-maintenance-pbx/yeastar/',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/service/pbx-maintenance-service-support/yeastar/',
+//         id: '/layanan/jasa-maintenance-pbx/yeastar/',
+//     },
+// });
 </script>

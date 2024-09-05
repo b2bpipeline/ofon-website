@@ -19,10 +19,10 @@ useSeoMeta({
 });
 
 // page route
-defineI18nRoute({
-    paths: {
-        en: '/service/phone-system-integration/cisco/',
-        id: '/layanan/integrasi-phone-system/cisco/',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/service/phone-system-integration/cisco/',
+//         id: '/layanan/integrasi-phone-system/cisco/',
+//     },
+// });
 </script>

@@ -27,10 +27,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/industry/healthcare/',
-        id: '/industri/healthcare/',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/industry/healthcare/',
+//         id: '/industri/healthcare/',
+//     },
+// });
 </script>

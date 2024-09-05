@@ -19,10 +19,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/solutions/integrate-all-communication-device',
-        id: '/solusi/integrasi-perangkat-komunikasi',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/solutions/integrate-all-communication-device',
+//         id: '/solusi/integrasi-perangkat-komunikasi',
+//     },
+// });
 </script>

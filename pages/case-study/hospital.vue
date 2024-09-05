@@ -19,10 +19,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/case-study/hospital/',
-        id: '/studi-kasus/rumah-sakit',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/case-study/hospital/',
+//         id: '/studi-kasus/rumah-sakit',
+//     },
+// });
 </script>

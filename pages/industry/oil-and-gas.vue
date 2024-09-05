@@ -27,10 +27,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/industry/oil-and-gas/',
-        id: '/industri/oil-and-gas/',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/industry/oil-and-gas/',
+//         id: '/industri/oil-and-gas/',
+//     },
+// });
 </script>

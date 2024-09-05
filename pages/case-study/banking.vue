@@ -19,10 +19,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/case-study/banking/',
-        id: '/studi-kasus/perbankan',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/case-study/banking/',
+//         id: '/studi-kasus/perbankan',
+//     },
+// });
 </script>

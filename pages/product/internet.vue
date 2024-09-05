@@ -49,10 +49,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/product/internet',
-        id: '/produk/internet',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/product/internet',
+//         id: '/produk/internet',
+//     },
+// });
 </script>
