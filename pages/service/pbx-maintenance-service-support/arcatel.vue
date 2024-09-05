@@ -19,10 +19,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/service/pbx-maintenance-service-support/arcatel/',
-        id: '/layanan/jasa-maintenance-pbx/arcatel/',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/service/pbx-maintenance-service-support/arcatel/',
+//         id: '/layanan/jasa-maintenance-pbx/arcatel/',
+//     },
+// });
 </script>

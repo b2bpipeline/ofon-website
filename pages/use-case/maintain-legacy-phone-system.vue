@@ -27,10 +27,10 @@ useSeoMeta({
 });
 
 // page routing
-defineI18nRoute({
-    paths: {
-        en: '/use-case/maintain-legacy-phone-system',
-        id: '/use-case/maintain-legacy-phone-system',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/use-case/maintain-legacy-phone-system',
+//         id: '/use-case/maintain-legacy-phone-system',
+//     },
+// });
 </script>

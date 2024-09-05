@@ -19,10 +19,10 @@ useSeoMeta({
 });
 
 // page route
-defineI18nRoute({
-    paths: {
-        en: '/service/phone-system-integration/microsoft-teams/',
-        id: '/layanan/integrasi-phone-system/microsoft-teams/',
-    },
-});
+// defineI18nRoute({
+//     paths: {
+//         en: '/service/phone-system-integration/microsoft-teams/',
+//         id: '/layanan/integrasi-phone-system/microsoft-teams/',
+//     },
+// });
 </script>
