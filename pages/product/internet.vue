@@ -7,6 +7,13 @@
             </div>
         </section>
 
+        <!-- Litebiz -->
+        <section class="section bg-[#ffffff]">
+            <div class="div">
+                <img src="/img/litebiz.webp" alt="Image" />
+            </div>
+        </section>
+
         <!-- Testimonial -->
         <Testimonial />
 

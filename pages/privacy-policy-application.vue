@@ -1,9 +1,9 @@
 <template>
     <main>
-        <!-- Placeholder -->
-        <section class="section">
+        <!-- Section -->
+        <section class="section bg-[#ffffff]">
             <div class="div">
-                <h1 class="font-36">{{ route.path }}</h1>
+                <img src="/img/privacy-policy-telfon.webp" alt="Image" />
             </div>
         </section>
     </main>

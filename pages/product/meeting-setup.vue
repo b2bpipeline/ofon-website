@@ -3,7 +3,14 @@
         <!-- Section -->
         <section class="section bg-[#ffffff]">
             <div class="div">
-                <img src="/img/page-meeting-setup.webp" alt="Image" />
+                <img src="/img/page-meeting-room.webp" alt="Image" />
+            </div>
+        </section>
+
+        <!-- Litebiz -->
+        <section class="section bg-[#ffffff]">
+            <div class="div">
+                <img src="/img/litebiz.webp" alt="Image" />
             </div>
         </section>
 
