@@ -26,7 +26,7 @@
         <CompaniesLogo />
 
         <!-- All In One -->
-        <section v-motion-slide-visible-once-right :duration="500" class="section">
+        <section class="section">
             <div class="div flex flex-col gap-[40px] xl:gap-[80px]">
                 <div class="flex flex-col gap-[24px]">
                     <h2 class="font-32 text-center font-bold">
@@ -85,12 +85,21 @@
                             </p>
                         </div>
                     </div>
+                    <div class="card-hover overflow-hidden rounded-xl border-2 border-c-orange">
+                        <img src="/img/aio6.webp" alt="Image" class="w-full" />
+                        <div class="p-[16px]">
+                            <p class="font-16 mb-2 font-bold">{{ $t('pbx1_aio_14') }}</p>
+                            <p class="font-14">
+                                {{ $t('pbx1_aio_15') }}
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- 2 Services -->
-        <section v-motion-slide-visible-once-left :duration="500" class="section">
+        <section class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
                 <div class="flex flex-col gap-[16px] xl:gap-[24px]">
                     <h2 class="font-32 font-bold text-c-orange xl:font-semibold">{{ $t('pbx1_support_1') }}</h2>
@@ -115,7 +124,7 @@
                 <img src="/img/3-feature1.webp" alt="Image" class="xl:order-1" />
             </div>
         </section>
-        <section v-motion-slide-visible-once-right :duration="500" class="section">
+        <section class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
                 <div class="flex flex-col gap-[16px] xl:order-1 xl:gap-[24px]">
                     <p class="font-32 font-bold text-c-orange xl:font-semibold">{{ $t('pbx1_support_6') }}</p>
@@ -145,7 +154,7 @@
         <SupportedTechnology />
 
         <!-- Transform PBX System -->
-        <section v-motion-slide-visible-once-right :duration="500" class="section bg-c-yellow-light xl:bg-c-white">
+        <section class="section bg-c-yellow-light xl:bg-c-white">
             <div class="div flex flex-col gap-[36px] xl:gap-[60px]">
                 <div class="flex flex-col gap-[32px] xl:gap-[60px] xl:rounded-3xl xl:bg-c-yellow-light xl:p-[50px]">
                     <h2 class="font-32 text-center font-bold text-c-black xl:font-semibold">
@@ -233,7 +242,7 @@
                     <a href="#forms" class="btn w-fit">{{ $t('pbx1_want_3') }}</a>
                 </div>
                 <div>
-                    <img src="/img/hello.webp" alt="Image" />
+                    <img src="/img/phone-cta-1.webp" alt="Image" />
                 </div>
             </div>
         </section>

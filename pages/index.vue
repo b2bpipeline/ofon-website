@@ -173,7 +173,7 @@
             </div>
         </section>
 
-        <!-- What Makes Us Different -->
+        <!-- Product -->
         <section class="section">
             <div class="div xl:gap-[60px flex flex-col gap-[36px]">
                 <div class="flex flex-col gap-[8px]">

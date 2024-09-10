@@ -148,6 +148,8 @@
     "pbx1_aio_11": "Pemeliharaan Dan Dukungan Profesional Kami Akan Menjaga Pbx Nec Anda Tetap Berfungsi Dengan Sempurna. Kami Siap Memperpanjang Umur Sistem Pbx Nec!",
     "pbx1_aio_12": "Alcatel PBX",
     "pbx1_aio_13": "Percayakan Kami Untuk Menjaga Pbx Alcatel Anda Dalam Kondisi Prima Untuk Solusi Yang Lebih Baik Dan Berdampak. Semua Pilihan Ada Pada Anda.",
+    "pbx1_aio_14": "Yeastar PBX",
+    "pbx1_aio_15": "Jaga kelancaran kinerja PBX Yeastar Anda dengan perawatan dan dukungan yang andal, baik saat melakukan pemeliharaan, upgrade, atau integrasi dengan teknologi baru.",
 
     "pbx1_support_1": "Dukungan Sistem Telepon Lama Anda",
     "pbx1_support_2": "Apakah Sistem Telepon Lama Anda Bermasalah? Layanan Kami Siap Membantu!",
@@ -402,5 +404,53 @@
     "case_study_banking_title": "",
     "case_study_banking_description": "",
     "case_study_hospitality_title": "",
-    "case_study_hospitality_description": ""
+    "case_study_hospitality_description": "",
+
+    "cloud_pbx_hero_1": "Migrasi Cloud PBX Ofon",
+    "cloud_pbx_hero_2": "Hemat Biaya Perawatan dengan Sistem Telepon Modern",
+    "cloud_pbx_hero_3": "Tingkatkan sistem telepon Anda dengan desain modern dan optimalkan efisiensi komunikasi melalui teknologi cloud.",
+    "cloud_pbx_hero_4": "Certified Engineer by",
+    "cloud_pbx_hero_5": "Asesmen Gratis",
+
+    "cloud_pbx_solution_1": "Solusi dan Dukungan Cloud PBX Terlengkap",
+    "cloud_pbx_solution_2": "Jangan ambil risiko non-compliance akibat sistem telepon yang tidak andal. Beralihlah ke solusi terpadu yang memenuhi semua standar yang diperlukan, memberikan ketenangan pikiran, dan mengurangi potensi risiko atau masalah:",
+    "cloud_pbx_solution_3": "Perlindungan dan Penyesuaian dengan Keamanan TI",
+    "cloud_pbx_solution_4": "Kekhawatiran tentang Penyesuaian Pengaturan Perangkat",
+    "cloud_pbx_solution_5": "Gangguan dan Terputusnya Komunikasi",
+
+    "cloud_pbx_boost_1": "Bergabunglah ke Masa Depan Komunikasi dengan Cloud PBX!",
+    "cloud_pbx_boost_2": "Kepatuhan terhadap Kebijakan Keamanan TI",
+    "cloud_pbx_boost_3": "Lindungi informasi digital dari ancaman seperti peretasan atau pelanggaran data dengan menerapkan panduan keamanan yang tepat di tempat kerja. Ini membantu mencegah kecelakaan dan memastikan keamanan seluruh tim Anda.",
+    "cloud_pbx_boost_4": "Penyesuaian dengan Konfigurasi Jaringan",
+    "cloud_pbx_boost_5": "Menyesuaikan pengaturan perangkat agar kompatibel dengan konfigurasi jaringan dan koneksi Wi-fi Anda.",
+    "cloud_pbx_boost_6": "Integrasi dengan Software dan Platform Lain",
+    "cloud_pbx_boost_7": "Mengintegrasikan berbagai program dan sistem untuk memastikan kerjasama yang lancar. Memudahkan berbagi informasi dan kolaborasi, sehingga tugas Anda menjadi lebih sederhana dan efisien.",
+
+    "cloud_pbx_service_1": "Cloud PBX",
+    "cloud_pbx_service_2": "Bergabunglah dengan bisnis modern dengan memanfaatkan solusi komunikasi yang efisien. Jangan biarkan ketertinggalan teknologi menghambat kemajuan bisnis Anda.",
+    "cloud_pbx_service_3": "Hemat Biaya",
+    "cloud_pbx_service_4": "Fleksibel dan Andal",
+    "cloud_pbx_service_5": "Fitur & Integrasi Canggih",
+    "cloud_pbx_service_6": "Pemeliharaan, Dukungan, & Integrasi",
+    "cloud_pbx_service_7": "Apakah Anda terus terbebani oleh pemeliharaan sistem telepon yang sudah usang? Serahkan kepada Ofon untuk mengelola dan mengintegrasikan sistem lama Anda untuk komunikasi yang lancar.",
+    "cloud_pbx_service_8": "Pemeliharaan Perangkat Keras & Lunak",
+    "cloud_pbx_service_9": "Integrasi ke Unified Communication",
+    "cloud_pbx_service_10": "Meningkatkan Efisiensi Panggilan",
+
+    "cloud_pbx_diff_1": "Apa yang Membuat Ofon Berbeda?",
+    "cloud_pbx_diff_2": "Modernisasi Sistem Telepon Lama",
+    "cloud_pbx_diff_3": "Ofon mengubah sistem telepon yang sudah ketinggalan zaman menjadi setup cloud modern, memastikan infrastruktur komunikasi Anda tetap terkini, dapat ditingkatkan, dan tetap aman.",
+    "cloud_pbx_diff_4": "Unified Communication",
+    "cloud_pbx_diff_5": "Ofon mengatasi keterbatasan dari platform yang terpisah dengan menyediakan sistem terintegrasi yang menyatukan penggunaan Zoom, Teams, Webex, dan alat lainnya untuk pengalaman yang lebih lancar.",
+    "cloud_pbx_diff_6": "Kustomisasi Kebutuhan PBX",
+    "cloud_pbx_diff_7": "Ofon fokus pada kebutuhan Anda dan memberikan solusi terbaik untuk memastikan transisi, integrasi yang mulus, dan memenuhi persyaratan spesifik bisnis Anda.",
+
+    "cloud_years_1": "28+ Tahun Berpengalaman di Industri Telekomunikasi",
+    "cloud_years_2": "Komitmen jangka panjang kami dapat mendukung pengembangan strategi telekomunikasi Anda.",
+    "cloud_years_3": "Certified Engineer by",
+    "cloud_years_4": "Baca Studi Kasus",
+
+    "cloud_call_1": "Bergabunglah dengan Komunikasi Berbasis Cloud Sekarang!",
+    "cloud_call_2": "Komunikasikan tanpa batasan ruang dan waktu bersama kami. Tingkatkan sistem Anda hari ini untuk tetap unggul dan memastikan pertumbuhan bisnis yang berkelanjutan.",
+    "cloud_call_3": "Hubungi Kami"
 }
