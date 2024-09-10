@@ -21,22 +21,28 @@
     </section>
 </template>
 
-<script setup lang="ts">
+<script setup>
+const { t } = useI18n();
+const name1 = ref(t('comp_casestudy_name_1'));
+const name2 = ref(t('comp_casestudy_name_2'));
+const name3 = ref(t('comp_casestudy_name_3'));
+const name4 = ref(t('comp_casestudy_name_4'));
+
 const items = [
     {
-        name: 'Migration to Cloud PBX to Adopt the Unified Communications System',
+        name: name1,
         image: '/img/case-study1.webp',
     },
     {
-        name: 'Cisco PBX Phone System Integration with Microsoft Teams',
+        name: name2,
         image: '/img/case-study2.webp',
     },
     {
-        name: 'Upgrading Outdated Phone System without Changing the Existing Numbers',
+        name: name3,
         image: '/img/case-study3.webp',
     },
     {
-        name: 'Implement Cloud PBX & Softphones for Cost Efficiency & Scalability',
+        name: name4,
         image: '/img/case-study4.webp',
     },
 ];

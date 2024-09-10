@@ -10,12 +10,12 @@
                     class="card-hover flex w-full flex-col gap-[30px] rounded-2xl border-[2px] border-c-orange p-[24px] xl:m-[20px]"
                 >
                     <div class="flex w-full items-start justify-between">
-                        <img :src="item.avatar" class="w-[48px] xl:w-[72px]" alt="Image" />
+                        <img :src="item.avatar" class="w-[48px] rounded-full xl:w-[72px]" alt="Image" />
                         <img src="/img/semicolon.webp" alt="Image" class="w-[36px] xl:w-[44px]" />
                     </div>
                     <div>
                         <p class="font-14">
-                            {{ item.testimoinal }}
+                            {{ item.testimonial }}
                         </p>
                     </div>
                     <div class="flex flex-col gap-[4px]">
@@ -29,13 +29,17 @@
     </section>
 </template>
 
-<script setup lang="ts">
+<script setup>
+const { t } = useI18n();
+const name1 = ref(t('comp_testi_name_1'));
+const companies1 = ref(t('comp_testi_companies_1'));
+const testimonial1 = ref(t('comp_testi_testimonial_1'));
+
 const items = [
     {
-        name: 'Armika Jaya',
-        companies: 'IT Director of Potato Head Family',
-        testimoinal:
-            'Ofon service goes beyond expectations. Besides the ease of registration and installation, their after-sales support is very responsive. This clearly makes it the only alternative to conventional landlines that truly please its customers.',
+        name: name1,
+        companies: companies1,
+        testimonial: testimonial1,
         avatar: '/img/avatar1.webp',
     },
 ];

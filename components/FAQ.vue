@@ -36,35 +36,45 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n();
+const label1 = ref(t('comp_faq_label_1'));
+const content1 = ref(t('comp_faq_content_1'));
+const label2 = ref(t('comp_faq_label_2'));
+const content2 = ref(t('comp_faq_content_2'));
+const label3 = ref(t('comp_faq_label_3'));
+const content3 = ref(t('comp_faq_content_3'));
+const label4 = ref(t('comp_faq_label_4'));
+const content4 = ref(t('comp_faq_content_4'));
+const label5 = ref(t('comp_faq_label_5'));
+const content5 = ref(t('comp_faq_content_5'));
+const label6 = ref(t('comp_faq_label_6'));
+const content6 = ref(t('comp_faq_content_6'));
+
 const items = [
     {
-        label: 'Who is Ofon?',
+        label: label1,
         defaultOpen: true,
-        content: `Starting as a fixed-line telephone service tied to geographical area codes, Ofon has evolved into an IP-based fixed-line service. It is continuously developed and managed to stay relevant and adaptable to the telecommunications needs of businesses and modern lifestyles.
-            
-        Currently, Ofon is developing cloud-based IP PBX phone systems and managed service PBX solutions to meet Indonesia's telephony needs, aiming to become the all-in-one unified telephony system the country requires.`,
+        content: content1,
     },
     {
-        label: 'Why Ofon is the ideal telephony solution for my company?',
-        content: `Ofon offers the best unified telephony system solution in Indonesia, tailored to meet your business's telecommunications needs. With over 28 years of experience, we have a proven track record and have assisted more than 3,299 clients across 17 cities in Indonesia, helping them stay current with technological advancements and enhancing their company's efficiency and mobility for greater productivity. 
-
-        Our services include migration from on-premises PaBX to Cloud PBX, SIP Trunk optimization, integration of various communication platforms, and PBX system maintenance. Still have doubts? Contact us today! `,
+        label: label2,
+        content: content2,
     },
     {
-        label: 'How much does it cost to use ofon products and services?',
-        content: `The costs vary depending on the telephony system needs required to create efficiency in telecommunications. However, in the long run, Ofon can help you save up to 60% compared to the increasing and outdated on-premises legacy telecommunication system expenses.`,
+        label: label3,
+        content: content3,
     },
     {
-        label: 'If I have been using another PBX, can I connect to Ofon Cloud PBX?',
-        content: `Certainly, with Ofon cloud-based IP PBX telephone system, we can help connect your existing PBX system to various devices such as laptops, smartphones, and computers across Indonesia, or to other platforms like Zoom, Microsoft Teams, Webex, and many more— the possibilities are limitless. Therefore, we confidently offer ourselves as your unified telephony solution in Indonesia for all your needs.`,
+        label: label4,
+        content: content4,
     },
     {
-        label: 'Can I use Ofon for all my company branches?',
-        content: `Yes, you can. Installing the Ofon cloud-based IP PBX system for your company branches makes maintenance easier and, of course, saves costs by over 60% compared to on-premises PBX systems, while also being more efficient.`,
+        label: label5,
+        content: content5,
     },
     {
-        label: 'My cloud PBX is still compatible, but I don’t have team to maintain this. What should I do?',
-        content: `Don't worry. With Ofon's Managed Service, your PBX issues will always be taken care of. We have expert technicians who can install, repair, and maintain your cloud PBX, regardless of the specific vendor.`,
+        label: label6,
+        content: content6,
     },
 ];
 </script>
