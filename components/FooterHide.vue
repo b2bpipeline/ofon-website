@@ -64,7 +64,7 @@
                         >
 
                         <!-- Use Case -->
-                        <NuxtLink :to="localePath('')" class="font-14 mb-[8px] mt-[24px] font-bold text-c-white">
+                        <!-- <NuxtLink :to="localePath('')" class="font-14 mb-[8px] mt-[24px] font-bold text-c-white">
                             {{ $t('c_footer_11') }}</NuxtLink
                         >
                         <NuxtLink
@@ -81,11 +81,11 @@
                             class="font-14 font-light text-c-white"
                         >
                             {{ $t('c_footer_14') }}</NuxtLink
-                        >
+                        > -->
                     </div>
                     <div class="flex flex-col gap-[8px]">
                         <!-- Industries -->
-                        <NuxtLink :to="localePath('industry')" class="font-14 mb-[8px] font-bold text-c-white">
+                        <!-- <NuxtLink :to="localePath('industry')" class="font-14 mb-[8px] font-bold text-c-white">
                             {{ $t('c_footer_15') }}</NuxtLink
                         >
                         <NuxtLink :to="localePath('/industry/finance')" class="font-14 font-light text-c-white">
@@ -102,14 +102,14 @@
                         >
                         <NuxtLink :to="localePath('/industry/healthcare')" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_20') }}</NuxtLink
-                        >
+                        > -->
 
                         <!-- Resources -->
-                        <NuxtLink :to="localePath('')" class="font-14 mb-[8px] mt-[24px] font-bold text-c-white">
+                        <NuxtLink :to="localePath('')" class="font-14 mb-[8px] font-bold text-c-white">
                             {{ $t('c_footer_21') }}</NuxtLink
                         >
                         <NuxtLink to="blog" class="font-14 font-light text-c-white"> {{ $t('c_footer_22') }}</NuxtLink>
-                        <NuxtLink :to="localePath('case-study')" class="font-14 font-light text-c-white">
+                        <!-- <NuxtLink :to="localePath('case-study')" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_23') }}</NuxtLink
                         >
                         <NuxtLink :to="localePath('testimonial')" class="font-14 font-light text-c-white">
@@ -117,7 +117,7 @@
                         >
                         <NuxtLink :to="localePath('calculators')" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_25') }}</NuxtLink
-                        >
+                        > -->
 
                         <!-- About -->
                         <NuxtLink :to="localePath('')" class="font-14 mb-[8px] mt-[24px] font-bold text-c-white">
@@ -126,9 +126,9 @@
                         <NuxtLink :to="localePath('about-us')" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_27') }}</NuxtLink
                         >
-                        <NuxtLink :to="localePath('gallery')" class="font-14 font-light text-c-white">
+                        <!-- <NuxtLink :to="localePath('gallery')" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_28') }}</NuxtLink
-                        >
+                        > -->
                         <NuxtLink :to="localePath('contact-us')" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_29') }}</NuxtLink
                         >

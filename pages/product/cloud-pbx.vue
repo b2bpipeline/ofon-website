@@ -1,9 +1,9 @@
 <template>
     <main>
         <!-- Section -->
-        <section class="section bg-[#f8fafb]">
+        <section class="section bg-[#ffffff]">
             <div class="div">
-                <img src="/img/page-cloud-pbx.webp" alt="Image" />
+                <img src="/img/page-cloudsbc.webp" alt="Image" />
             </div>
         </section>
 

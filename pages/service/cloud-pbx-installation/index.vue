@@ -212,7 +212,7 @@
                         <img :src="$t('image_chartdesktop2')" alt="Image" class="hidden xl:flex" />
                     </div>
                 </div>
-                <a href="#forms" class="btn-outline mx-auto">{{ $t('home_save_3') }}</a>
+                <!-- <a href="#forms" class="btn-outline mx-auto">{{ $t('home_save_3') }}</a> -->
             </div>
         </section>
 

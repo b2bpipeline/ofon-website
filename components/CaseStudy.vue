@@ -11,7 +11,7 @@
                             <p class="font-32 font-bold xl:text-[32px]">
                                 {{ item.name }}
                             </p>
-                            <a href="#forms" class="btn-outline w-fit"> {{ $t('c_casestudy_2') }}</a>
+                            <!-- <a href="#forms" class="btn-outline w-fit"> {{ $t('c_casestudy_2') }}</a> -->
                         </div>
                         <img :src="item.image" alt="Image" />
                     </div>
