@@ -1,12 +1,12 @@
 <template>
     <main>
         <!-- Navbar -->
-        <Navbar />
+        <NavbarHide />
 
         <!-- Slot -->
         <slot />
 
         <!-- Footer -->
-        <Footer />
+        <FooterHide />
     </main>
 </template>
