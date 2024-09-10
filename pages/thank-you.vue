@@ -4,8 +4,8 @@
         <section class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
                 <div class="flex flex-col items-start gap-[16px] xl:gap-[24px]">
-                    <p class="font-36 font-bold text-c-black xl:font-semibold">{{ $t('thankyou_1') }}</p>
-                    <p class="font-16 font-medium">{{ $t('thankyou_2') }}</p>
+                    <h1 class="font-36 font-bold text-c-black xl:font-semibold">{{ $t('thankyou_1') }}</h1>
+                    <h2 class="font-16 font-medium">{{ $t('thankyou_2') }}</h2>
                     <div class="grid w-full grid-cols-1 gap-[16px] xl:grid-cols-2">
                         <NuxtLink to="/" class="btn-outline w-full">{{ $t('thankyou_3') }}</NuxtLink>
                         <WhatsAppUs />

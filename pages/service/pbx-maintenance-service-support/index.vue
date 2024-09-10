@@ -93,7 +93,7 @@
         <section v-motion-slide-visible-once-left :duration="500" class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
                 <div class="flex flex-col gap-[16px] xl:gap-[24px]">
-                    <p class="font-32 font-bold text-c-orange xl:font-semibold">{{ $t('pbx1_support_1') }}</p>
+                    <h2 class="font-32 font-bold text-c-orange xl:font-semibold">{{ $t('pbx1_support_1') }}</h2>
                     <p class="font-14 font-medium">
                         {{ $t('pbx1_support_2') }}
                     </p>

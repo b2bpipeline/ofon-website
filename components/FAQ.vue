@@ -1,7 +1,7 @@
 <template>
     <section class="section bg-c-yellow-light">
         <div class="div flex flex-col gap-[24px] xl:grid xl:grid-cols-4 xl:items-center xl:gap-[60px]">
-            <p class="font-32 font-bold">{{ $t('c_faq_1') }}</p>
+            <h2 class="font-32 font-bold">{{ $t('c_faq_1') }}</h2>
             <div class="flex flex-col gap-[24px] xl:col-span-3">
                 <UAccordion
                     :items="items"

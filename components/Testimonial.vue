@@ -2,7 +2,7 @@
     <section class="section bg-c-white">
         <div class="div flex flex-col gap-[34px]">
             <div class="text-center">
-                <p class="font-14 mb-[8px] font-bold text-c-orange">{{ $t('c_testimonial_1') }}</p>
+                <h2 class="font-14 mb-[8px] font-bold text-c-orange">{{ $t('c_testimonial_1') }}</h2>
                 <p class="font-32 font-bold text-c-black">{{ $t('c_testimonial_2') }}</p>
             </div>
             <UCarousel v-slot="{ item }" :items="items" :ui="{ item: 'w-full basis-full' }">

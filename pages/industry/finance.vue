@@ -18,6 +18,8 @@
 </template>
 
 <script setup>
+const route = useRoute();
+
 // initiate dynamic meta snippets
 const { t } = useI18n();
 const title = ref(t('industry_finance_title'));

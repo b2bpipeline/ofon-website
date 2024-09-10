@@ -30,7 +30,7 @@
         <section class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
                 <div class="flex flex-col gap-[16px] xl:gap-[24px]">
-                    <p class="font-32 font-bold text-c-orange xl:font-semibold">{{ $t('cloud_sup_1') }}</p>
+                    <h2 class="font-32 font-bold text-c-orange xl:font-semibold">{{ $t('cloud_sup_1') }}</h2>
                     <p class="font-14 font-medium">
                         {{ $t('cloud_sup_2') }}
                     </p>
@@ -102,7 +102,7 @@
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
                 <img src="/img/service1.webp" alt="Image" class="xl:order-1" />
                 <div class="flex flex-col gap-[16px] xl:gap-[24px]">
-                    <p class="font-32 font-bold text-c-orange xl:font-semibold">{{ $t('cloud_service_1') }}</p>
+                    <h2 class="font-32 font-bold text-c-orange xl:font-semibold">{{ $t('cloud_service_1') }}</h2>
                     <p class="font-14 font-medium">
                         {{ $t('cloud_service_2') }}
                     </p>
@@ -253,7 +253,7 @@
                     class="flex w-full flex-col justify-between gap-[24px] rounded-xl bg-c-brown p-[24px] xl:flex-row xl:p-[42px]"
                 >
                     <div class="flex flex-col gap-[24px]">
-                        <p class="font-32 font-semibold text-c-white">{{ $t('cloud_cta_1') }}</p>
+                        <h2 class="font-32 font-semibold text-c-white">{{ $t('cloud_cta_1') }}</h2>
                         <p class="font-16 text-c-white">
                             {{ $t('cloud_cta_2') }}
                         </p>
@@ -275,8 +275,8 @@
 <script setup>
 // initiate dynamic meta snippets
 const { t } = useI18n();
-const title = ref(t('cloud_pbx_title'));
-const description = ref(t('cloud_pbx_description'));
+const title = ref(t('service_cloud_pbx_title'));
+const description = ref(t('service_cloud_pbx_description'));
 
 // seo
 useSeoMeta({

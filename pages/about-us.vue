@@ -27,7 +27,7 @@
         <section class="section bg-c-yellow-light">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
                 <div class="">
-                    <p class="font-32 mb-[16px] font-bold xl:mb-[24px] xl:font-semibold">{{ $t('about_why_1') }}</p>
+                    <h2 class="font-32 mb-[16px] font-bold xl:mb-[24px] xl:font-semibold">{{ $t('about_why_1') }}</h2>
                     <p class="font-16 font-medium">
                         {{ $t('about_why_2') }}
                     </p>
@@ -125,7 +125,7 @@
         <section class="section bg-c-white">
             <div class="div flex flex-col items-center gap-[40px] xl:grid xl:grid-cols-3 xl:gap-[80px]">
                 <div class="">
-                    <p class="font-32 mb-[16px] font-bold xl:font-semibold">{{ $t('about_gallery_1') }}</p>
+                    <h2 class="font-32 mb-[16px] font-bold xl:font-semibold">{{ $t('about_gallery_1') }}</h2>
                     <p class="font-16 mb-[16px] font-medium xl:mb-[24px]">
                         {{ $t('about_gallery_2') }}
                     </p>
@@ -140,7 +140,7 @@
             <div class="div">
                 <div class="flex flex-col items-center gap-[24px] rounded-xl bg-c-brown p-[24px] xl:flex-row xl:p-[42px]">
                     <div class="flex flex-col gap-[24px]">
-                        <p class="font-32 font-semibold text-c-white">{{ $t('about_cta_1') }}</p>
+                        <h2 class="font-32 font-semibold text-c-white">{{ $t('about_cta_1') }}</h2>
                         <p class="font-16 text-c-white">{{ $t('about_cta_2') }}</p>
                         <a href="#forms" class="btn xl:w-fit">{{ $t('about_cta_3') }}</a>
                     </div>

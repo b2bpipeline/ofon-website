@@ -112,7 +112,7 @@
         <section v-motion-slide-visible-once-left :duration="500" class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
                 <div class="flex flex-col gap-[16px] xl:gap-[24px]">
-                    <p class="font-32 font-bold text-c-orange xl:font-semibold">Multi-vendor Phone System Integration</p>
+                    <h2 class="font-32 font-bold text-c-orange xl:font-semibold">Multi-vendor Phone System Integration</h2>
                     <p class="font-14 font-medium">
                         Whether you’re using a traditional PBX, VoIP, or any existing infrastructure, our solution is for optimal
                         performance even with a multi-vendor environment.
@@ -214,7 +214,9 @@
         <section v-motion-slide-visible-once-right :duration="500" class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
                 <div class="flex flex-col gap-[16px] xl:order-1 xl:gap-[24px]">
-                    <p class="font-32 font-bold text-c-black xl:font-semibold">Why Choose Ofon to Integrate Your Phone System</p>
+                    <h2 class="font-32 font-bold text-c-black xl:font-semibold">
+                        Why Choose Ofon to Integrate Your Phone System
+                    </h2>
                     <p class="font-14 font-medium">
                         Easily integrate various phone systems to gain smooth communication across your organization with our
                         professional teams at an efficient cost.
@@ -273,9 +275,9 @@
             <div class="div">
                 <div class="flex flex-col gap-[24px] rounded-xl bg-c-brown p-[24px] xl:flex-row xl:p-[42px]">
                     <div class="flex flex-col gap-[24px]">
-                        <p class="font-32 font-semibold text-c-white">
+                        <h2 class="font-32 font-semibold text-c-white">
                             Ready to Integrate Your Phone System? Get a Free Quick Audit!
-                        </p>
+                        </h2>
                         <p class="font-16 text-c-white">
                             Get the best communication infrastructure by clicking the button below!
                         </p>

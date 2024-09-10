@@ -22,8 +22,8 @@ const route = useRoute();
 
 // seo
 useSeoMeta({
-    title: 'Page',
-    description: 'Page',
+    title: 'Gallery',
+    description: 'Gallery',
 });
 
 // page routing
