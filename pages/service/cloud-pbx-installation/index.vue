@@ -273,11 +273,15 @@
 </template>
 
 <script setup>
+// initiate dynamic meta snippets
+const { t } = useI18n();
+const title = ref(t('cloud_pbx_title'));
+const description = ref(t('cloud_pbx_description'));
+
 // seo
 useSeoMeta({
-    title: 'Say Goodbye to the High Maintenance and Outdated Telephone Systems',
-    description:
-        'Still use outdated telephone system with higher maintenance? No way! Upgrade to a modern designed of communication and boost the efficiency.',
+    title: title,
+    description: description,
 });
 
 // page route

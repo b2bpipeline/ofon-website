@@ -10,12 +10,15 @@
 </template>
 
 <script setup>
-const route = useRoute();
+// initiate dynamic meta snippets
+const { t } = useI18n();
+const title = ref(t('product_title'));
+const description = ref(t('product_description'));
 
 // seo
 useSeoMeta({
-    title: 'Page',
-    description: 'Page',
+    title: title,
+    description: description,
 });
 
 // page routing

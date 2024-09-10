@@ -15,10 +15,15 @@
 </template>
 
 <script setup>
+// initiate dynamic meta snippets
+const { t } = useI18n();
+const title = ref(t('contact_us_title'));
+const description = ref(t('contact_us_description'));
+
 // seo
 useSeoMeta({
-    title: 'Contact Us',
-    description: 'Say Goodbye to the High Maintenance and Outdated Telephone Systems',
+    title: title,
+    description: description,
 });
 
 // page routing

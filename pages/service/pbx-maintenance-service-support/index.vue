@@ -247,9 +247,15 @@
 </template>
 
 <script setup>
+// initiate dynamic meta snippets
+const { t } = useI18n();
+const title = ref(t('service_pbx_maintenance_title'));
+const description = ref(t('service_pbx_maintenance_description'));
+
+// seo
 useSeoMeta({
-    title: 'Maintain & Support Your PBX Phone System',
-    description: 'A great solution for PBX maintenance and support with minimum cost and maximum benefit focusing on your needs.',
+    title: title,
+    description: description,
 });
 
 // page routing

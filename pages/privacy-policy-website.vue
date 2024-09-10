@@ -12,10 +12,15 @@
 </template>
 
 <script setup>
-// seo meta
+// initiate dynamic meta snippets
+const { t } = useI18n();
+const title = ref(t('privacy_policy_website_title'));
+const description = ref(t('privacy_policy_website_description'));
+
+// seo
 useSeoMeta({
-    title: 'Privacy Policy',
-    description: 'Privacy Policy',
+    title: title,
+    description: description,
 });
 
 // page routing

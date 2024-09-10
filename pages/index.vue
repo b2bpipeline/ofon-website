@@ -385,8 +385,14 @@
 </template>
 
 <script setup>
+// initiate dynamic meta snippets
+const { t } = useI18n();
+const title = ref(t('home_title'));
+const description = ref(t('home_description'));
+
+// seo
 useSeoMeta({
-    title: 'Home',
-    description: 'Say Goodbye to the High Maintenance and Outdated Telephone Systems',
+    title: title,
+    description: description,
 });
 </script>

@@ -295,11 +295,15 @@
 </template>
 
 <script setup>
+// initiate dynamic meta snippets
+const { t } = useI18n();
+const title = ref(t('service_phone_system_title'));
+const description = ref(t('service_phone_system_description'));
+
 // seo
 useSeoMeta({
-    title: 'Integrate & Manage Any Phone System Seamlessly',
-    description:
-        'Build your communication infrastructure and become effortlessly productive. Adapts to your needs, providing efficient communication across devices & networks with an efficient budget.',
+    title: title,
+    description: description,
 });
 
 // page route

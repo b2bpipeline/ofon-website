@@ -18,11 +18,16 @@
 </template>
 
 <script setup>
-useSeoMeta({
-    title: 'Thank You',
-    description: 'Say Goodbye to the High Maintenance and Outdated Telephone Systems',
-});
+// initiate dynamic meta snippets
+const { t } = useI18n();
+const title = ref(t('thank_you_title'));
+const description = ref(t('thank_you_description'));
 
+// seo
+useSeoMeta({
+    title: title,
+    description: description,
+});
 // page routing
 defineI18nRoute({
     paths: {
