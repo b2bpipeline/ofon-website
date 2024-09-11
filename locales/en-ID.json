@@ -61,7 +61,7 @@
     "home_hero_4": "Get a Free Assessment",
 
     "home_complete_1": "A Complete Phone System & PBX Solution",
-    "home_complete_2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum metus eu dapibus vulputate. Sed tristique vel mauris ac blandit. Fusce congue a sapien sed dictum.",
+    "home_complete_2": "Ofon provides a complete IP-based telephone and PBX solution with high flexibility. Integrate your company's phone numbers to various platforms and improve business communications with innovative IP-based solutions from our technology experts.",
     "home_complete_3": "Maintain Legacy Phone System",
     "home_complete_4": "Your phone system are getting old? Let us take care of yours to keep it runs like new.",
     "home_complete_cta": "Learn More >",
@@ -465,6 +465,11 @@
     "comp_casestudy_name_3": "Upgrading Outdated Phone System without Changing the Existing Numbers",
     "comp_casestudy_name_4": "Implement Cloud PBX & Softphones for Cost Efficiency & Scalability",
 
+    "comp_casestudy_content_1": "Previously, PGN used an analog phone system with Ericsson and Cisco hardware, but they faced challenges working remotely with Webex and Zoom. They used multiple platforms that were not integrated with each other, and their physical hardware was expensive to maintain. Migrating to a cloud PBX allows employees to work remotely while maintaining unified communication network, significantly reducing operational costs and enhancing customer service response times.",
+    "comp_casestudy_content_2": "The Indonesia Stock Exchange (IDX) was struggling with its outdated Cisco PBX phone system while needing to implement a new phone system through Microsoft Teams. These two separate systems have created inefficiencies in communication. Integrating the Cisco PBX system with Microsoft Teams allows seamless communication between the two so both systems can communicate directly and efficiently. This solution allows IDX to expand its phone system without abandoning the existing infrastructure.",
+    "comp_casestudy_content_3": "Indriati Hospital Solo’s phone system was no longer supported or maintainable. To avoid communication difficulties and unforeseen costs, they planned to upgrade the system without changing the existing phone numbers. The solution was to replace the old PBX system with a new IP PBX system, enhancing efficiency and ease of operation. With support from Ofon, RS Indriati smoothly transitioned to the new system, maintaining existing numbers and improving internal and external communication.",
+    "comp_casestudy_content_4": "JAC Recruitment needed a high-capacity, on-demand phone system quickly and cost-efficiently. To avoid the high costs and delays of on-premise equipment, they opted for a cloud-based phone system using Ofon PBX and softphones provided by Ofon. This solution met their needs for a simple, scalable, efficient, and secure phone system in a short time. The flexible use of softphones improved communication anywhere, reducing investment and maintenance costs for phone equipment and systems.",
+
     "comp_faq_label_1": "Who is Ofon?",
     "comp_faq_content_1": "Starting as a fixed-line telephone service tied to geographical area codes, Ofon has evolved into an IP-based fixed-line service. It is continuously developed and managed to stay relevant and adaptable to the telecommunications needs of businesses and modern lifestyles. Currently, Ofon is developing cloud-based IP PBX phone systems and managed service PBX solutions to meet Indonesia's telephony needs, aiming to become the all-in-one unified telephony system the country requires.",
     "comp_faq_label_2": "Why Ofon is the ideal telephony solution for my company?",
@@ -533,5 +538,12 @@
 
     "pi_integrate_1": "Ready to Integrate Your Phone System? Get a Free Quick Audit!",
     "pi_integrate_2": "Get the best communication infrastructure by clicking the button below!",
-    "pi_integrate_3": "Contact Us"
+    "pi_integrate_3": "Contact Us",
+
+    "case_pic1": "/img/pic1-en.webp",
+    "case_pic2": "/img/pic2-en.webp",
+    "case_pic3": "/img/pic3-en.webp",
+
+    "about_leaders_1": "Meet Our Board of Directors",
+    "about_leaders_2": "Meet the executives and visionaries behind Ofon's success and journey in providing the leading business telecommunications solutions in Indonesia."
 }

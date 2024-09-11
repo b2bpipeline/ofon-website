@@ -5,7 +5,7 @@
             <div class="div flex-col justify-between gap-10 xl:flex-row xl:items-center xl:pr-0">
                 <div class="flex flex-col gap-6 xl:max-w-[480px]">
                     <p class="font-16 font-bold">{{ $t('pi_hero_1') }}</p>
-                    <h1 class="font-36 font-bold xl:font-semibold">{{ $t('pi_hero_2') }}</h1>
+                    <h1 class="font-32 font-bold xl:font-semibold">{{ $t('pi_hero_2') }}</h1>
                     <p class="font-16 font-medium">
                         {{ $t('pi_hero_3') }}
                     </p>
@@ -207,15 +207,15 @@
                     <h2 class="font-32 font-bold text-c-black xl:font-semibold">
                         {{ $t('pi_why_1') }}
                     </h2>
-                    <p class="font-14 font-medium">
+                    <p class="font-16 font-medium">
                         {{ $t('pi_why_2') }}
                     </p>
                     <div class="flex w-full flex-col gap-[8px] xl:gap-[20px]">
                         <div class="card-hover flex items-start gap-[16px] rounded-xl border-2 border-c-orange p-[16px]">
                             <img src="/img/lp4-point1.webp" alt="Image" />
                             <div class="flex flex-col gap-[8px]">
-                                <p class="font-14 font-bold">{{ $t('pi_why_3') }}</p>
-                                <p class="font-12">
+                                <p class="font-16 font-bold">{{ $t('pi_why_3') }}</p>
+                                <p class="font-14">
                                     {{ $t('pi_why_4') }}
                                 </p>
                             </div>
@@ -223,15 +223,15 @@
                         <div class="card-hover flex items-start gap-[16px] rounded-xl border-2 border-c-orange p-[16px]">
                             <img src="/img/lp4-point2.webp" alt="Image" />
                             <div class="flex flex-col gap-[8px]">
-                                <p class="font-14 font-bold">{{ $t('pi_why_5') }}</p>
-                                <p class="font-12">{{ $t('pi_why_6') }}</p>
+                                <p class="font-16 font-bold">{{ $t('pi_why_5') }}</p>
+                                <p class="font-14">{{ $t('pi_why_6') }}</p>
                             </div>
                         </div>
                         <div class="card-hover flex items-start gap-[16px] rounded-xl border-2 border-c-orange p-[16px]">
                             <img src="/img/lp4-point3.webp" alt="Image" />
                             <div class="flex flex-col gap-[8px]">
-                                <p class="font-14 font-bold">{{ $t('pi_why_7') }}</p>
-                                <p class="font-12">{{ $t('pi_why_8') }}</p>
+                                <p class="font-16 font-bold">{{ $t('pi_why_7') }}</p>
+                                <p class="font-14">{{ $t('pi_why_8') }}</p>
                             </div>
                         </div>
                     </div>
@@ -255,7 +255,7 @@
                     </div>
                     <!-- <a href="#forms" class="btn"> {{ $t('pi_years_4') }}</a> -->
                 </div>
-                <div><img src="/img/lp4-testi.webp" alt="Image" /></div>
+                <div><img :src="$t('case_pic3')" alt="Image" /></div>
             </div>
         </section>
 

@@ -13,7 +13,17 @@
                             </p>
                             <!-- <a href="#forms" class="btn-outline w-fit"> {{ $t('c_casestudy_2') }}</a> -->
                         </div>
-                        <img :src="item.image" alt="Image" />
+                        <div class="flex flex-col gap-[30px] rounded-xl border-2 border-c-orange bg-c-white p-[24px]">
+                            <div class="flex flex-row items-center justify-between">
+                                <img :src="item.image" alt="Image" />
+                                <img src="/img/arrows.webp" alt="Image" />
+                            </div>
+                            <p class="font-14">{{ item.content }}</p>
+                            <div class="flex flex-col gap-[8px]">
+                                <p class="font-14 font-bold">{{ item.company }}</p>
+                                <p class="font-14">{{ item.location }}</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </UCarousel>
@@ -27,23 +37,39 @@ const name1 = ref(t('comp_casestudy_name_1'));
 const name2 = ref(t('comp_casestudy_name_2'));
 const name3 = ref(t('comp_casestudy_name_3'));
 const name4 = ref(t('comp_casestudy_name_4'));
+const content1 = ref(t('comp_casestudy_content_1'));
+const content2 = ref(t('comp_casestudy_content_2'));
+const content3 = ref(t('comp_casestudy_content_3'));
+const content4 = ref(t('comp_casestudy_content_4'));
 
 const items = [
     {
         name: name1,
-        image: '/img/case-study1.webp',
+        content: content1,
+        company: 'PT Pertamina Gas Negara',
+        location: 'Jakarta, Indonesia',
+        image: '/img/logo-case-study1.webp',
     },
     {
         name: name2,
-        image: '/img/case-study2.webp',
+        content: content2,
+        company: 'PT Bursa Efek Indonesia',
+        location: 'Jakarta, Indonesia',
+        image: '/img/logo-case-study2.webp',
     },
     {
         name: name3,
-        image: '/img/case-study3.webp',
+        content: content3,
+        company: 'Rumah Sakit Indriati',
+        location: 'Solo, Indonesia',
+        image: '/img/logo-case-study3.webp',
     },
     {
         name: name4,
-        image: '/img/case-study4.webp',
+        content: content4,
+        company: 'JAC Recruitment',
+        location: 'Jakarta, Indonesia',
+        image: '/img/logo-case-study4.webp',
     },
 ];
 </script>

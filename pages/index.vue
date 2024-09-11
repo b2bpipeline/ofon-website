@@ -122,7 +122,6 @@
                         </div>
                         <NuxtLink
                             :to="localePath('/service/pbx-maintenance-service-support')"
-                            href="#forms"
                             class="btn-outline mt-[24px] w-fit xl:mt-[32px]"
                         >
                             {{ $t('home_aio_cta') }}</NuxtLink
@@ -155,7 +154,6 @@
                     </div>
                     <NuxtLink
                         :to="localePath('/service/cloud-pbx-installation')"
-                        href="#forms"
                         class="btn-outline mt-[24px] w-fit xl:mt-[32px]"
                     >
                         {{ $t('home_aio_cta') }}</NuxtLink
@@ -192,7 +190,6 @@
                         </div>
                         <NuxtLink
                             :to="localePath('/service/phone-system-integration')"
-                            href="#forms"
                             class="btn-outline mt-[24px] w-fit xl:mt-[32px]"
                         >
                             {{ $t('home_aio_cta') }}</NuxtLink
@@ -273,10 +270,10 @@
             <div class="div flex flex-col gap-[40px] xl:grid xl:grid-cols-3 xl:gap-[60px]">
                 <div class="flex flex-col gap-[12px] xl:col-span-2 xl:gap-[24px]">
                     <h2 class="font-32 font-bold">{{ $t('home_want_1') }}</h2>
-                    <p class="font-14">
+                    <p class="font-16">
                         {{ $t('home_want_2') }}
                     </p>
-                    <a href="#forms" class="btn w-fit"> {{ $t('home_want_cta') }}</a>
+                    <a class="btn w-fit"> {{ $t('home_want_cta') }}</a>
                 </div>
                 <div>
                     <img src="/img/hello.webp" alt="Image" />
@@ -369,7 +366,7 @@
                         <img :src="$t('image_chartdesktop2')" alt="Image" class="hidden xl:flex" />
                     </div>
                 </div>
-                <!-- <a href="#forms" class="btn-outline mx-auto">{{ $t('home_save_3') }}</a> -->
+                <!-- <a  class="btn-outline mx-auto">{{ $t('home_save_3') }}</a> -->
             </div>
         </section>
 
@@ -402,7 +399,7 @@
                     </div>
                     <div class="grid grid-cols-2 items-center gap-[16px]">
                         <WhatsAppUs />
-                        <a href="#forms" class="btn-outline"> {{ $t('home_connecting_cta') }}</a>
+                        <a class="btn-outline"> {{ $t('home_connecting_cta') }}</a>
                     </div>
                 </div>
                 <div><img src="/img/indonesia.webp" alt="Image" /></div>

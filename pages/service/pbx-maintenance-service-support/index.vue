@@ -5,7 +5,7 @@
             <div class="div flex-col justify-between gap-10 xl:flex-row xl:items-center xl:pr-0">
                 <div class="flex flex-col gap-6 xl:max-w-[480px]">
                     <p class="font-16 font-bold">{{ $t('pbx1_hero_1') }}</p>
-                    <h1 class="font-36 font-bold xl:font-semibold">{{ $t('pbx1_hero_2') }}</h1>
+                    <h1 class="font-32 font-bold xl:font-semibold">{{ $t('pbx1_hero_2') }}</h1>
                     <p class="font-16 font-medium">
                         {{ $t('pbx1_hero_3') }}
                     </p>
@@ -227,7 +227,7 @@
 
                     <a href="#forms" class="btn">{{ $t('pbx1_phone_9') }}</a>
                 </div>
-                <div><img src="/img/3-cta-image.webp" alt="Image" /></div>
+                <div><img :src="$t('case_pic1')" alt="Image" /></div>
             </div>
         </section>
 
@@ -236,13 +236,13 @@
             <div class="div flex flex-col gap-[40px] xl:grid xl:grid-cols-3 xl:gap-[60px]">
                 <div class="flex flex-col gap-[12px] xl:col-span-2 xl:gap-[24px]">
                     <h2 class="font-32 font-bold">{{ $t('pbx1_want_1') }}</h2>
-                    <p class="font-14">
+                    <p class="font-16">
                         {{ $t('pbx1_want_2') }}
                     </p>
                     <a href="#forms" class="btn w-fit">{{ $t('pbx1_want_3') }}</a>
                 </div>
                 <div>
-                    <img src="/img/phone-cta-1.webp" alt="Image" />
+                    <img src="/img/phone-cta2.webp" alt="Image" />
                 </div>
             </div>
         </section>

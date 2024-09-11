@@ -5,7 +5,7 @@
             <div class="div flex-col justify-between gap-10 xl:flex-row xl:items-center xl:pr-0">
                 <div class="flex flex-col gap-6 xl:max-w-[480px]">
                     <p class="font-16 font-bold">{{ $t('cloud_pbx_hero_1') }}</p>
-                    <h1 class="font-36 font-bold xl:font-semibold">{{ $t('cloud_pbx_hero_2') }}</h1>
+                    <h1 class="font-32 font-bold xl:font-semibold">{{ $t('cloud_pbx_hero_2') }}</h1>
                     <p class="font-16 font-medium">
                         {{ $t('cloud_pbx_hero_3') }}
                     </p>
@@ -39,19 +39,19 @@
                         <div class="card-hover flex items-start gap-[16px] rounded-xl border-2 border-c-orange p-[16px]">
                             <img src="/img/cloud-icon-1.webp" alt="Image" />
                             <div class="flex flex-col gap-[8px]">
-                                <p class="font-14 font-bold">{{ $t('cloud_pbx_solution_3') }}</p>
+                                <p class="font-16 font-bold">{{ $t('cloud_pbx_solution_3') }}</p>
                             </div>
                         </div>
                         <div class="card-hover flex items-start gap-[16px] rounded-xl border-2 border-c-orange p-[16px]">
                             <img src="/img/cloud-icon-2.webp" alt="Image" />
                             <div class="flex flex-col gap-[8px]">
-                                <p class="font-14 font-bold">{{ $t('cloud_pbx_solution_4') }}</p>
+                                <p class="font-16 font-bold">{{ $t('cloud_pbx_solution_4') }}</p>
                             </div>
                         </div>
                         <div class="card-hover flex items-start gap-[16px] rounded-xl border-2 border-c-orange p-[16px]">
                             <img src="/img/cloud-icon-3.webp" alt="Image" />
                             <div class="flex flex-col gap-[8px]">
-                                <p class="font-14 font-bold">{{ $t('cloud_pbx_solution_5') }}</p>
+                                <p class="font-16 font-bold">{{ $t('cloud_pbx_solution_5') }}</p>
                             </div>
                         </div>
                     </div>
@@ -230,7 +230,7 @@
                     </div>
                     <a href="#forms" class="btn">{{ $t('cloud_years_4') }}</a>
                 </div>
-                <div><img src="/img/3-cta-image.webp" alt="Image" /></div>
+                <div><img :src="$t('case_pic2')" alt="Image" /></div>
             </div>
         </section>
 
@@ -239,7 +239,7 @@
             <div class="div flex flex-col gap-[40px] xl:grid xl:grid-cols-3 xl:gap-[60px]">
                 <div class="flex flex-col gap-[12px] xl:col-span-2 xl:gap-[24px]">
                     <h2 class="font-32 font-bold">{{ $t('cloud_call_1') }}</h2>
-                    <p class="font-14">
+                    <p class="font-16">
                         {{ $t('cloud_call_2') }}
                     </p>
                     <a href="#forms" class="btn w-fit">{{ $t('cloud_call_3') }}</a>

@@ -121,6 +121,52 @@
             </div>
         </section>
 
+        <!-- Leaders -->
+        <section class="section">
+            <div class="div flex flex-col items-start gap-[24px] xl:gap-[40px]">
+                <div class="flex flex-col gap-[16px]">
+                    <h2 class="font-32 text-center font-bold text-c-black">{{ $t('about_leaders_1') }}</h2>
+                    <p class="font-16 text-center text-c-black">
+                        {{ $t('about_leaders_2') }}
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 gap-[24px] xl:grid-cols-4">
+                    <div class="card-hover flex flex-col overflow-hidden rounded-xl border-2 border-c-orange">
+                        <img src="/img/leaders1.webp" alt="Image" />
+                        <div class="flex flex-col items-center gap-[4px] p-[16px] xl:gap-[12px] xl:p-[24px]">
+                            <p class="font-16 font-bold text-c-black">Pratama Habibie</p>
+                            <p class="font-14 mb-[16px] text-c-black">President Director</p>
+                            <!-- <a href="#" class="font-14 font-bold text-c-orange">See More ></a> -->
+                        </div>
+                    </div>
+                    <div class="card-hover flex flex-col overflow-hidden rounded-xl border-2 border-c-orange">
+                        <img src="/img/leaders2.webp" alt="Image" />
+                        <div class="flex flex-col items-center gap-[4px] p-[16px] xl:gap-[12px] xl:p-[24px]">
+                            <p class="font-16 font-bold text-c-black">Robby Susilo</p>
+                            <p class="font-14 mb-[16px] text-c-black">Chief Finance & HR Officer</p>
+                            <!-- <a href="#" class="font-14 font-bold text-c-orange">See More ></a> -->
+                        </div>
+                    </div>
+                    <div class="card-hover flex flex-col overflow-hidden rounded-xl border-2 border-c-orange">
+                        <img src="/img/leaders3.webp" alt="Image" />
+                        <div class="flex flex-col items-center gap-[4px] p-[16px] xl:gap-[12px] xl:p-[24px]">
+                            <p class="font-16 font-bold text-c-black">Timbul Nainggolan</p>
+                            <p class="font-14 mb-[16px] text-c-black">Chief Operational & Regulatory Officer</p>
+                            <!-- <a href="#" class="font-14 font-bold text-c-orange">See More ></a> -->
+                        </div>
+                    </div>
+                    <div class="card-hover flex flex-col overflow-hidden rounded-xl border-2 border-c-orange">
+                        <img src="/img/leaders4.webp" alt="Image" />
+                        <div class="flex flex-col items-center gap-[4px] p-[16px] xl:gap-[12px] xl:p-[24px]">
+                            <p class="font-16 font-bold text-c-black">Cynthia Roosdiono</p>
+                            <p class="font-14 mb-[16px] text-c-black">Chief Technology Officer</p>
+                            <!-- <a href="#" class="font-14 font-bold text-c-orange">See More ></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Our Gallery -->
         <section class="section bg-c-white">
             <div class="div flex flex-col items-center gap-[40px] xl:grid xl:grid-cols-3 xl:gap-[80px]">
