@@ -16,7 +16,7 @@
                     </div>
                     <div class="grid grid-cols-1 gap-[16px] xl:mx-auto xl:grid-cols-2">
                         <WhatsAppUs />
-                        <a href="#forms" class="btn-outline">{{ $t('about_hero_4') }}</a>
+                        <NuxtLink :to="localePath('contact-us')" class="btn-outline">{{ $t('about_hero_4') }}</NuxtLink>
                     </div>
                 </div>
             </div>
@@ -175,7 +175,7 @@
                     <p class="font-16 mb-[16px] font-medium xl:mb-[24px]">
                         {{ $t('about_gallery_2') }}
                     </p>
-                    <a href="#forms" class="btn-outline w-fit">{{ $t('about_gallery_3') }}</a>
+                    <!-- <a href="#forms" class="btn-outline w-fit">{{ $t('about_gallery_3') }}</a> -->
                 </div>
                 <img src="/img/gallery.webp" alt="Image" class="xl:col-span-2" />
             </div>
@@ -188,7 +188,7 @@
                     <div class="flex flex-col gap-[24px]">
                         <h2 class="font-32 font-semibold text-c-white">{{ $t('about_cta_1') }}</h2>
                         <p class="font-16 text-c-white">{{ $t('about_cta_2') }}</p>
-                        <a href="#forms" class="btn xl:w-fit">{{ $t('about_cta_3') }}</a>
+                        <NuxtLink :to="localePath('contact-us')" class="btn xl:w-fit">{{ $t('about_cta_3') }}</NuxtLink>
                     </div>
                     <img src="/img/ab-cta.webp" alt="Image" />
                 </div>

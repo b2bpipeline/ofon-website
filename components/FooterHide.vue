@@ -108,7 +108,7 @@
                         <NuxtLink :to="localePath('')" class="font-14 mb-[8px] font-bold text-c-white">
                             {{ $t('c_footer_21') }}</NuxtLink
                         >
-                        <NuxtLink to="blog" class="font-14 font-light text-c-white"> {{ $t('c_footer_22') }}</NuxtLink>
+                        <NuxtLink to="/blog" class="font-14 font-light text-c-white"> {{ $t('c_footer_22') }}</NuxtLink>
                         <!-- <NuxtLink :to="localePath('case-study')" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_23') }}</NuxtLink
                         >

@@ -3,7 +3,7 @@
         <!-- Description -->
         <section class="section pb-[32px]">
             <div class="div flex-col gap-[16px]">
-                <h1 class="font-36 font-bold">Proxy</h1>
+                <h1 class="font-36 font-bold">Author: {{ author.name }}</h1>
                 <p class="font-20 font-bold text-c-orange">Blog Ofon</p>
             </div>
         </section>
@@ -121,8 +121,12 @@ defineI18nRoute(false);
 
 // fetch archive articles
 const { data: articles } = await useFetch(
-    'https://ofon.co.id/blog/wp-json/wp/v2/posts?_fields=id,slug,title,description,date,categories&per_page=10&categories=5'
+    'https://cms.ofon.co.id/wp-json/wp/v2/posts?author=2&_fields=id,slug,yoast_head_json.og_image,yoast_head_json.description,yoast_head_json.author,title,description,date,categories'
 );
+
+// fetch author
+const { data: author } = await useFetch('https://cms.ofon.co.id/wp-json/wp/v2/users/2?_fields=name');
+
 // seo meta
 useSeoMeta({
     title: 'Proxy',

@@ -273,7 +273,7 @@
                     <p class="font-16">
                         {{ $t('home_want_2') }}
                     </p>
-                    <a class="btn w-fit"> {{ $t('home_want_cta') }}</a>
+                    <NuxtLink :to="localePath('contact-us')" class="btn w-fit"> {{ $t('home_want_cta') }}</NuxtLink>
                 </div>
                 <div>
                     <img src="/img/hello.webp" alt="Image" />
@@ -399,7 +399,7 @@
                     </div>
                     <div class="grid grid-cols-2 items-center gap-[16px]">
                         <WhatsAppUs />
-                        <a class="btn-outline"> {{ $t('home_connecting_cta') }}</a>
+                        <NuxtLink :to="localePath('contact-us')" class="btn-outline"> {{ $t('home_connecting_cta') }}</NuxtLink>
                     </div>
                 </div>
                 <div><img src="/img/indonesia.webp" alt="Image" /></div>

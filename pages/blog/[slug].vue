@@ -63,8 +63,8 @@
                             <img src="/img/person.webp" alt="Image" />
                             <div class="flex flex-col">
                                 <!-- <p class="font-14">{{ article?.at(0)?.yoast_head_json.author }}</p> -->
-                                <p class="font-14">Author</p>
-                                <p class="font-12 text-[10px] xl:text-[12px]">Copywriter</p>
+                                <p class="font-14">Ofon</p>
+                                <p class="font-12 text-[10px] xl:text-[12px]">Author</p>
                             </div>
                         </div>
                     </div>

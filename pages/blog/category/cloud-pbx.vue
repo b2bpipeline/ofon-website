@@ -3,7 +3,7 @@
         <!-- Description -->
         <section class="section pb-[32px]">
             <div class="div flex-col gap-[16px]">
-                <h1 class="font-36 font-bold">Conference</h1>
+                <h1 class="font-36 font-bold">Cloud PBX</h1>
                 <p class="font-20 font-bold text-c-orange">Blog Ofon</p>
             </div>
         </section>
@@ -121,11 +121,11 @@ defineI18nRoute(false);
 
 // fetch archive articles
 const { data: articles } = await useFetch(
-    'https://ofon.co.id/blog/wp-json/wp/v2/posts?_fields=id,slug,title,description,date,categories&per_page=10&categories=8'
+    'https://cms.ofon.co.id/wp-json/wp/v2/posts?_fields=id,slug,title,description,date,categories&per_page=10&categories=6'
 );
 // seo meta
 useSeoMeta({
-    title: 'Conference',
-    description: `Conference`,
+    title: 'Cloud PBX',
+    description: `Cloud PBX`,
 });
 </script>

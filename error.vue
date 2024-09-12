@@ -1,7 +1,7 @@
 <template>
     <main>
         <!-- Navbar -->
-        <Navbar />
+        <NavbarHide />
 
         <!-- Error -->
         <section class="section">
@@ -20,7 +20,7 @@
         </section>
 
         <!-- Footer -->
-        <Footer />
+        <FooterHide />
     </main>
 </template>
 
