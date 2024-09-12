@@ -9,6 +9,7 @@
                         wrapper: 'gap-[16px]',
                         container: 'border-c-orange bg-c-white rounded-xl border-[2px] border-solid px-[16px] py-[26px] font-24',
                         item: {
+                            size: 'text-lg',
                             padding: 'px-2',
                         },
                     }"
@@ -19,7 +20,6 @@
                             <span class="font-14 faq-label text-left font-semibold">
                                 {{ item.label }}
                             </span>
-
                             <template #trailing>
                                 <UIcon
                                     name="i-heroicons-chevron-right-20-solid"
@@ -87,6 +87,7 @@ const items = [
     font-size: 16px;
     font-family: 'Montserrat';
 }
+
 @media only screen and (max-width: 480px) {
     .faq-label {
         font-size: 16px;
