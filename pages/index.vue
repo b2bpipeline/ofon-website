@@ -1,7 +1,9 @@
 <template>
     <main>
         <!-- Hero -->
-        <section class="section bg-c-white pb-0 pt-[40px] xl:min-h-[685px] xl:bg-[url('/img/new-bg.webp')] xl:bg-cover">
+        <section
+            class="section bg-c-white pb-0 pt-[40px] xl:min-h-[685px] xl:bg-[url('/img/new-bg.webp')] xl:bg-cover xl:bg-center"
+        >
             <div class="div flex-col justify-between gap-10 pb-[40px] xl:flex-row xl:items-center xl:justify-center">
                 <div class="items-start-center flex flex-col gap-6 text-center xl:mt-[60px] xl:max-w-[640px]">
                     <h1 class="font-36 font-bold xl:font-semibold">{{ $t('home_hero_1') }}</h1>

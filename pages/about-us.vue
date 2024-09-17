@@ -135,7 +135,7 @@
                         <img src="/img/leaders1.webp" alt="Image" />
                         <div class="flex flex-col items-center gap-[4px] p-[16px] xl:gap-[12px] xl:p-[24px]">
                             <p class="font-16 font-bold text-c-black">Pratama Habibie</p>
-                            <p class="font-14 mb-[16px] text-c-black">President Director</p>
+                            <p class="font-14 mb-[16px] text-center text-c-black">President Director</p>
                             <!-- <a href="#" class="font-14 font-bold text-c-orange">See More ></a> -->
                         </div>
                     </div>
@@ -143,7 +143,7 @@
                         <img src="/img/leaders2.webp" alt="Image" />
                         <div class="flex flex-col items-center gap-[4px] p-[16px] xl:gap-[12px] xl:p-[24px]">
                             <p class="font-16 font-bold text-c-black">Robby Susilo</p>
-                            <p class="font-14 mb-[16px] text-c-black">Chief Finance & HR Officer</p>
+                            <p class="font-14 mb-[16px] text-center text-c-black">Chief Finance & HR Officer</p>
                             <!-- <a href="#" class="font-14 font-bold text-c-orange">See More ></a> -->
                         </div>
                     </div>
@@ -151,7 +151,7 @@
                         <img src="/img/leaders3.webp" alt="Image" />
                         <div class="flex flex-col items-center gap-[4px] p-[16px] xl:gap-[12px] xl:p-[24px]">
                             <p class="font-16 font-bold text-c-black">Timbul Nainggolan</p>
-                            <p class="font-14 mb-[16px] text-c-black">Chief Operational & Regulatory Officer</p>
+                            <p class="font-14 mb-[16px] text-center text-c-black">Chief Operational & Regulatory Officer</p>
                             <!-- <a href="#" class="font-14 font-bold text-c-orange">See More ></a> -->
                         </div>
                     </div>
@@ -159,7 +159,7 @@
                         <img src="/img/leaders4.webp" alt="Image" />
                         <div class="flex flex-col items-center gap-[4px] p-[16px] xl:gap-[12px] xl:p-[24px]">
                             <p class="font-16 font-bold text-c-black">Cynthia Roosdiono</p>
-                            <p class="font-14 mb-[16px] text-c-black">Chief Technology Officer</p>
+                            <p class="font-14 mb-[16px] text-center text-c-black">Chief Technology Officer</p>
                             <!-- <a href="#" class="font-14 font-bold text-c-orange">See More ></a> -->
                         </div>
                     </div>

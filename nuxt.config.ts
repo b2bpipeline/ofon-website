@@ -62,6 +62,12 @@ export default defineNuxtConfig({
     },
     plugins: ['~/plugins/preline.client.ts'],
     routeRules: {
+        '/blog/?p=**': {
+            redirect: {
+                to: '/blog',
+                statusCode: 301,
+            },
+        },
         '/enterprise/voiceapi': {
             redirect: {
                 to: '/en/service/cloud-pbx-installation',
