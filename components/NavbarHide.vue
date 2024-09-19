@@ -1,5 +1,6 @@
 <template>
     <main>
+        <!-- Mobile -->
         <section class="mobile section fixed z-50 bg-[#F6F7F8] py-[8px] shadow-xl">
             <div class="div flex-row items-center justify-between">
                 <div class="flex gap-[16px]">
@@ -269,12 +270,13 @@
                 </div>
             </div>
         </section>
-        <!--  -->
+        <!-- Mobile -->
+
+        <!-- Desktop -->
         <section class="desktop section fixed z-50 bg-[#F6F7F8] py-[8px] shadow-xl">
             <div class="div flex-row items-center justify-between">
                 <div class="flex gap-[16px]">
-                    <!-- <p class="font-14 font-semibold text-c-orange">{{ $t('c_navbar_1') }}</p>
-                    <p class="font-14 font-semibold text-c-orange">{{ $t('c_navbar_2') }}</p> -->
+                    <UBreadcrumb :links="links" />
                 </div>
                 <div class="flex gap-[16px]">
                     <div class="flex items-center gap-[10px]">
@@ -539,17 +541,23 @@
                 </div>
             </div>
         </section>
-        <!--  -->
-        <div class="h-[102px] xl:h-[119px]"></div>
+
+        <!-- Desktop -->
+        <div class="h-[102px] xl:h-[117px]"></div>
     </main>
 </template>
 
 <script setup>
 const localePath = useLocalePath();
 const switchLocalePath = useSwitchLocalePath();
+const links = useBreadcrumbItems();
 </script>
 
 <style scoped>
+.text-primary-500 {
+    color: orangered;
+}
+
 #contact-us {
     color: white;
     text-decoration: none;

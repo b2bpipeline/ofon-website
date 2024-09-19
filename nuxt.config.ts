@@ -11,6 +11,11 @@ export default defineNuxtConfig({
         pageTransition: { name: 'page', mode: 'out-in' },
     },
 
+    ui: {
+        primary: 'orange',
+        gray: 'cool',
+    },
+
     postcss: {
         plugins: {
             tailwindcss: {},
@@ -29,6 +34,7 @@ export default defineNuxtConfig({
         name: 'Ofon',
         description: `Need to maximize productivity and minimize cost business telecommunications?`,
         defaultLocale: 'en',
+        trailingSlash: false,
     },
 
     runtimeConfig: {
@@ -62,12 +68,6 @@ export default defineNuxtConfig({
     },
     plugins: ['~/plugins/preline.client.ts'],
     routeRules: {
-        '/blog/?p=**': {
-            redirect: {
-                to: '/blog',
-                statusCode: 301,
-            },
-        },
         '/enterprise/voiceapi': {
             redirect: {
                 to: '/en/service/cloud-pbx-installation',
