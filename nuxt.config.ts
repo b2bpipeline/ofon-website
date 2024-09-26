@@ -11,9 +11,8 @@ export default defineNuxtConfig({
         pageTransition: { name: 'page', mode: 'out-in' },
     },
 
-    ui: {
-        primary: 'orange',
-        gray: 'cool',
+    seo: {
+        redirectToCanonicalSiteUrl: true,
     },
 
     postcss: {
@@ -44,7 +43,6 @@ export default defineNuxtConfig({
     compatibilityDate: '2024-08-13',
 
     i18n: {
-        // lazy: true,
         langDir: 'locales',
         strategy: 'prefix',
         locales: [
