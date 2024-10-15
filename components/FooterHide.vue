@@ -24,6 +24,7 @@
                             <img src="/img/phone.webp" alt="Image" />
                             <p class="font-14 font-light text-c-white">(021) 3971 0000</p>
                         </a>
+                        <img src="/img/footer-image.webp" alt="Image" class="max-w-[220px]" />
                     </div>
                     <div class="flex flex-col gap-[8px]">
                         <!-- Service -->
@@ -61,6 +62,10 @@
                         >
                         <NuxtLink :to="localePath('/product/cloud-pbx')" class="font-14 font-light text-c-white">
                             Cloud PBX</NuxtLink
+                        >
+                        <NuxtLink :to="localePath('/product/webcall')" class="font-14 font-light text-c-white"> Webcall</NuxtLink>
+                        <NuxtLink :to="localePath('/product/voice-api')" class="font-14 font-light text-c-white">
+                            Voice API</NuxtLink
                         >
 
                         <!-- Use Case -->
@@ -140,7 +145,7 @@
                         >
                     </div>
                 </div>
-                <div class="my-[40px] h-[2px] w-full bg-c-white"></div>
+                <div class="my-[80px] h-[2px] w-full bg-c-white"></div>
                 <div class="flex w-full flex-col justify-between gap-[16px] xl:flex-row">
                     <div class="flex gap-[24px]">
                         <a href="https://www.facebook.com/profile.php?id=100063769320090" target="_blank"

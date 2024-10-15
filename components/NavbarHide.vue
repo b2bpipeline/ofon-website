@@ -162,6 +162,16 @@
                                                 :href="localePath('/product/cloud-pbx')"
                                                 >{{ $t('c_nav_11') }}</a
                                             >
+                                            <a
+                                                class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
+                                                :href="localePath('/product/webcall')"
+                                                >Webcall</a
+                                            >
+                                            <a
+                                                class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
+                                                :href="localePath('/product/voice-api')"
+                                                >Voice API</a
+                                            >
                                         </div>
                                     </div>
                                 </div>
@@ -433,6 +443,16 @@
                                                 :to="localePath('/product/cloud-pbx')"
                                                 >{{ $t('c_nav_11') }}</NuxtLink
                                             >
+                                            <a
+                                                class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
+                                                :href="localePath('/product/webcall')"
+                                                >Webcall</a
+                                            >
+                                            <a
+                                                class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
+                                                :href="localePath('/product/voice-api')"
+                                                >Voice API</a
+                                            >
                                         </div>
                                     </div>
                                 </div>
@@ -526,6 +546,11 @@
                                                 class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
                                                 :to="localePath('about-us')"
                                                 >{{ $t('c_nav_29') }}
+                                            </NuxtLink>
+                                            <NuxtLink
+                                                class="font-12 rounded-lg p-[4px] font-medium hover:bg-[#eee] xl:p-[8px]"
+                                                :to="localePath('board-of-directors')"
+                                                >{{ $t('c_nav_31') }}
                                             </NuxtLink>
                                         </div>
                                     </div>

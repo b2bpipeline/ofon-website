@@ -121,8 +121,8 @@ useSeoMeta({
 // page routing
 defineI18nRoute({
     paths: {
-        en: '/board-of-director/',
-        id: '/board-of-director/',
+        en: '/board-of-directors/',
+        id: '/board-of-directors/',
     },
 });
 </script>
