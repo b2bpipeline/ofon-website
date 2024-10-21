@@ -12,8 +12,17 @@
                         <div class="flex items-start gap-[8px]">
                             <img src="/img/location.webp" alt="Image" />
                             <p class="font-14 font-light text-c-white">
+                                <span class="font-semibold">Jakarta Office</span><br />
                                 Menara Batavia Lt. 12A, Jl. K.H. Mas Mansyur No.Kav. 126, Karet Tengsin, Tanah Abang, Kota Jakarta
                                 Pusat, Daerah Khusus Jakarta 10250
+                            </p>
+                        </div>
+                        <div class="flex items-start gap-[8px]">
+                            <img src="/img/location.webp" alt="Image" />
+                            <p class="font-14 font-light text-c-white">
+                                <span class="font-semibold">Batam Office</span><br />
+                                Jl. Markisa no. 1, Batamindo Industrial park, Mukakuning, Kabil, Kecamatan Nongsa, Kota Batam,
+                                Kepulauan Riau 29433
                             </p>
                         </div>
                         <a href="mailto:marketing@ofon.co.id" target="_blank" class="flex items-start gap-[8px]">

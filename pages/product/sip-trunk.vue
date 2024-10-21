@@ -5,14 +5,14 @@
             <div class="div flex-col justify-between gap-10 xl:flex-row xl:items-center xl:pr-0">
                 <div class="flex flex-col gap-6 xl:max-w-[480px]">
                     <p class="font-16 font-bold">Ofon SIP Trunk</p>
-                    <h1 class="font-32 font-bold xl:font-semibold">Enhance Your Business Phone Capabilities</h1>
+                    <h1 class="font-32 font-bold xl:font-semibold">{{ $t('sipp_1') }}</h1>
                     <p class="font-16 font-medium">
-                        Enjoy business phone calls over the internet with more efficient and cost-effective VoIP technology.
+                        {{ $t('sipp_2') }}
                     </p>
 
                     <div class="grid grid-cols-1 gap-[16px] xl:grid-cols-2">
                         <WhatsAppUs />
-                        <NuxtLink :to="localePath('contact-us')" class="btn-outline">Contact Us</NuxtLink>
+                        <NuxtLink :to="localePath('contact-us')" class="btn-outline">{{ $t('sipp_3') }}</NuxtLink>
                     </div>
                 </div>
                 <div><img src="/img/siptrunk1.webp" alt="Image" /></div>
@@ -26,13 +26,10 @@
         <section class="section pb-[32px] xl:pb-[0]">
             <div class="div flex flex-col items-center">
                 <p class="font-32 mb-[16px] text-center font-bold text-c-black xl:mb-[24px] xl:font-semibold">
-                    A Flexible & Reliable SIP Trunk Solution
+                    {{ $t('sipp_flex_1') }}
                 </p>
                 <p class="font-16 text-center font-medium">
-                    Ofon SIP Trunk enables businesses to make phone calls over the internet, replacing traditional phone lines
-                    with more efficient and cost-effective VoIP technology. It provides unlimited flexibility and scalability,
-                    with seamless integration into existing communication systems, making business communication more modern,
-                    fast, and reliable.
+                    {{ $t('sipp_flex_2') }}
                 </p>
             </div>
         </section>
@@ -42,68 +39,73 @@
                     <div class="flex items-start gap-[8px]">
                         <img src="/img/checklist.webp" alt="Image" />
                         <p class="font-14">
-                            Mulai dari 10 nomor telepon tetap kode area geografis <br />* Dapat ditambah hingga 2.000 nomor
-                            telepon
+                            {{ $t('sipp_flex_3') }} <br />
+                            <span>
+                                {{ $t('sipp_flex_4') }}
+                            </span>
                         </p>
                     </div>
                     <div class="flex items-start gap-[8px]">
                         <img src="/img/checklist.webp" alt="Image" />
-                        <p class="font-14">Mulai dari 10 concurrent call <br />* Dapat ditambah hingga 2.000 concurrent call</p>
+                        <p class="font-14">
+                            {{ $t('sipp_flex_5') }} <br />
+                            <span>
+                                {{ $t('sipp_flex_6') }}
+                            </span>
+                        </p>
                     </div>
                     <div class="flex items-start gap-[8px]">
                         <img src="/img/checklist.webp" alt="Image" />
-                        <p class="font-14">Menggunakan protocol SIP (Session Initiation Protocol)</p>
+                        <p class="font-14">{{ $t('sipp_flex_7') }}</p>
                     </div>
                     <div class="flex items-start gap-[8px]">
                         <img src="/img/checklist.webp" alt="Image" />
-                        <p class="font-14">High availability crystal-clear voice</p>
+                        <p class="font-14">{{ $t('sipp_flex_8') }}</p>
                     </div>
                     <div class="flex items-start gap-[8px]">
                         <img src="/img/checklist.webp" alt="Image" />
-                        <p class="font-14">Delivery menggunakan jaringan Internet Protocol (IP)</p>
+                        <p class="font-14">{{ $t('sipp_flex_9') }}</p>
                     </div>
                     <div class="flex items-start gap-[8px]">
                         <img src="/img/checklist.webp" alt="Image" />
-                        <p class="font-14">Web-access call detail record</p>
+                        <p class="font-14">{{ $t('sipp_flex_10') }}</p>
                     </div>
                     <div class="flex items-start gap-[8px]">
                         <img src="/img/checklist.webp" alt="Image" />
-                        <p class="font-14">Customer care 24 jam</p>
+                        <p class="font-14">{{ $t('sipp_flex_11') }}</p>
                     </div>
                     <div class="mx-auto flex items-center gap-[8px]">
-                        <p class="font-14 font-medium">Start from</p>
+                        <p class="font-14 font-medium">{{ $t('sipp_flex_12') }}</p>
                         <p class="font-24 font-bold text-c-orange">Rp 1.500.000</p>
-                        <p class="font-14 font-medium">/ month</p>
+                        <p class="font-14 font-medium">{{ $t('sipp_flex_13') }}</p>
                     </div>
-                    <NuxtLink :to="localePath('contact-us')" class="btn">Get It Now</NuxtLink>
+                    <NuxtLink :to="localePath('contact-us')" class="btn"> {{ $t('sipp_flex_14') }}</NuxtLink>
                 </div>
                 <img src="/img/siptrunk2.webp" alt="Image" class="xl:order-1" />
             </div>
         </section>
 
-        <!-- Why Should Choose -->
+        <!-- Why Choose Ofon SIP -->
         <section class="section bg-c-yellow-light">
             <div class="div flex flex-col gap-[36px] xl:gap-[60px]">
                 <div class="flex flex-col gap-[32px] xl:gap-[60px] xl:rounded-3xl xl:bg-c-yellow-light xl:py-[50px]">
-                    <h2 class="font-32 text-center font-bold text-c-black xl:font-semibold">Why Should Choose Ofon SIP Trunk?</h2>
+                    <h2 class="font-32 text-center font-bold text-c-black xl:font-semibold">{{ $t('sipp_why_1') }}</h2>
                     <div class="flex flex-col gap-[24px] xl:grid xl:grid-cols-4 xl:flex-row xl:gap-[40px]">
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[12px] transition hover:bg-[#FFE3A4]">
                             <img src="/img/siptrunk3.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
-                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">Flexible & Scalable</p>
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">{{ $t('sipp_why_2') }}</p>
                                 <p class="font-14 font-regular text-center text-c-black">
-                                    Easily expand or adapt your communication channels as your business grows, without the need
-                                    for new hardware.
+                                    {{ $t('sipp_why_3') }}
                                 </p>
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[12px] transition hover:bg-[#FFE3A4]">
                             <img src="/img/siptrunk4.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
-                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">High Quality Audio</p>
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">{{ $t('sipp_why_4') }}</p>
                                 <p class="font-14 font-regular text-center text-c-black">
-                                    Enjoy crystal clear audio quality for all your calls, ensuring professional communication with
-                                    partners and customers.
+                                    {{ $t('sipp_why_5') }}
                                 </p>
                             </div>
                         </div>
@@ -111,21 +113,19 @@
                             <img src="/img/siptrunk5.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
                                 <p class="font-16 mb-[8px] text-center font-bold text-c-black">
-                                    Service Level Agreement (SLA) 99%
+                                    {{ $t('sipp_why_6') }}
                                 </p>
                                 <p class="font-14 font-regular text-center text-c-black">
-                                    Ensure reliable performance with a 99% uptime guarantee, keeping your business connected at
-                                    all times.
+                                    {{ $t('sipp_why_7') }}
                                 </p>
                             </div>
                         </div>
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[12px] transition hover:bg-[#FFE3A4]">
                             <img src="/img/siptrunk6.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                             <div>
-                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">Integration with VoIP</p>
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">{{ $t('sipp_why_8') }}</p>
                                 <p class="font-14 font-regular text-center text-c-black">
-                                    Integrate seamlessly with a variety of VoIP-based systems and platforms, simplifying
-                                    communications and reducing infrastructure costs.
+                                    {{ $t('sipp_why_9') }}
                                 </p>
                             </div>
                         </div>
@@ -138,14 +138,13 @@
         <section class="section">
             <div class="div flex flex-col gap-[40px] xl:grid xl:grid-cols-3 xl:gap-[60px]">
                 <div class="flex flex-col gap-[12px] xl:col-span-2 xl:gap-[24px]">
-                    <h2 class="font-32 font-bold">Save Device Maintenance Costs with Cloud PBX</h2>
+                    <h2 class="font-32 font-bold">{{ $t('sipp_save_1') }}</h2>
                     <p class="font-16">
-                        Ofon Cloud PBX provides a more modern and cost-effective business telephone service with more integrations
-                        and features.
+                        {{ $t('sipp_save_2') }}
                     </p>
-                    <NuxtLink :to="localePath('/service/cloud-pbx-installation')" class="btn-outline w-fit"
-                        >Ofon Cloud PBX</NuxtLink
-                    >
+                    <NuxtLink :to="localePath('/service/cloud-pbx-installation')" class="btn-outline w-fit">{{
+                        $t('sipp_save_3')
+                    }}</NuxtLink>
                 </div>
                 <div>
                     <img src="/img/siptrunk7.webp" alt="Image" />
@@ -194,11 +193,11 @@
             <div class="div">
                 <div class="flex flex-col items-center gap-[24px] rounded-xl bg-c-brown p-[24px] xl:flex-row xl:p-[42px]">
                     <div class="flex flex-col gap-[24px]">
-                        <p class="font-32 font-semibold text-c-white">Enhance Your Business Phone Capabilities Now!</p>
+                        <p class="font-32 font-semibold text-c-white">{{ $t('sipp_cta_1') }}</p>
                         <p class="font-16 text-c-white">
-                            Strengthen your communications infrastructure with cost-effective and scalable voice services.
+                            {{ $t('sipp_cta_2') }}
                         </p>
-                        <NuxtLink :to="localePath('contact-us')" class="btn xl:w-fit">Contact Us</NuxtLink>
+                        <NuxtLink :to="localePath('contact-us')" class="btn xl:w-fit">{{ $t('sipp_cta_3') }}</NuxtLink>
                     </div>
                     <img src="/img/siptrunk8.webp" alt="Image" />
                 </div>

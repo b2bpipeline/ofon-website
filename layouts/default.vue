@@ -8,5 +8,8 @@
 
         <!-- Footer -->
         <FooterHide />
+
+        <!-- Widget -->
+        <Widget />
     </main>
 </template>

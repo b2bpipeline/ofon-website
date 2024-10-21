@@ -286,7 +286,14 @@
         <section class="desktop section fixed z-50 bg-[#F6F7F8] py-[8px] shadow-xl">
             <div class="div flex-row items-center justify-between">
                 <div class="flex gap-[16px]">
-                    <UBreadcrumb :links="links" />
+                    <UBreadcrumb
+                        :links="links"
+                        :ui="{
+                            ol: 'font-12',
+                            li: 'font-12',
+                            active: 'text-c-orange',
+                        }"
+                    />
                 </div>
                 <div class="flex gap-[16px]">
                     <div class="flex items-center gap-[10px]">

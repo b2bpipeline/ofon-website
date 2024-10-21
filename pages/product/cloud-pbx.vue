@@ -5,14 +5,13 @@
             <div class="div flex-col justify-between gap-10 xl:flex-row xl:items-center xl:pr-0">
                 <div class="flex flex-col gap-6 xl:max-w-[480px]">
                     <p class="font-16 font-bold">Ofon Cloud PBX</p>
-                    <h1 class="font-32 font-bold xl:font-semibold">Solusi Komunikasi Bisnis Lebih Hemat & Canggih</h1>
+                    <h1 class="font-32 font-bold xl:font-semibold">{{ $t('cpbx_1') }}</h1>
                     <p class="font-16 font-medium">
-                        Ofon Cloud PBX memberikan layanan telepon bisnis yang lebih modern dan hemat biaya dengan integrasi dan
-                        fitur yang lebih beragam.
+                        {{ $t('cpbx_2') }}
                     </p>
                     <div class="grid grid-cols-1 gap-[16px] xl:grid-cols-2">
                         <WhatsAppUs />
-                        <NuxtLink :to="localePath('contact-us')" class="btn-outline">Hubungi Kami</NuxtLink>
+                        <NuxtLink :to="localePath('contact-us')" class="btn-outline">{{ $t('cpbx_3') }}</NuxtLink>
                     </div>
                 </div>
                 <div><img src="/img/product-cloudpbx1.webp" alt="Image" /></div>
@@ -26,12 +25,10 @@
         <section class="section pb-[32px] xl:pb-[0]">
             <div class="div flex flex-col items-center">
                 <p class="font-32 mb-[16px] text-center font-bold text-c-black xl:mb-[24px] xl:font-semibold">
-                    Solusi Cloud PBX Fleksibel & Reliabel
+                    {{ $t('cpbx_solution_1') }}
                 </p>
                 <p class="font-16 text-center font-medium">
-                    Ofon PBX adalah sebuah infrastruktur PBX (Private Branch Exchange) berbasis cloud yang dapat diimplementasikan
-                    sebagai CPaaS (Communication Platform as a Service). Solusi ini dapat dimanfaatkan untuk mendukung bisnis yang
-                    tersebar di berbagai lokasi dan pola kerja dengan mobilitas tinggi.
+                    {{ $t('cpbx_solution_2') }}
                 </p>
             </div>
         </section>
@@ -40,46 +37,49 @@
                 <div class="div flex flex-col gap-[16px] rounded-2xl border-2 border-[#E1E3E6] p-[24px]">
                     <div class="flex items-start gap-[8px]">
                         <img src="/img/checklist.webp" alt="Image" />
-                        <p class="font-14">Mulai dari 20 extension</p>
+                        <p class="font-14">{{ $t('cpbx_solution_3') }}</p>
                     </div>
                     <div class="flex items-start gap-[8px]">
                         <img src="/img/checklist.webp" alt="Image" />
-                        <p class="font-14">Dapat diinstall di softphone, PC/laptop, atau smartphone</p>
+                        <p class="font-14">{{ $t('cpbx_solution_4') }}</p>
                     </div>
                     <div class="flex items-start gap-[8px]">
                         <img src="/img/checklist.webp" alt="Image" />
-                        <p class="font-14">Unlimited extension call</p>
+                        <p class="font-14">{{ $t('cpbx_solution_5') }}</p>
                     </div>
                     <div class="flex items-start gap-[8px]">
                         <img src="/img/checklist.webp" alt="Image" />
-                        <p class="font-14">Web-access call detail record</p>
+                        <p class="font-14">{{ $t('cpbx_solution_6') }}</p>
                     </div>
                     <div class="flex items-start gap-[8px]">
                         <img src="/img/checklist.webp" alt="Image" />
-                        <p class="font-14">Web-portal PBX management</p>
+                        <p class="font-14">{{ $t('cpbx_solution_7') }}</p>
                     </div>
                     <div class="flex items-start gap-[8px]">
                         <img src="/img/checklist.webp" alt="Image" />
-                        <p class="font-14">Integrasi dengan nomor telepon existing</p>
+                        <p class="font-14">{{ $t('cpbx_solution_8') }}</p>
                     </div>
                     <div class="flex items-start gap-[8px]">
                         <img src="/img/checklist.webp" alt="Image" />
-                        <p class="font-14">
-                            Fitur PBX:
-                            <br />* Call forward, ring group <br />* Auto attendance <br />* Interactive voice response <br />*
-                            Call recording (add-on) <br />* Integrasi API (add-on)
-                        </p>
+                        <div>
+                            <p class="font-14">{{ $t('cpbx_solution_9') }}</p>
+                            <p class="font-14">{{ $t('cpbx_solution_10') }}</p>
+                            <p class="font-14">{{ $t('cpbx_solution_11') }}</p>
+                            <p class="font-14">{{ $t('cpbx_solution_12') }}</p>
+                            <p class="font-14">{{ $t('cpbx_solution_13') }}</p>
+                            <p class="font-14">{{ $t('cpbx_solution_14') }}</p>
+                        </div>
                     </div>
                     <div class="flex items-start gap-[8px]">
                         <img src="/img/checklist.webp" alt="Image" />
-                        <p class="font-14">Customer care 24 jam</p>
+                        <p class="font-14">{{ $t('cpbx_solution_15') }}</p>
                     </div>
                     <div class="mx-auto flex items-center gap-[8px]">
-                        <p class="font-14 font-medium">Mulai dari</p>
+                        <p class="font-14 font-medium">{{ $t('cpbx_solution_16') }}</p>
                         <p class="font-24 font-bold text-c-orange">Rp 800.000</p>
-                        <p class="font-14 font-medium">/ month</p>
+                        <p class="font-14 font-medium">{{ $t('cpbx_solution_17') }}</p>
                     </div>
-                    <NuxtLink :to="localePath('contact-us')" class="btn">Get It Now</NuxtLink>
+                    <NuxtLink :to="localePath('contact-us')" class="btn"> {{ $t('cpbx_solution_18') }}</NuxtLink>
                 </div>
                 <img src="/img/product-cloudpbx2.webp" alt="Image" class="xl:order-1" />
             </div>
@@ -91,36 +91,34 @@
                 <div class="flex flex-col items-center gap-[24px] xl:grid xl:grid-cols-3 xl:flex-row xl:gap-[24px]">
                     <div class="flex flex-col gap-[16px]">
                         <h2 class="font-32 text-left font-bold text-c-black xl:font-semibold">
-                            Cloud PBX untuk berbagai Kebutuhan
+                            {{ $t('cpbx_for_1') }}
                         </h2>
                         <p class="font-16 text-left font-medium">
-                            Sesuaikan konfigurasi dan kustomisasi cloud PBX Anda untuk berbagai kebutuhan industri.
+                            {{ $t('cpbx_for_2') }}
                         </p>
                     </div>
                     <div class="card-hover flex flex-col gap-[24px] rounded-xl border-[2px] border-c-orange bg-c-white p-[24px]">
                         <img src="/img/product-cloudpbx3.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                         <div>
-                            <p class="font-16 mb-[8px] font-bold">Web Call</p>
+                            <p class="font-16 mb-[8px] font-bold">{{ $t('cpbx_for_3') }}</p>
                             <p class="font-14 mb-[24px] font-medium">
-                                Tambahkan fitur panggilan langsung dari website Anda tanpa perangkat tambahan. Tingkatkan
-                                pengalaman pelanggan dengan panggilan berbasis web yang cepat, mudah, dan gratis.
+                                {{ $t('cpbx_for_4') }}
                             </p>
-                            <NuxtLink :to="localePath('/product/webcall')" class="font-14 font-bold text-c-orange"
-                                >Selengkapnya ></NuxtLink
-                            >
+                            <NuxtLink :to="localePath('/product/webcall')" class="font-14 font-bold text-c-orange">{{
+                                $t('cpbx_for_cta')
+                            }}</NuxtLink>
                         </div>
                     </div>
                     <div class="card-hover flex flex-col gap-[24px] rounded-xl border-[2px] border-c-orange bg-c-white p-[24px]">
                         <img src="/img/product-cloudpbx4.webp" alt="Image" class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]" />
                         <div>
-                            <p class="font-16 mb-[8px] font-bold">Voice API</p>
+                            <p class="font-16 mb-[8px] font-bold">{{ $t('cpbx_for_5') }}</p>
                             <p class="font-14 mb-[24px] font-medium">
-                                Bangun solusi komunikasi yang canggih dengan integrasi Voice API kami. Otomatisasi panggilan,
-                                pesan suara, dan banyak lagi dalam satu platform yang mudah dikustomisasi.
+                                {{ $t('cpbx_for_6') }}
                             </p>
-                            <NuxtLink :to="localePath('/product/voice-api')" class="font-14 font-bold text-c-orange"
-                                >Selengkapnya ></NuxtLink
-                            >
+                            <NuxtLink :to="localePath('/product/voice-api')" class="font-14 font-bold text-c-orange">{{
+                                $t('cpbx_for_cta')
+                            }}</NuxtLink>
                         </div>
                     </div>
                 </div>
@@ -131,7 +129,7 @@
         <section class="section">
             <div class="div flex flex-col gap-[36px] xl:gap-[60px]">
                 <div class="flex flex-col gap-[32px] xl:gap-[60px] xl:py-[50px]">
-                    <h2 class="font-32 text-center font-bold text-c-black xl:font-semibold">Mengapa Memilih Ofon Cloud PBX?</h2>
+                    <h2 class="font-32 text-center font-bold text-c-black xl:font-semibold">{{ $t('cpbx_choose_1') }}</h2>
                     <div class="flex flex-col gap-[24px] xl:grid xl:grid-cols-4 xl:flex-row xl:gap-[40px]">
                         <div class="flex flex-col items-center gap-[24px] rounded-xl p-[12px] transition hover:bg-[#FFE3A4]">
                             <img
@@ -140,10 +138,9 @@
                                 class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]"
                             />
                             <div>
-                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">Tanpa Investasi</p>
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">{{ $t('cpbx_choose_2') }}</p>
                                 <p class="font-14 font-regular text-center text-c-black">
-                                    100% Cloud dengan OPEX model tanpa investasi perangkat dan perawatan hardware, cukup 1 account
-                                    service management.
+                                    {{ $t('cpbx_choose_3') }}
                                 </p>
                             </div>
                         </div>
@@ -154,10 +151,9 @@
                                 class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]"
                             />
                             <div>
-                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">Hemat Biaya</p>
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">{{ $t('cpbx_choose_4') }}</p>
                                 <p class="font-14 font-regular text-center text-c-black">
-                                    Menggabungkan berbagai lokasi bisnis ke dalam satu cloud platform sehingga menghapus biaya
-                                    komunikasi internal.
+                                    {{ $t('cpbx_choose_5') }}
                                 </p>
                             </div>
                         </div>
@@ -168,10 +164,9 @@
                                 class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]"
                             />
                             <div>
-                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">Portal Management</p>
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">{{ $t('cpbx_choose_6') }}</p>
                                 <p class="font-14 font-regular text-center text-c-black">
-                                    Menghadirkan berbagai fitur PBX dan kemudahan dalam pengelolaan sistem telepon dengan web
-                                    portal yang dapat diakses secara remote
+                                    {{ $t('cpbx_choose_7') }}
                                 </p>
                             </div>
                         </div>
@@ -182,10 +177,9 @@
                                 class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]"
                             />
                             <div>
-                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">Adaptif</p>
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">{{ $t('cpbx_choose_8') }}</p>
                                 <p class="font-14 font-regular text-center text-c-black">
-                                    Mendukung pola kerja mobile, skalabilitas, dan fleksibilitas dalam pemilihan perangkat
-                                    berbasis IP sesuai kebutuhan dengan SLA 99%.
+                                    {{ $t('cpbx_choose_9') }}
                                 </p>
                             </div>
                         </div>
@@ -196,10 +190,9 @@
                                 class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]"
                             />
                             <div>
-                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">Integrasi</p>
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">{{ $t('cpbx_choose_10') }}</p>
                                 <p class="font-14 font-regular text-center text-c-black">
-                                    Dapat dihubungkan dengan sambungan dan nomor telepon yang telah ada sebelumnya, serta
-                                    integrasi dengan berbagai platform komunikasi.
+                                    {{ $t('cpbx_choose_11') }}
                                 </p>
                             </div>
                         </div>
@@ -210,10 +203,9 @@
                                 class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]"
                             />
                             <div>
-                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">Audio Berkualitas</p>
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">{{ $t('cpbx_choose_12') }}</p>
                                 <p class="font-14 font-regular text-center text-c-black">
-                                    Mendukung perangkat dan aplikasi dengan transcoding G711, G729, dan Opus untuk kualitas audio
-                                    yang jernih.
+                                    {{ $t('cpbx_choose_13') }}
                                 </p>
                             </div>
                         </div>
@@ -224,10 +216,9 @@
                                 class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]"
                             />
                             <div>
-                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">Dukungan Profesional</p>
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">{{ $t('cpbx_choose_14') }}</p>
                                 <p class="font-14 font-regular text-center text-c-black">
-                                    Dukungan teknis dari para tenaga profesional dan bersertifikat untuk memastikan kelancaran
-                                    komunikasi bisnis Anda.
+                                    {{ $t('cpbx_choose_15') }}
                                 </p>
                             </div>
                         </div>
@@ -238,10 +229,9 @@
                                 class="h-[64px] w-[64px] xl:h-[80px] xl:w-[80px]"
                             />
                             <div>
-                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">Jaminan Keamanan</p>
+                                <p class="font-16 mb-[8px] text-center font-bold text-c-black">{{ $t('cpbx_choose_16') }}</p>
                                 <p class="font-14 font-regular text-center text-c-black">
-                                    Layanan dan platform cloud PBX yang teruji dan tersertifikasi untuk memastikan keamanan
-                                    telekomunikasi.
+                                    {{ $t('cpbx_choose_17') }}
                                 </p>
                             </div>
                         </div>
@@ -291,11 +281,11 @@
             <div class="div">
                 <div class="flex flex-col items-center gap-[24px] rounded-xl bg-c-brown p-[24px] xl:flex-row xl:p-[42px]">
                     <div class="flex flex-col gap-[24px]">
-                        <p class="font-32 font-semibold text-c-white">Sederhanakan Komunikasi Bisnis Anda Sekarang!</p>
+                        <p class="font-32 font-semibold text-c-white">{{ $t('cpbx_cta_1') }}</p>
                         <p class="font-16 text-c-white">
-                            Perkuat komunikasi bisnis Anda dengan solusi PBX berbasis cloud yang bisa diakses dari mana saja.
+                            {{ $t('cpbx_cta_2') }}
                         </p>
-                        <NuxtLink :to="localePath('contact-us')" class="btn xl:w-fit">Contact Us</NuxtLink>
+                        <NuxtLink :to="localePath('contact-us')" class="btn xl:w-fit">{{ $t('cpbx_cta_3') }}</NuxtLink>
                     </div>
                     <img src="/img/product-cloudpbx13.webp" alt="Image" />
                 </div>
