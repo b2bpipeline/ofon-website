@@ -79,15 +79,15 @@
                     </p>
                 </div>
                 <div class="grid w-full grid-cols-1 gap-[24px] xl:grid-cols-3 xl:gap-[40px]">
-                    <div class="flex flex-col items-center rounded-xl border-2 border-c-orange p-[24px]">
+                    <div class="card-hover flex flex-col items-center rounded-xl border-2 border-c-orange p-[24px]">
                         <p class="font-32 text-center font-bold text-c-orange">{{ $t('home_connecting_3') }}</p>
                         <p class="font-14 text-center font-bold text-c-black">{{ $t('home_connecting_4') }}</p>
                     </div>
-                    <div class="flex flex-col items-center rounded-xl border-2 border-c-orange p-[24px]">
+                    <div class="card-hover flex flex-col items-center rounded-xl border-2 border-c-orange p-[24px]">
                         <p class="font-32 text-center font-bold text-c-orange">{{ $t('home_connecting_5') }}</p>
                         <p class="font-14 text-center font-bold text-c-black">{{ $t('home_connecting_6') }}</p>
                     </div>
-                    <div class="flex flex-col items-center rounded-xl border-2 border-c-orange p-[24px]">
+                    <div class="card-hover flex flex-col items-center rounded-xl border-2 border-c-orange p-[24px]">
                         <p class="font-32 text-center font-bold text-c-orange">{{ $t('home_connecting_7') }}</p>
                         <p class="font-14 text-center font-bold text-c-black">{{ $t('home_connecting_8') }}</p>
                     </div>

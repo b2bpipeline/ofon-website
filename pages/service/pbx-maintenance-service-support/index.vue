@@ -44,54 +44,84 @@
                         <img src="/img/aio1.webp" alt="Image" class="w-full" />
                         <div class="p-[16px]">
                             <p class="font-16 mb-2 font-bold">{{ $t('pbx1_aio_4') }}</p>
-                            <p class="font-14">
+                            <p class="font-14 mb-4">
                                 {{ $t('pbx1_aio_5') }}
                             </p>
+                            <NuxtLink
+                                :to="localePath('/service/pbx-maintenance-service-support/cisco')"
+                                class="font-14 font-bold text-c-orange"
+                                >{{ $t('msteams_not_cta') }}</NuxtLink
+                            >
                         </div>
                     </div>
                     <div class="card-hover overflow-hidden rounded-xl border-2 border-c-orange">
                         <img src="/img/aio2.webp" alt="Image" class="w-full" />
                         <div class="p-[16px]">
                             <p class="font-16 mb-2 font-bold">{{ $t('pbx1_aio_6') }}</p>
-                            <p class="font-14">
+                            <p class="font-14 mb-4">
                                 {{ $t('pbx1_aio_7') }}
                             </p>
+                            <NuxtLink
+                                :to="localePath('/service/pbx-maintenance-service-support/avaya')"
+                                class="font-14 font-bold text-c-orange"
+                                >{{ $t('msteams_not_cta') }}</NuxtLink
+                            >
                         </div>
                     </div>
                     <div class="card-hover overflow-hidden rounded-xl border-2 border-c-orange">
                         <img src="/img/aio3.webp" alt="Image" class="w-full" />
                         <div class="p-[16px]">
                             <p class="font-16 mb-2 font-bold">{{ $t('pbx1_aio_8') }}</p>
-                            <p class="font-14">
+                            <p class="font-14 mb-4">
                                 {{ $t('pbx1_aio_9') }}
                             </p>
+                            <NuxtLink
+                                :to="localePath('/service/pbx-maintenance-service-support/panasonic')"
+                                class="font-14 font-bold text-c-orange"
+                                >{{ $t('msteams_not_cta') }}</NuxtLink
+                            >
                         </div>
                     </div>
                     <div class="card-hover overflow-hidden rounded-xl border-2 border-c-orange">
                         <img src="/img/aio4.webp" alt="Image" class="w-full" />
                         <div class="p-[16px]">
                             <p class="font-16 mb-2 font-bold">{{ $t('pbx1_aio_10') }}</p>
-                            <p class="font-14">
+                            <p class="font-14 mb-4">
                                 {{ $t('pbx1_aio_11') }}
                             </p>
+                            <NuxtLink
+                                :to="localePath('/service/pbx-maintenance-service-support/nec')"
+                                class="font-14 font-bold text-c-orange"
+                                >{{ $t('msteams_not_cta') }}</NuxtLink
+                            >
                         </div>
                     </div>
                     <div class="card-hover overflow-hidden rounded-xl border-2 border-c-orange">
                         <img src="/img/aio5.webp" alt="Image" class="w-full" />
                         <div class="p-[16px]">
                             <p class="font-16 mb-2 font-bold">{{ $t('pbx1_aio_12') }}</p>
-                            <p class="font-14">
+                            <p class="font-14 mb-4">
                                 {{ $t('pbx1_aio_13') }}
                             </p>
+                            <NuxtLink
+                                :to="localePath('/service/pbx-maintenance-service-support/alcatel')"
+                                class="font-14 font-bold text-c-orange"
+                                >{{ $t('msteams_not_cta') }}</NuxtLink
+                            >
                         </div>
                     </div>
                     <div class="card-hover overflow-hidden rounded-xl border-2 border-c-orange">
                         <img src="/img/aio6.webp" alt="Image" class="w-full" />
                         <div class="p-[16px]">
                             <p class="font-16 mb-2 font-bold">{{ $t('pbx1_aio_14') }}</p>
-                            <p class="font-14">
+                            <p class="font-14 mb-4">
                                 {{ $t('pbx1_aio_15') }}
                             </p>
+                            <NuxtLink
+                                :to="localePath('/service/pbx-maintenance-service-support/yeastar')"
+                                class="font-14 font-bold text-c-orange"
+                                >{{ $t('msteams_not_cta') }}</NuxtLink
+                            >
                         </div>
                     </div>
                 </div>

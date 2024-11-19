@@ -15,7 +15,7 @@
                     </div>
                     <div class="grid grid-cols-1 gap-[16px] xl:grid-cols-2">
                         <WhatsAppUs />
-                        <a href="#forms" class="btn-outline">{{ $t('msteams_4') }}</a>
+                        <NuxtLink :to="localePath('contact-us')" class="btn-outline">{{ $t('msteams_4') }}</NuxtLink>
                     </div>
                 </div>
                 <div><img src="/img/msteams0.webp" alt="Image" /></div>
@@ -183,7 +183,7 @@
                         <p class="font-16 font-bold text-c-white">{{ $t('cloud_years_3') }}</p>
                         <img src="/img/microsoft-white.webp" alt="Image" class="" />
                     </div>
-                    <a href="#forms" class="btn">{{ $t('cloud_years_4') }}</a>
+                    <NuxtLink to="/blog" class="btn">{{ $t('cloud_years_4') }}</NuxtLink>
                 </div>
                 <div><img src="/img/msteams15.webp" alt="Image" /></div>
             </div>
@@ -206,11 +206,11 @@
             </div>
         </section>
 
-        <!-- Not Using Microsoft Teams -->
+        <!-- Not Using -->
         <section id="another" class="section">
             <div class="div flex flex-col items-center gap-[40px] xl:flex-row xl:gap-[80px]">
                 <div class="flex flex-col gap-[16px] xl:gap-[24px]">
-                    <p class="font-16 font-bold">Ofon + Any UC Platform You Have</p>
+                    <p class="font-16 font-bold">{{ $t('msteams_not_0') }}</p>
                     <h2 class="font-32 font-bold text-c-black xl:font-semibold">{{ $t('msteams_not_1') }}</h2>
                     <p class="font-16 font-medium">
                         {{ $t('msteams_not_2') }}
@@ -223,7 +223,11 @@
                                 <p class="font-14">
                                     {{ $t('msteams_not_4') }}
                                 </p>
-                                <p class="font-14 font-bold text-c-orange">{{ $t('msteams_not_cta') }}</p>
+                                <NuxtLink
+                                    :to="localePath('/service/phone-system-integration/cisco/')"
+                                    class="font-14 font-bold text-c-orange"
+                                    >{{ $t('msteams_not_cta') }}</NuxtLink
+                                >
                             </div>
                         </div>
                         <div class="card-hover flex items-start gap-[16px] rounded-xl border-2 border-c-orange p-[16px]">
@@ -233,7 +237,11 @@
                                 <p class="font-14">
                                     {{ $t('msteams_not_6') }}
                                 </p>
-                                <p class="font-14 font-bold text-c-orange">{{ $t('msteams_not_cta') }}</p>
+                                <NuxtLink
+                                    :to="localePath('/service/phone-system-integration/zoom/')"
+                                    class="font-14 font-bold text-c-orange"
+                                    >{{ $t('msteams_not_cta') }}</NuxtLink
+                                >
                             </div>
                         </div>
                     </div>
@@ -249,7 +257,7 @@
                     <div class="flex flex-col gap-[24px]">
                         <h2 class="font-32 font-semibold text-c-white">{{ $t('msteams_uni_1') }}</h2>
                         <p class="font-16 text-c-white">{{ $t('msteams_uni_2') }}</p>
-                        <a href="#forms" class="btn xl:w-fit"> {{ $t('pi_integrate_3') }}</a>
+                        <NuxtLink :to="localePath('contact-us')" class="btn xl:w-fit"> {{ $t('pi_integrate_3') }}</NuxtLink>
                     </div>
                     <img src="/img/lp4-cta.webp" alt="Image" />
                 </div>
