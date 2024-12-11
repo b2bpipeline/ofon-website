@@ -132,7 +132,7 @@
                         <NuxtLink :to="localePath('contact-us')" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_29') }}</NuxtLink
                         >
-                        <NuxtLink to="/privacy-policy-application" class="font-14 font-light text-c-white">
+                        <NuxtLink to="/privacy-policy-igo" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_30') }}</NuxtLink
                         >
                         <NuxtLink to="/privacy-policy-website" class="font-14 font-light text-c-white">
