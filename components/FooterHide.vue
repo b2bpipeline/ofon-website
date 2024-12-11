@@ -83,16 +83,16 @@
                         >
                         <NuxtLink
                             :to="localePath('/use-case/maintain-legacy-phone-system')"
-                            class="font-14 font-light text-c-white"
+                            class="font-light font-14 text-c-white"
                         >
                             {{ $t('c_footer_12') }}</NuxtLink
                         >
-                        <NuxtLink :to="localePath('/use-case/migrate-on-premise')" class="font-14 font-light text-c-white">
+                        <NuxtLink :to="localePath('/use-case/migrate-on-premise')" class="font-light font-14 text-c-white">
                             {{ $t('c_footer_13') }}</NuxtLink
                         >
                         <NuxtLink
                             :to="localePath('/use-case/integrate-all-communication')"
-                            class="font-14 font-light text-c-white"
+                            class="font-light font-14 text-c-white"
                         >
                             {{ $t('c_footer_14') }}</NuxtLink
                         > -->
@@ -102,19 +102,19 @@
                         <!-- <NuxtLink :to="localePath('industry')" class="font-14 mb-[8px] font-bold text-c-white">
                             {{ $t('c_footer_15') }}</NuxtLink
                         >
-                        <NuxtLink :to="localePath('/industry/finance')" class="font-14 font-light text-c-white">
+                        <NuxtLink :to="localePath('/industry/finance')" class="font-light font-14 text-c-white">
                             {{ $t('c_footer_16') }}</NuxtLink
                         >
-                        <NuxtLink :to="localePath('/industry/manufacturing')" class="font-14 font-light text-c-white">
+                        <NuxtLink :to="localePath('/industry/manufacturing')" class="font-light font-14 text-c-white">
                             {{ $t('c_footer_17') }}</NuxtLink
                         >
-                        <NuxtLink :to="localePath('/industry/oil-and-gas')" class="font-14 font-light text-c-white">
+                        <NuxtLink :to="localePath('/industry/oil-and-gas')" class="font-light font-14 text-c-white">
                             {{ $t('c_footer_18') }}</NuxtLink
                         >
-                        <NuxtLink :to="localePath('/industry/hospitality')" class="font-14 font-light text-c-white">
+                        <NuxtLink :to="localePath('/industry/hospitality')" class="font-light font-14 text-c-white">
                             {{ $t('c_footer_19') }}</NuxtLink
                         >
-                        <NuxtLink :to="localePath('/industry/healthcare')" class="font-14 font-light text-c-white">
+                        <NuxtLink :to="localePath('/industry/healthcare')" class="font-light font-14 text-c-white">
                             {{ $t('c_footer_20') }}</NuxtLink
                         > -->
 
@@ -123,13 +123,13 @@
                             {{ $t('c_footer_21') }}</NuxtLink
                         >
                         <NuxtLink to="/blog" class="font-14 font-light text-c-white"> {{ $t('c_footer_22') }}</NuxtLink>
-                        <!-- <NuxtLink :to="localePath('case-study')" class="font-14 font-light text-c-white">
+                        <!-- <NuxtLink :to="localePath('case-study')" class="font-light font-14 text-c-white">
                             {{ $t('c_footer_23') }}</NuxtLink
                         >
-                        <NuxtLink :to="localePath('testimonial')" class="font-14 font-light text-c-white">
+                        <NuxtLink :to="localePath('testimonial')" class="font-light font-14 text-c-white">
                             {{ $t('c_footer_24') }}</NuxtLink
                         >
-                        <NuxtLink :to="localePath('calculators')" class="font-14 font-light text-c-white">
+                        <NuxtLink :to="localePath('calculators')" class="font-light font-14 text-c-white">
                             {{ $t('c_footer_25') }}</NuxtLink
                         > -->
 
@@ -140,13 +140,13 @@
                         <NuxtLink :to="localePath('about-us')" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_27') }}</NuxtLink
                         >
-                        <!-- <NuxtLink :to="localePath('gallery')" class="font-14 font-light text-c-white">
+                        <!-- <NuxtLink :to="localePath('gallery')" class="font-light font-14 text-c-white">
                             {{ $t('c_footer_28') }}</NuxtLink
                         > -->
                         <NuxtLink :to="localePath('contact-us')" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_29') }}</NuxtLink
                         >
-                        <NuxtLink to="/privacy-policy-application" class="font-14 font-light text-c-white">
+                        <NuxtLink to="/privacy-policy-igo" class="font-14 font-light text-c-white">
                             {{ $t('c_footer_30') }}</NuxtLink
                         >
                         <NuxtLink to="/privacy-policy-website" class="font-14 font-light text-c-white">

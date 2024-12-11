@@ -270,9 +270,9 @@ export default defineNuxtConfig({
                 statusCode: 301,
             },
         },
-        '/privacy-policy-igo': {
+        '/en/privacy-policy-igo': {
             redirect: {
-                to: 'privacy-policy-application',
+                to: 'privacy-policy-igo',
                 statusCode: 301,
             },
         },
