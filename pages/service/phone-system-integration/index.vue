@@ -18,7 +18,7 @@
                         <a href="#forms" class="btn-outline">{{ $t('pi_hero_5') }}</a>
                     </div>
                 </div>
-                <div><img src="/img/lp4-hero.webp" alt="Image" /></div>
+                <div><img src="/img/pi-hero.webp" alt="phone system integration" /></div>
             </div>
         </section>
 
@@ -64,15 +64,15 @@
                         <div class="my-[16px] flex flex-col items-start gap-[16px]">
                             <div class="flex gap-[8px]">
                                 <img src="/img/xs-logo1.webp" alt="Image" />
-                                <p class="font-14 font-semibold">{{ $t('pi_connect_7') }}</p>
+                                <a href="https://ofon.co.id/en/service/phone-system-integration/microsoft-teams" class="font-14 font-semibold">{{ $t('pi_connect_7') }}</a>
                             </div>
                             <div class="flex gap-[8px]">
                                 <img src="/img/xs-logo2.webp" alt="Image" />
-                                <p class="font-14 font-semibold">{{ $t('pi_connect_8') }}</p>
+                                <a href="https://ofon.co.id/en/service/phone-system-integration/cisco" class="font-14 font-semibold">{{ $t('pi_connect_8') }}</a>
                             </div>
                             <div class="flex gap-[8px]">
                                 <img src="/img/xs-logo3.webp" alt="Image" />
-                                <p class="font-14 font-semibold">{{ $t('pi_connect_9') }}</p>
+                                <a href="https://ofon.co.id/en/service/phone-system-integration/zoom" class="font-14 font-semibold">{{ $t('pi_connect_9') }}</a>
                             </div>
                         </div>
                     </div>
