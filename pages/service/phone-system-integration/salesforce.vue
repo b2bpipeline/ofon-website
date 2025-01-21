@@ -5,7 +5,7 @@
             <div class="div flex-col justify-between gap-10 xl:flex-row xl:items-center xl:pr-0">
                 <div class="flex flex-col gap-6 xl:max-w-[480px]">
                     <p class="font-16 font-bold">Ofon + Salesforce</p>
-                    <h1 class="font-32 font-bold xl:font-semibold">{{ $t('zoom_1') }}</h1>
+                    <h1 class="font-32 font-bold xl:font-semibold">{{ $t('salesforce_1') }}</h1>
                     <p class="font-16 font-medium">
                         {{ $t('salesforce_2') }}
                     </p>
@@ -24,6 +24,19 @@
 
         <!-- Logo -->
         <CompaniesLogo />
+
+        <!-- Benefit -->
+        <section class="section bg-c-white pb-0 pt-[40px]">
+            <div class="div flex-col justify-between gap-10 xl:flex-row xl:items-center xl:pr-0">
+                <div><img src="/img/phone-system-integration/salesforce_benefit.webp" alt="Image" /></div>
+                <div class="flex flex-col gap-6 xl:max-w-[480px]">
+                    <h1 class="font-32 font-bold xl:font-semibold">{{ $t('salesforce_benefit_1') }}</h1>
+                    <p class="font-16 font-medium">
+                        {{ $t('salesforce_benefit_2') }}
+                    </p>
+                </div>
+            </div>
+        </section>
 
         <!-- Why You Need -->
         <section class="section">

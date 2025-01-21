@@ -64,15 +64,15 @@
                         <div class="my-[16px] flex flex-col items-start gap-[16px]">
                             <div class="flex gap-[8px]">
                                 <img src="/img/xs-logo1.webp" alt="Image" />
-                                <a href="https://ofon.co.id/en/service/phone-system-integration/microsoft-teams" class="font-14 font-semibold">{{ $t('pi_connect_7') }}</a>
+                                <NuxtLink :to="localePath('/service/phone-system-integration/microsoft-teams')" class="font-14 font-semibold">{{ $t('pi_connect_7') }}</NuxtLink>
                             </div>
                             <div class="flex gap-[8px]">
                                 <img src="/img/xs-logo2.webp" alt="Image" />
-                                <a href="https://ofon.co.id/en/service/phone-system-integration/cisco" class="font-14 font-semibold">{{ $t('pi_connect_8') }}</a>
+                                <NuxtLink :to="localePath('/service/phone-system-integration/cisco')" class="font-14 font-semibold">{{ $t('pi_connect_8') }}</NuxtLink>
                             </div>
                             <div class="flex gap-[8px]">
                                 <img src="/img/xs-logo3.webp" alt="Image" />
-                                <a href="https://ofon.co.id/en/service/phone-system-integration/zoom" class="font-14 font-semibold">{{ $t('pi_connect_9') }}</a>
+                                <NuxtLink :to="localePath('/service/phone-system-integration/zoom')" class="font-14 font-semibold">{{ $t('pi_connect_9') }}</NuxtLink>
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                         <div class="my-[16px] flex flex-col items-start gap-[16px]">
                             <div class="flex gap-[8px]">
                                 <img src="/img/xs-logo4.webp" alt="Image" />
-                                <p class="font-14 font-semibold">{{ $t('pi_connect_12') }}</p>
+                                <NuxtLink :to="localePath('/service/phone-system-integration/salesforce')" class="font-14 font-semibold">{{ $t('pi_connect_12') }}</NuxtLink>
                             </div>
                             <div class="flex gap-[8px]">
                                 <img src="/img/xs-logo5.webp" alt="Image" />
