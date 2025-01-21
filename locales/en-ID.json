@@ -376,6 +376,8 @@
     "service_phone_system_description": "Expert IP telephony system integration services for businesses. Seamlessly connect your phone system with MS Teams, Zoom, Cisco Webex, and other platforms.",
     "service_phone_system_ms_teams_title": "Microsoft Teams",
     "service_phone_system_ms_teams_description": "",
+    "service_phone_system_salesforce_title": "Salesforce",
+    "service_phone_system_salesforce_description": "",
     "service_phone_system_cisco_title": "Cisco",
     "service_phone_system_cisco_description": "",
     "service_phone_system_zoom_title": "Zoom",
@@ -599,8 +601,8 @@
     "msteams_uni_1": "Unify Your Phone System Seamlessly",
     "msteams_uni_2": "Empower your business and enjoy seamless communication with Microsoft Teams Direct Routing integration.",
 
-    "salesforce_1": "Salesforce Integration",
-    "salesforce_2": "Connect your business communication seamlessly with Salesforce for calling, meetings, and collaboration, all through a unified platform.",
+    "salesforce_1": "Gain More Sales with Salesforce Phone System Integration",
+    "salesforce_2": "Improve your sales team's efficiency by connecting your PBX phone system to Salesforce CRM.",
     "salesforce_3": "Certified Engineer by",
     "salesforce_4": "Get a Free Assessment",
 

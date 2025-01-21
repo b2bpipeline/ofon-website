@@ -287,8 +287,8 @@ const route = useRoute();
 
 // initiate dynamic meta snippets
 const { t } = useI18n();
-const title = ref(t('service_phone_system_cisco_title'));
-const description = ref(t('service_phone_system_cisco_description'));
+const title = ref(t('service_phone_system_salesforce_title'));
+const description = ref(t('service_phone_system_salesforce_description'));
 
 // seo
 useSeoMeta({
